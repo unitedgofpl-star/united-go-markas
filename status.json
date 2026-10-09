@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T19:53:33+07:00",
+ "updated": "2026-10-09T20:59:40+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -660,6 +660,64 @@
    ],
    "error": null,
    "finished": "2026-10-09T19:53:33+07:00"
+  },
+  {
+   "id": "20261009_2059_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-09T20:59:09+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 20:59 WIB: Kabar MU — topik: Matchday Manchester united vs Tottenham Hotspur besok malam",
+     "ok": true,
+     "t": "2026-10-09T20:59:09+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 248 pemain, 10 laga, 8 berita (theguardian.com)",
+     "ok": true,
+     "t": "2026-10-09T20:59:11+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"JJ Gabriel Terancam Cabut Murah!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-09T20:59:30+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender, cover dari telegram",
+     "ok": true,
+     "t": "2026-10-09T20:59:36+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-09T20:59:36+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-10-09T20:59:36+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "Matchday Manchester united vs Tottenham Hotspur besok malam",
+   "gw": 6,
+   "title": "JJ Gabriel Terancam Cabut Murah!",
+   "llm": "gemini-flash-latest",
+   "caption": "Kabar kurang sedap datang dari Carrington soal masa depan salah satu aset akademi kita! MU sebenarnya sudah menyodorkan tawaran beasiswa resmi buat JJ Gabriel yang baru saja menginjak usia 16 tahun. Namun, komunikasi dikabarkan retak menyusul ketidaksepakatan soal jaminan menit bermain di tim utama. Gabriel kini hampir dipastikan cabut dan condong menuju klub Eropa, yang artinya Setan Merah terancam cuma menerima kompensasi minim sekitar 350 ribu paun saja. Menurut kalian, langkah klub udah tepa",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 6,
+   "cover": "covers/20261009_2059.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-10-09T20:59:40+07:00"
   }
  ]
 }
