@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T12:09:18+07:00",
+ "updated": "2026-10-09T16:14:23+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -457,6 +457,63 @@
    "instagram": "18104566883527848",
    "dry_run": false,
    "finished": "2026-10-09T12:09:18+07:00"
+  },
+  {
+   "id": "20261009_1613_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-09T16:13:08+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:13 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-09T16:13:08+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-09T16:13:09+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Ujian Perdana Baleba di Old Trafford\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-09T16:13:35+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T16:13:41+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-09T16:13:41+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T16:14:23+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Ujian Perdana Baleba di Old Trafford",
+   "llm": "gemini-flash-latest",
+   "caption": "Ujian sesungguhnya udah di depan mata buat Carlos Baleba! Gelandang anyar kita seharga 70 juta pounds ini diperkirakan siap melakoni debut bareng Manchester United pas lawan Tottenham di Old Trafford. Michael Carrick emang butuh banget sosok gelandang bertahan tangguh semenjak Casemiro cabut bulan Mei kemarin. Meski baru sembuh dari cedera engkel dan kondisi tim lagi terseok-seok di posisi 12 klasemen, kecepatan serta daya jelajah Baleba diharapkan bisa ngasih dampak instan di lini tengah. Menur",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261009_1613.jpg",
+   "facebook": "102254338861969_1127699782982611",
+   "instagram": "17973868878144926",
+   "dry_run": false,
+   "finished": "2026-10-09T16:14:23+07:00"
   }
  ]
 }
