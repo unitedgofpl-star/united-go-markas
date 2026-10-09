@@ -1,0 +1,405 @@
+{
+ "updated": "2026-10-09T11:36:46+07:00",
+ "brand": "@unitedgo.id",
+ "runs": [
+  {
+   "id": "20261008_2325_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-08T23:25:46+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:25 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-08T23:25:46+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-08T23:25:46+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilihan Kapten FPL GW6\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-08T23:26:30+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-08T23:26:36+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-08T23:26:36+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-08T23:27:25+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Pilihan Kapten FPL GW6",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau ngebut di klasemen FPL GW6 tapi masih galau nentuin ban kapten? Tenang, admin udah siapin tiga opsi dari gelandang sampe bek yang harganya bersahabat tapi punya potensi poin tinggi buat akhir pekan ini! Jangan sampe salah pilih pemain biar rank kamu gak terjun bebas ya. Coba komen di bawah, ban kapten GW6 ini bakal kamu serahin ke siapa? Jagoanmu masuk list gak?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndon",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261008_2325.jpg",
+   "facebook": "102254338861969_1127124643040125",
+   "instagram": "17972285928149337",
+   "dry_run": false,
+   "finished": "2026-10-08T23:27:25+07:00"
+  },
+  {
+   "id": "20261008_2341_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-08T23:41:10+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:41 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-08T23:41:10+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-08T23:41:10+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Jagoan Kapten GW6!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-08T23:42:38+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-08T23:42:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-08T23:42:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-08T23:43:40+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Jagoan Kapten GW6!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pusing nentuin ban kapten buat FPL Gameweek 6? Tenang, bos! Kita udah pilihin tiga pemain panas yang siap bawa tim kamu terbang tinggi. Dari jagoan lini tengah kayak Groß dan Schade, sampe tembok kokoh Tarkowski, semuanya punya kans dapet poin bonus melimpah minggu ini. Jangan sampe salah pilih atau nyesel di akhir pekan ya! Kalau kamu sendiri, ban kapten fix bakal dipasang ke lengan siapa nih?\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#Unit",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261008_2341.jpg",
+   "facebook": "102254338861969_1127136026372320",
+   "instagram": "18109629110593535",
+   "dry_run": false,
+   "finished": "2026-10-08T23:43:40+07:00"
+  },
+  {
+   "id": "20261008_2346_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-08T23:46:49+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:46 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-08T23:46:49+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-08T23:46:49+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kandidat Kapten Terkuat\" (cadangan)",
+     "ok": true,
+     "t": "2026-10-08T23:47:55+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-08T23:48:01+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-08T23:48:01+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-08T23:48:42+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Kandidat Kapten Terkuat",
+   "llm": "cadangan",
+   "caption": "Kapten GW6: main aman atau ambil risiko? Cek dulu datanya 👇\n\n1. Groß — vs SUN (A) · laga sedang\n2. Schade — vs AVL (A) · laga sedang\n3. Tarkowski — vs HUL (A) · laga mudah\n\nSetuju atau ada pilihan lain? Komen di bawah! 💬\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW6",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261008_2346.jpg",
+   "facebook": "102254338861969_1127141449705111",
+   "instagram": "17957742141016093",
+   "dry_run": false,
+   "finished": "2026-10-08T23:48:42+07:00"
+  },
+  {
+   "id": "20261009_0900_fpl_differential",
+   "task": "post",
+   "kind": "fpl_differential",
+   "label": "Differential FPL",
+   "started": "2026-10-09T09:00:03+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 09:00 WIB: Differential FPL",
+     "ok": true,
+     "t": "2026-10-09T09:00:03+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-09T09:00:04+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Differential GW6 Wajib Coba!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-09T09:03:24+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T09:03:29+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-09T09:03:29+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T09:04:15+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Differential GW6 Wajib Coba!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau ngebut di FPL GW6 tapi bingung mau transfer siapa? Deretan pemain differential dengan kepemilikan di bawah 10% ini bisa jadi senjata rahasia buat ngangkat rank kamu, Red Devils! Dari penyerang Brighton sampai bek Brentford super murah, semuanya lagi on fire. Siapa nih yang bakal langsung kamu angkut ke skuad utama buat akhir pekan ini? Coba sebut di kolom komentar ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnit",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261009_0900.jpg",
+   "facebook": "102254338861969_1127453749673881",
+   "instagram": "17926385571426733",
+   "dry_run": false,
+   "finished": "2026-10-09T09:04:15+07:00"
+  },
+  {
+   "id": "20261009_1110_fpl_differential",
+   "task": "post",
+   "kind": "fpl_differential",
+   "label": "Differential FPL",
+   "started": "2026-10-09T11:10:59+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 11:10 WIB: Differential FPL",
+     "ok": true,
+     "t": "2026-10-09T11:10:59+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-09T11:11:00+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"4 Opsi Differential Mantap GW6\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-09T11:11:14+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T11:11:20+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-09T11:11:20+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T11:12:03+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "4 Opsi Differential Mantap GW6",
+   "llm": "gemini-flash-latest",
+   "caption": "Mau rank FPL kalian meroket minggu ini tanpa ikutan skuad pasaran? Waktunya lirik jagoan differential dengan kepemilikan di bawah 10%! Di GW6 ini, ada Kostoulas dan Bogle yang form-nya lagi gila di angka 10.0. Buat opsi super anti-mainstream, Schuster (0.4%) dan Belloumi (5.4%) juga bisa jadi pembeda mantap dengan form 8.5. Jangan lupa cek jadwal lawannya sebelum kalian bungkus ke skuad ya, Sobat FPL! Dari 4 nama di atas, siapa nih yang paling bikin kalian tergoda buat ditarik?\n\n📩 Kerja sama / e",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261009_1110.jpg",
+   "facebook": "102254338861969_1127529112999678",
+   "instagram": "18572140489074987",
+   "dry_run": false,
+   "finished": "2026-10-09T11:12:03+07:00"
+  },
+  {
+   "id": "20261009_1119_fpl_differential",
+   "task": "post",
+   "kind": "fpl_differential",
+   "label": "Differential FPL",
+   "started": "2026-10-09T11:19:30+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 11:19 WIB: Differential FPL",
+     "ok": true,
+     "t": "2026-10-09T11:19:30+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-09T11:19:31+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Differential GW6 Wajib Coba!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-09T11:20:17+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T11:20:22+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-09T11:20:22+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T11:21:01+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Differential GW6 Wajib Coba!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau naik rank FPL tapi bosan pakai pemain mainstream? Deretan differential GW6 dengan kepemilikan di bawah 10% ini siap jadi senjata rahasia kamu buat ngebut! Ada Kostoulas, Schuster, sampai Belloumi yang lagi on fire. Jangan lupa, Bogle juga ada tapi lawan Arsenal agak ngeri-ngeri sedap ya. Siapa nih yang bakal langsung di-angkut ke skuad utama kamu pekan ini?\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLI",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261009_1119.jpg",
+   "facebook": "102254338861969_1127534272999162",
+   "instagram": "18115715449821533",
+   "dry_run": false,
+   "finished": "2026-10-09T11:21:01+07:00"
+  },
+  {
+   "id": "20261009_1135_fpl_differential",
+   "task": "post",
+   "kind": "fpl_differential",
+   "label": "Differential FPL",
+   "started": "2026-10-09T11:35:05+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 11:35 WIB: Differential FPL",
+     "ok": true,
+     "t": "2026-10-09T11:35:05+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-09T11:35:06+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Differential GW6 Wajib Coba!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-09T11:36:01+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T11:36:06+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-09T11:36:06+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T11:36:46+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Differential GW6 Wajib Coba!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau naik rank FPL tapi bosan pakai pemain yang itu-itu aja? Nih, daftar differential pick GW6 dengan kepemilikan di bawah 10% yang siap bikin tim tetangga se-mini league ketar-ketir! Ada Kostoulas yang on fire sampai Schuster si super differential dengan kepemilikan cuma 0.4 persen doang. Lumayan banget buat nambah daya gedor skuad kalian akhir pekan ini. Jadi, siapa nih yang bakal langsung di-angkut ke starting XI kalian GW6 nanti? Coba tulis di kolom komentar ya bro!\n\n💎 Mau tips FPL eksklusif ",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261009_1135.jpg",
+   "facebook": "102254338861969_1127543712998218",
+   "instagram": "18038005370846245",
+   "dry_run": false,
+   "finished": "2026-10-09T11:36:46+07:00"
+  }
+ ]
+}
