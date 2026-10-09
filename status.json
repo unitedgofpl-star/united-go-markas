@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T11:36:46+07:00",
+ "updated": "2026-10-09T12:09:18+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -400,6 +400,63 @@
    "instagram": "18038005370846245",
    "dry_run": false,
    "finished": "2026-10-09T11:36:46+07:00"
+  },
+  {
+   "id": "20261009_1207_fpl_differential",
+   "task": "post",
+   "kind": "fpl_differential",
+   "label": "Differential FPL",
+   "started": "2026-10-09T12:07:48+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:07 WIB: Differential FPL",
+     "ok": true,
+     "t": "2026-10-09T12:07:48+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-09T12:07:49+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Differential GW6 Wajib Coba!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-09T12:08:21+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T12:08:26+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-09T12:08:26+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T12:09:18+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Differential GW6 Wajib Coba!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau naik rank drastis tapi bosan pakai pemain mainstream? Saatnya lirik deretan pemain differential buat GW6 ini! Dari penyerang Brighton sampai bek super murah Brentford, semuanya punya potensi poin bagus buat bikin lawan satu mini-league kamu kelabakan. Ingat, risiko ditanggung sendiri ya bro! Siapa nih yang bakal langsung kamuangkut ke skuad utama FPL weekend ini?\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #M",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261009_1207.jpg",
+   "facebook": "102254338861969_1127561919663064",
+   "instagram": "18104566883527848",
+   "dry_run": false,
+   "finished": "2026-10-09T12:09:18+07:00"
   }
  ]
 }
