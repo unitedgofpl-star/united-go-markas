@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T21:34:03+07:00",
+ "updated": "2026-10-09T21:39:08+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -776,6 +776,64 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-10-09T21:34:03+07:00"
+  },
+  {
+   "id": "20261009_2137_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-09T21:37:17+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 21:37 WIB: Kabar MU — topik: dan siapkan draft berita Match Day Premier league antara Manchester united vs Tottenham Hotspur",
+     "ok": true,
+     "t": "2026-10-09T21:37:17+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 251 pemain, 10 laga, 8 berita (theguardian.com)",
+     "ok": true,
+     "t": "2026-10-09T21:37:19+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Drama Fulham Kontra MU\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-09T21:39:00+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T21:39:05+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-09T21:39:05+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-10-09T21:39:05+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "dan siapkan draft berita Match Day Premier league antara Manchester united vs Tottenham Hotspur",
+   "gw": 6,
+   "title": "Drama Fulham Kontra MU",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah, 3 poin urung dibawa pulang, Reds! Gol penyelemat dari Matheus Cunha di menit akhir sukses selamatkan MU dari kekalahan atas Fulham setelah sempat tertinggal lewat gol bunuh diri. Perjuangan anak asuh kita bener-bener diuji banget nih awal musim ini. Sekarang saatnya siapin mental dan fokus buat hadapi Tottenham Hotspur selanjutnya! Menurut kalian, apa nih yang harus dievaluasi Carrick buat laga berikutnya? Coba komen di bawah, ya! 🔴✨\n\n📰 Sumber: feeds.bbci.co.uk, theguardian.com\n\n📩 Kerja sam",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261009_2137.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-10-09T21:39:08+07:00"
   }
  ]
 }
