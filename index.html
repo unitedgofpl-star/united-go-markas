@@ -156,10 +156,12 @@ h3.sec{font-family:var(--display);font-weight:400;font-size:16px;margin:0;color:
 <script>
 (() => {
 /* =================== DATA & KONFIGURASI =================== */
-const CAL = {0:['mu_news','fpl_differential'],1:['price_watch','mu_news'],2:['fixture_preview','engagement_poll'],
-  3:['fpl_captain','mu_news'],4:['fpl_differential','promo_tool'],5:['mu_news','engagement_poll'],6:['price_watch','mu_news']};
+const CAL = {0:['mu_news','fpl_differential','mu_news','engagement_poll'],1:['mu_news','price_watch','mu_news','engagement_poll'],
+  2:['mu_news','fixture_preview','mu_news','engagement_poll'],3:['mu_news','fpl_captain','mu_news','price_watch'],
+  4:['mu_news','fpl_differential','mu_news','promo_tool'],5:['mu_news','fpl_captain','mu_news','engagement_poll'],6:['mu_news','price_watch','mu_news','engagement_poll']};
+const SLOTS=[480,720,960,1140];
 const LABEL = {fpl_captain:'Kapten FPL',fpl_differential:'Differential FPL',price_watch:'Price Watch',fixture_preview:'Preview Fixture',
-  mu_news:'Kabar MU',engagement_poll:'Polling Debat',promo_tool:'Promo FPL Squad Hack'};
+  mu_news:'Berita MU',engagement_poll:'Polling Debat',promo_tool:'Promo FPL Squad Hack'};
 const AGENT_OF = {manager:'raka',scout:'dimas',writer:'sari',designer:'bima',monetizer:'tari',publisher:'yoga',analyst:'nadia',community:'fajar'};
 
 const TEAM = [
@@ -213,7 +215,7 @@ function roster(){ TEAM.forEach(c=>{ c.nowEl.textContent=c.now; c.card.classList
 /* =================== JADWAL =================== */
 function renderSched(){
   const t=wib(), k=CAL[t.wd], el=$('sched');
-  const items=[{m:720,label:`Posting #1 · ${LABEL[k[0]]}`},{m:1140,label:`Posting #2 · ${LABEL[k[1]]}`}];
+  const items=SLOTS.map((m,i)=>({m,label:`Posting #${i+1} · ${LABEL[k[i]]}`}));
   if(t.wd===0) items.unshift({m:540,label:'Laporan mingguan Analyst'});
   el.innerHTML=''; let next=false;
   items.forEach(it=>{
@@ -573,7 +575,7 @@ async function playRun(run, source){
 /* =================== DATA LIVE =================== */
 let lastRun=null, lastId=null, source='demo';
 function demoRun(){
-  const t=wib(), k=CAL[t.wd][t.h>=12&&t.h<19?1:0], iso=new Date().toISOString();
+  const t=wib(), k=CAL[t.wd][Math.max(0,SLOTS.filter(m=>m<=t.mins).length-1)], iso=new Date().toISOString();
   return {id:'demo', task:'post', kind:k, label:LABEL[k], started:iso, title:'Contoh: '+LABEL[k], dry_run:true, demo:true, steps:[
     {agent:'manager',msg:`Shift ${t.str.slice(0,5)} WIB: ${LABEL[k]}`},
     {agent:'scout',msg:'Data GW: 247 pemain, 10 laga'},
@@ -588,6 +590,7 @@ function showPost(run){
   const chips=$('pchips'); chips.innerHTML='';
   const chip=(t,c)=>{ const s=document.createElement('span'); s.className='chip '+(c||''); s.textContent=t; chips.append(s); };
   if(run.error) chip('Error','bad');
+  else if(run.task==='draft') chip('Draft · menunggu persetujuan','warn');
   else if(run.task==='post'){ if(run.dry_run) chip('Draft','warn'); else { chip(run.instagram?'IG ✓':'IG –', run.instagram?'ok':'warn'); chip(run.facebook?'FB ✓':'FB –', run.facebook?'ok':'warn'); } }
   if(run.llm) chip('AI: '+run.llm, run.llm==='cadangan'?'warn':'');
   if(run.slides) chip(run.slides+' slide');
