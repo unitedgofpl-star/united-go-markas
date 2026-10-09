@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T21:39:08+07:00",
+ "updated": "2026-10-10T06:53:24+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -834,6 +834,64 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-10-09T21:39:08+07:00"
+  },
+  {
+   "id": "20261010_0649_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-10T06:49:28+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 06:49 WIB: Kabar MU — topik: <jadwal tanding Manchester United vs Tottenham Hotspur dan prediksi pertandingan>",
+     "ok": true,
+     "t": "2026-10-10T06:49:28+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 252 pemain, 10 laga, 8 berita (theguardian.com)",
+     "ok": true,
+     "t": "2026-10-10T06:49:29+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Wajib Menang Lawan Spurs!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-10T06:53:16+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-10T06:53:22+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-10T06:53:22+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-10-10T06:53:22+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "<jadwal tanding Manchester United vs Tottenham Hotspur dan prediksi pertandingan>",
+   "gw": 6,
+   "title": "Wajib Menang Lawan Spurs!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Anak asuh Michael Carrick lagi diuji nih, Red Devils! 😈 Start awal musim yang kurang mulus bikin laga kandang lawan Tottenham Hotspur akhir pekan ini jadi harga mati buat diamankan tiga poinnya. Apalagi jadwal bulan Oktober bakal jauh lebih ngeri dan padat. Apakah Marcus Rashford dkk bisa bangkit dan bikin suporter tersenyum lagi di Old Trafford? Coba tulis prediksinya di kolom komentar ya! 👇\n\n📰 Sumber: theguardian.com\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https:",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261010_0649.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-10-10T06:53:24+07:00"
   }
  ]
 }
