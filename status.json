@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T20:59:40+07:00",
+ "updated": "2026-10-09T21:34:03+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -718,6 +718,64 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-10-09T20:59:40+07:00"
+  },
+  {
+   "id": "20261009_2132_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-09T21:32:44+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 21:32 WIB: Kabar MU — topik: kabar dari Fabrizio Romano tentang Manchester united",
+     "ok": true,
+     "t": "2026-10-09T21:32:44+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 251 pemain, 10 laga, 8 berita (theguardian.com)",
+     "ok": true,
+     "t": "2026-10-09T21:32:46+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Baleba Solusi Lini Tengah MU?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-09T21:33:53+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T21:33:59+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-09T21:33:59+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-10-09T21:33:59+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "kabar dari Fabrizio Romano tentang Manchester united",
+   "gw": 6,
+   "title": "Baleba Solusi Lini Tengah MU?",
+   "llm": "gemini-flash-latest",
+   "caption": "Carlos Baleba akhirnya berpeluang besar unjuk gigi buat Manchester United akhir pekan ini! Setelah sempat menepi akibat cedera engkel sejak digaet dari Brighton, gelandang muda ini masuk radar Michael Carrick untuk laga panas kontra Tottenham Hotspur. Ekspektasi fans jelas gede banget, apalagi sektor tengah Setan Merah masih mencari formula terbaik bareng Kobbie Mainoo dan Youri Tielemans. Kehadiran Baleba diharapkan jadi jawaban instan, tapi Carrick tentu harus cermat meracik komposisi pemainny",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261009_2132.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-10-09T21:34:03+07:00"
   }
  ]
 }
