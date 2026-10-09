@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T16:14:23+07:00",
+ "updated": "2026-10-09T19:07:30+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -514,6 +514,63 @@
    "instagram": "17973868878144926",
    "dry_run": false,
    "finished": "2026-10-09T16:14:23+07:00"
+  },
+  {
+   "id": "20261009_1905_promo_tool",
+   "task": "post",
+   "kind": "promo_tool",
+   "label": "Promo FPL Squad Hack",
+   "started": "2026-10-09T19:05:57+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:05 WIB: Promo FPL Squad Hack",
+     "ok": true,
+     "t": "2026-10-09T19:05:57+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 247 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-09T19:05:57+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Cek Skuad FPL Gratisan!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-09T19:06:41+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-09T19:06:46+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-09T19:06:46+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-10-09T19:07:30+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 6,
+   "title": "Cek Skuad FPL Gratisan!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Gimana nih FPL kalian jelang deadline? Masih pusing mikirin transfer minus atau malah bingung mau pakai chip apa? Biar gak salah langkah, yuk cobain FPL Squad Hack dari kita! Tinggal cek rating skuad, liat rekomendasi transfer terbaik, dan susun strategi chip dengan lebih gampang. Tenang, tool kece ini 100% gratis dan bilingual, cocok banget buat bantu melesatkan rank kalian musim ini. Langsung cek link di bio ya, Reds! Kalau kalian sendiri, siapa pemain yang bakal jadi kapten minggu ini?\n\n🔧 Opt",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261009_1905.jpg",
+   "facebook": "102254338861969_1127816799637576",
+   "instagram": "17876626248572635",
+   "dry_run": false,
+   "finished": "2026-10-09T19:07:30+07:00"
   }
  ]
 }
