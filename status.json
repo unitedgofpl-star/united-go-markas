@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-10T16:15:12+07:00",
+ "updated": "2026-10-10T19:04:12+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261008_2325_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-08T23:25:46+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 23:25 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-08T23:25:46+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-08T23:25:46+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilihan Kapten FPL GW6\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-08T23:26:30+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-08T23:26:36+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-08T23:26:36+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-08T23:27:25+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Pilihan Kapten FPL GW6",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mau ngebut di klasemen FPL GW6 tapi masih galau nentuin ban kapten? Tenang, admin udah siapin tiga opsi dari gelandang sampe bek yang harganya bersahabat tapi punya potensi poin tinggi buat akhir pekan ini! Jangan sampe salah pilih pemain biar rank kamu gak terjun bebas ya. Coba komen di bawah, ban kapten GW6 ini bakal kamu serahin ke siapa? Jagoanmu masuk list gak?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndon",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 6,
-   "cover": "covers/20261008_2325.jpg",
-   "facebook": "102254338861969_1127124643040125",
-   "instagram": "17972285928149337",
-   "dry_run": false,
-   "finished": "2026-10-08T23:27:25+07:00"
-  },
   {
    "id": "20261008_2341_fpl_captain",
    "task": "post",
@@ -1054,6 +997,60 @@
    "slides": 5,
    "cover": "covers/20261010_1610.jpg",
    "finished": "2026-10-10T16:15:12+07:00"
+  },
+  {
+   "id": "20261010_1903_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-10T19:03:54+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:03 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-10T19:03:54+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 256 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-10T19:03:54+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Groß Aman atau Bogle Nekat?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-10T19:04:05+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-10T19:04:11+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-10T19:04:11+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-10T19:04:11+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Groß Aman atau Bogle Nekat?",
+   "llm": "gemini-flash-latest",
+   "caption": "Pusing tujuh keliling nentuin transfer Gameweek ini gara-gara dua nama ini! Di satu sisi ada Pascal Groß yang form-nya lagi wangi banget di angka 10.3 dan main kandang lawan Palace. Tapi di sisi lain, Jayden Bogle harganya murah meriah £4.6m walau Leeds kudu bentrok lawan Manchester United. Buat fans MU, masa iya pasang bek lawan yang siap diobok-obok penyerang kita? Tapi namanya FPL, kadang diferensial nekat bisa bikin rank melesat. Jadi, lu bakal ambil jalan aman bareng Groß atau nekat pasang ",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261010_1903.jpg",
+   "finished": "2026-10-10T19:04:12+07:00"
   }
  ]
 }
