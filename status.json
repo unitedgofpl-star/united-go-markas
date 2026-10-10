@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T08:18:54+07:00",
+ "updated": "2026-10-10T12:10:14+07:00",
  "brand": "@unitedgo.id",
  "runs": [
   {
@@ -946,6 +946,60 @@
    "slides": 5,
    "cover": "covers/20261010_0817.jpg",
    "finished": "2026-10-10T08:18:54+07:00"
+  },
+  {
+   "id": "20261010_1206_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-10T12:06:47+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:06 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-10T12:06:47+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW6: 252 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-10T12:06:47+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilihan Kapten FPL GW6\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-10T12:10:07+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-10T12:10:13+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-10T12:10:13+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-10T12:10:13+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 6,
+   "title": "Pilihan Kapten FPL GW6",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau pasang ban kapten ke siapa buat FPL GW6 nanti? Tenang, admin udah pilihin tiga opsi menarik buat bantu mendulang poin! Dari gelandang Brighton yang lagi gacor, winger Brentford, sampai bek Everton yang punya potensi clean sheet. Mau ambil aman atau nekat beda dari yang lain,bos? Coba tulis di kolom komentar, siapa yang bakal jadi kapten andalanmu minggu ini?\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261010_1206.jpg",
+   "finished": "2026-10-10T12:10:14+07:00"
   }
  ]
 }
