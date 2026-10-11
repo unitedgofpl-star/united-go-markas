@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-11T12:10:34+07:00",
+ "updated": "2026-10-11T16:11:32+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_0900_fpl_differential",
-   "task": "post",
-   "kind": "fpl_differential",
-   "label": "Differential FPL",
-   "started": "2026-10-09T09:00:03+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 09:00 WIB: Differential FPL",
-     "ok": true,
-     "t": "2026-10-09T09:00:03+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-09T09:00:04+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Differential GW6 Wajib Coba!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-09T09:03:24+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-09T09:03:29+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-09T09:03:29+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-09T09:04:15+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Differential GW6 Wajib Coba!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mau ngebut di FPL GW6 tapi bingung mau transfer siapa? Deretan pemain differential dengan kepemilikan di bawah 10% ini bisa jadi senjata rahasia buat ngangkat rank kamu, Red Devils! Dari penyerang Brighton sampai bek Brentford super murah, semuanya lagi on fire. Siapa nih yang bakal langsung kamu angkut ke skuad utama buat akhir pekan ini? Coba sebut di kolom komentar ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnit",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261009_0900.jpg",
-   "facebook": "102254338861969_1127453749673881",
-   "instagram": "17926385571426733",
-   "dry_run": false,
-   "finished": "2026-10-09T09:04:15+07:00"
-  },
   {
    "id": "20261009_1110_fpl_differential",
    "task": "post",
@@ -1045,6 +988,60 @@
    "slides": 6,
    "cover": "covers/20261011_1207.jpg",
    "finished": "2026-10-11T12:10:34+07:00"
+  },
+  {
+   "id": "20261011_1611_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-11T16:11:06+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:11 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-11T16:11:06+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 268 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-11T16:11:08+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Keputusan Carrick Bikin Fans Geram\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-11T16:11:26+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-11T16:11:31+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-11T16:11:31+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-11T16:11:31+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Keputusan Carrick Bikin Fans Geram",
+   "llm": "gemini-flash-latest",
+   "caption": "Lawan sepuluh pemain tapi cuma bawa pulang satu poin, fans mana yang nggak makan hati? Fans Setan Merah, Beth Tucker, secara tegas bilang situasi ini bener-bener gak bisa dimaafkan. Kekecewaan suporter di Old Trafford makin kerasa lewat sorakan dan desakan agar Carrick mundur. Tapi di sisi lain, Carrick tetap optimis dan yakin materi pemain yang ada punya potensi cukup buat membalikkan keadaan serta bangkit dari tren negatif ini. Menurut kalian, keputusan Carrick kemarin emang fatal banget atau ",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261011_1611.jpg",
+   "finished": "2026-10-11T16:11:32+07:00"
   }
  ]
 }
