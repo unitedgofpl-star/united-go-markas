@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-11T16:11:32+07:00",
+ "updated": "2026-10-11T19:05:09+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_1110_fpl_differential",
-   "task": "post",
-   "kind": "fpl_differential",
-   "label": "Differential FPL",
-   "started": "2026-10-09T11:10:59+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 11:10 WIB: Differential FPL",
-     "ok": true,
-     "t": "2026-10-09T11:10:59+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-09T11:11:00+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"4 Opsi Differential Mantap GW6\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-09T11:11:14+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-09T11:11:20+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-09T11:11:20+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-09T11:12:03+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "4 Opsi Differential Mantap GW6",
-   "llm": "gemini-flash-latest",
-   "caption": "Mau rank FPL kalian meroket minggu ini tanpa ikutan skuad pasaran? Waktunya lirik jagoan differential dengan kepemilikan di bawah 10%! Di GW6 ini, ada Kostoulas dan Bogle yang form-nya lagi gila di angka 10.0. Buat opsi super anti-mainstream, Schuster (0.4%) dan Belloumi (5.4%) juga bisa jadi pembeda mantap dengan form 8.5. Jangan lupa cek jadwal lawannya sebelum kalian bungkus ke skuad ya, Sobat FPL! Dari 4 nama di atas, siapa nih yang paling bikin kalian tergoda buat ditarik?\n\n📩 Kerja sama / e",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 6,
-   "cover": "covers/20261009_1110.jpg",
-   "facebook": "102254338861969_1127529112999678",
-   "instagram": "18572140489074987",
-   "dry_run": false,
-   "finished": "2026-10-09T11:12:03+07:00"
-  },
   {
    "id": "20261009_1119_fpl_differential",
    "task": "post",
@@ -1042,6 +985,60 @@
    "slides": 5,
    "cover": "covers/20261011_1611.jpg",
    "finished": "2026-10-11T16:11:32+07:00"
+  },
+  {
+   "id": "20261011_1904_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-11T19:04:26+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:04 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-11T19:04:26+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 269 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-11T19:04:26+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilih De Cuyper atau Pedro?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-11T19:05:02+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-11T19:05:08+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-11T19:05:08+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-11T19:05:08+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Pilih De Cuyper atau Pedro?",
+   "llm": "gemini-flash-latest",
+   "caption": "Lagi pusing muter otak buat nentuin transfer Gameweek kali ini, FPL managers? Kita disodorin dua pilihan mantap. Di satu sisi ada De Cuyper (£5.0m) yang lagi wangi banget dengan form 10.7 dan jadwal kandang kontra Palace. Di sisi lain, João Pedro (£7.7m) jadi andalan banyak manajer dengan kepemilikan 67.5% buat ngacak-ngacak Everton. Satu bek murah jadwal gurih, satu lagi penyerang favorit sejuta umat. Kalau tim lu butuh asupan poin instan, lu bakal pasang siapa di starting eleven?\n\n🔧 Optimasi s",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261011_1904.jpg",
+   "finished": "2026-10-11T19:05:09+07:00"
   }
  ]
 }
