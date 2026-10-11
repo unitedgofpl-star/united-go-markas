@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-10T19:04:12+07:00",
+ "updated": "2026-10-11T08:17:44+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261008_2341_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-08T23:41:10+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 23:41 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-08T23:41:10+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-08T23:41:10+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Jagoan Kapten GW6!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-08T23:42:38+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-08T23:42:44+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-08T23:42:44+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-08T23:43:40+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Jagoan Kapten GW6!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Pusing nentuin ban kapten buat FPL Gameweek 6? Tenang, bos! Kita udah pilihin tiga pemain panas yang siap bawa tim kamu terbang tinggi. Dari jagoan lini tengah kayak Groß dan Schade, sampe tembok kokoh Tarkowski, semuanya punya kans dapet poin bonus melimpah minggu ini. Jangan sampe salah pilih atau nyesel di akhir pekan ya! Kalau kamu sendiri, ban kapten fix bakal dipasang ke lengan siapa nih?\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#Unit",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261008_2341.jpg",
-   "facebook": "102254338861969_1127136026372320",
-   "instagram": "18109629110593535",
-   "dry_run": false,
-   "finished": "2026-10-08T23:43:40+07:00"
-  },
   {
    "id": "20261008_2346_fpl_captain",
    "task": "post",
@@ -1051,6 +994,60 @@
    "slides": 6,
    "cover": "covers/20261010_1903.jpg",
    "finished": "2026-10-10T19:04:12+07:00"
+  },
+  {
+   "id": "20261011_0817_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-11T08:17:13+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:17 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-11T08:17:13+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 268 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-11T08:17:15+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Lini Tengah MU Disorot Pundit\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-11T08:17:37+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-11T08:17:42+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-11T08:17:42+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-11T08:17:43+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Lini Tengah MU Disorot Pundit",
+   "llm": "gemini-flash-latest",
+   "caption": "Lawan main dengan 10 orang tapi kita malah gagal mengontrol laga, beneran bikin nyesek banget, Reds! 😤 Hasil imbang 1-1 kontra Tottenham Hotspur langsung bikin Danny Murphy bersuara. Pundit Match of the Day ini menilai lini tengah Manchester United belum mampu mengendalikan ritme pertandingan dengan baik. Situasi makin pelik karena fans mulai mempertanyakan keputusan Michael Carrick, termasuk perjudian membiarkan Bruno Fernandes berlaga full 90 menit hingga memicu gelombang kekecewaan di Old Tra",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 6,
+   "cover": "covers/20261011_0817.jpg",
+   "finished": "2026-10-11T08:17:44+07:00"
   }
  ]
 }
