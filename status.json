@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-11T08:17:44+07:00",
+ "updated": "2026-10-11T12:10:34+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261008_2346_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-08T23:46:49+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 23:46 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-08T23:46:49+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-08T23:46:49+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Kandidat Kapten Terkuat\" (cadangan)",
-     "ok": true,
-     "t": "2026-10-08T23:47:55+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-08T23:48:01+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-08T23:48:01+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-08T23:48:42+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Kandidat Kapten Terkuat",
-   "llm": "cadangan",
-   "caption": "Kapten GW6: main aman atau ambil risiko? Cek dulu datanya 👇\n\n1. Groß — vs SUN (A) · laga sedang\n2. Schade — vs AVL (A) · laga sedang\n3. Tarkowski — vs HUL (A) · laga mudah\n\nSetuju atau ada pilihan lain? Komen di bawah! 💬\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW6",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261008_2346.jpg",
-   "facebook": "102254338861969_1127141449705111",
-   "instagram": "17957742141016093",
-   "dry_run": false,
-   "finished": "2026-10-08T23:48:42+07:00"
-  },
   {
    "id": "20261009_0900_fpl_differential",
    "task": "post",
@@ -1048,6 +991,60 @@
    "slides": 6,
    "cover": "covers/20261011_0817.jpg",
    "finished": "2026-10-11T08:17:44+07:00"
+  },
+  {
+   "id": "20261011_1207_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-10-11T12:07:06+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:07 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-10-11T12:07:06+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 268 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-11T12:07:07+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Update Harga FPL Pekan Ini\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-11T12:10:26+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-11T12:10:33+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-11T12:10:33+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-11T12:10:34+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Update Harga FPL Pekan Ini",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, kapten Bruno Fernandes banyak yang lego nih, Reds! Form-nya lagi agak seret, jadi wajar kalau para manager FPL pada cari pelarian lain kayak Groß atau João Pedro yang lagi gacor-gacornya. Buat kalian yang punya skuad mereka, buru-buru diputuskan mau di-keep atau ditendang sebelum harganya gerak liar. Kalau kalian sendiri, termasuk tim yang sabar nunggu atau tim yang langsung gercep jual pemain?\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unite",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261011_1207.jpg",
+   "finished": "2026-10-11T12:10:34+07:00"
   }
  ]
 }
