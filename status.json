@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-12T16:20:20+07:00",
+ "updated": "2026-10-12T19:15:38+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_1613_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-09T16:13:08+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:13 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-09T16:13:08+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-09T16:13:09+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Ujian Perdana Baleba di Old Trafford\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-09T16:13:35+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-09T16:13:41+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-09T16:13:41+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-09T16:14:23+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Ujian Perdana Baleba di Old Trafford",
-   "llm": "gemini-flash-latest",
-   "caption": "Ujian sesungguhnya udah di depan mata buat Carlos Baleba! Gelandang anyar kita seharga 70 juta pounds ini diperkirakan siap melakoni debut bareng Manchester United pas lawan Tottenham di Old Trafford. Michael Carrick emang butuh banget sosok gelandang bertahan tangguh semenjak Casemiro cabut bulan Mei kemarin. Meski baru sembuh dari cedera engkel dan kondisi tim lagi terseok-seok di posisi 12 klasemen, kecepatan serta daya jelajah Baleba diharapkan bisa ngasih dampak instan di lini tengah. Menur",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 6,
-   "cover": "covers/20261009_1613.jpg",
-   "facebook": "102254338861969_1127699782982611",
-   "instagram": "17973868878144926",
-   "dry_run": false,
-   "finished": "2026-10-09T16:14:23+07:00"
-  },
   {
    "id": "20261009_1905_promo_tool",
    "task": "post",
@@ -1030,6 +973,60 @@
    "slides": 5,
    "cover": "covers/20261012_1616.jpg",
    "finished": "2026-10-12T16:20:20+07:00"
+  },
+  {
+   "id": "20261012_1915_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-12T19:15:21+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:15 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-12T19:15:21+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 275 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-12T19:15:21+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilih Groß Atau Haaland Bro?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-12T19:15:32+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-12T19:15:37+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-12T19:15:37+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-12T19:15:37+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Pilih Groß Atau Haaland Bro?",
+   "llm": "gemini-flash-latest",
+   "caption": "Pusing tujuh keliling nentuin kapten FPL pekan ini, mending ikut arus atau berani beda? Di satu sisi ada Pascal Groß yang harganya ramah dompet (£6.0m) tapi form-nya ngeri di angka 12.3 jelang laga kandang lawan Palace. Tapi di sisi lain, robot Erling Haaland (£15.6m) bakal jamu Ipswich di kandang dan udah dipegang nyaris 75% manajer! Salah pilih kapten bisa bikin rank langsung terjun bebas, sob. Kalo kamu sendiri, armband bakal mendarat di lengan Groß atau Haaland nih?\n\n🔧 Optimasi skuad FPL-mu ",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261012_1915.jpg",
+   "finished": "2026-10-12T19:15:38+07:00"
   }
  ]
 }
