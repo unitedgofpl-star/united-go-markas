@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-12T12:09:27+07:00",
+ "updated": "2026-10-12T16:20:20+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_1207_fpl_differential",
-   "task": "post",
-   "kind": "fpl_differential",
-   "label": "Differential FPL",
-   "started": "2026-10-09T12:07:48+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:07 WIB: Differential FPL",
-     "ok": true,
-     "t": "2026-10-09T12:07:48+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-09T12:07:49+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Differential GW6 Wajib Coba!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-09T12:08:21+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-09T12:08:26+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-09T12:08:26+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-09T12:09:18+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Differential GW6 Wajib Coba!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mau naik rank drastis tapi bosan pakai pemain mainstream? Saatnya lirik deretan pemain differential buat GW6 ini! Dari penyerang Brighton sampai bek super murah Brentford, semuanya punya potensi poin bagus buat bikin lawan satu mini-league kamu kelabakan. Ingat, risiko ditanggung sendiri ya bro! Siapa nih yang bakal langsung kamuangkut ke skuad utama FPL weekend ini?\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #M",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261009_1207.jpg",
-   "facebook": "102254338861969_1127561919663064",
-   "instagram": "18104566883527848",
-   "dry_run": false,
-   "finished": "2026-10-09T12:09:18+07:00"
-  },
   {
    "id": "20261009_1613_mu_news",
    "task": "post",
@@ -1033,6 +976,60 @@
    "slides": 5,
    "cover": "covers/20261012_1209.jpg",
    "finished": "2026-10-12T12:09:27+07:00"
+  },
+  {
+   "id": "20261012_1616_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-12T16:16:49+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:16 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-12T16:16:49+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 275 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-12T16:16:51+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Setan Merah Lagi Kena Mental\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-12T16:20:15+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-12T16:20:19+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-12T16:20:19+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-12T16:20:20+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Setan Merah Lagi Kena Mental",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Parah banget sih ini, kemenangan yang udah di depan mata malah buyar di detik-detik akhir! 😤 MU kembali gagal menang lawan 10 pemain Spurs setelah kebobolan gol injury time Solanke. Situasi ini bikin posisi Carrick makin tertekan karena baru ngeraih 6 poin dari 6 pertandingan awal Premier League musim ini. Performa kayak gini jelas bikin frustrasi kita semua sebagai suporter setianya. Kalau kayak gini terus, kedepannya bakal gimana ya Red Devils? Coba tulis pendapat kalian di kolom komentar ya! ",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261012_1616.jpg",
+   "finished": "2026-10-12T16:20:20+07:00"
   }
  ]
 }
