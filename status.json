@@ -1,64 +1,7 @@
 {
- "updated": "2026-10-12T19:15:38+07:00",
+ "updated": "2026-10-13T08:20:47+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_1905_promo_tool",
-   "task": "post",
-   "kind": "promo_tool",
-   "label": "Promo FPL Squad Hack",
-   "started": "2026-10-09T19:05:57+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:05 WIB: Promo FPL Squad Hack",
-     "ok": true,
-     "t": "2026-10-09T19:05:57+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 247 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-09T19:05:57+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Cek Skuad FPL Gratisan!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-09T19:06:41+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-09T19:06:46+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-09T19:06:46+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-10-09T19:07:30+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 6,
-   "title": "Cek Skuad FPL Gratisan!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Gimana nih FPL kalian jelang deadline? Masih pusing mikirin transfer minus atau malah bingung mau pakai chip apa? Biar gak salah langkah, yuk cobain FPL Squad Hack dari kita! Tinggal cek rating skuad, liat rekomendasi transfer terbaik, dan susun strategi chip dengan lebih gampang. Tenang, tool kece ini 100% gratis dan bilingual, cocok banget buat bantu melesatkan rank kalian musim ini. Langsung cek link di bio ya, Reds! Kalau kalian sendiri, siapa pemain yang bakal jadi kapten minggu ini?\n\n🔧 Opt",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261009_1905.jpg",
-   "facebook": "102254338861969_1127816799637576",
-   "instagram": "17876626248572635",
-   "dry_run": false,
-   "finished": "2026-10-09T19:07:30+07:00"
-  },
   {
    "id": "20261009_1933_mu_news",
    "task": "post",
@@ -1027,6 +970,60 @@
    "slides": 6,
    "cover": "covers/20261012_1915.jpg",
    "finished": "2026-10-12T19:15:38+07:00"
+  },
+  {
+   "id": "20261013_0820_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-13T08:20:24+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:20 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-13T08:20:24+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 278 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-13T08:20:26+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Carrick Ogah Pusing Soal Tekanan\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-13T08:20:40+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-13T08:20:46+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-13T08:20:46+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-13T08:20:46+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Carrick Ogah Pusing Soal Tekanan",
+   "llm": "gemini-flash-latest",
+   "caption": "Kursi makin panas, tapi Michael Carrick santai banget hadapi badai di Old Trafford! 🔴🔥 Walau Setan Merah lagi ngalamin start liga terburuk dalam 40 tahun terakhir, bos MU ini ngaku nggak ngerasain tekanan sama sekali. Doi tetap pede dan yakin skuadnya punya talenta yang cukup buat bangkit dan sukses bareng. Tapi ya namanya fans, sebagian udah mulai gerah dan nyuarain rasa kecewa mereka karena performa tim yang belum membaik. Menurut kalian, optimisme Carrick ini tanda percaya diri atau malah bik",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 6,
+   "cover": "covers/20261013_0820.jpg",
+   "finished": "2026-10-13T08:20:47+07:00"
   }
  ]
 }
