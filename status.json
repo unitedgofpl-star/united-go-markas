@@ -1,65 +1,7 @@
 {
- "updated": "2026-10-13T19:11:35+07:00",
+ "updated": "2026-10-14T08:30:38+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_2059_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-09T20:59:09+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 20:59 WIB: Kabar MU — topik: Matchday Manchester united vs Tottenham Hotspur besok malam",
-     "ok": true,
-     "t": "2026-10-09T20:59:09+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 248 pemain, 10 laga, 8 berita (theguardian.com)",
-     "ok": true,
-     "t": "2026-10-09T20:59:11+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"JJ Gabriel Terancam Cabut Murah!\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-09T20:59:30+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender, cover dari telegram",
-     "ok": true,
-     "t": "2026-10-09T20:59:36+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-09T20:59:36+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-10-09T20:59:36+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "Matchday Manchester united vs Tottenham Hotspur besok malam",
-   "gw": 6,
-   "title": "JJ Gabriel Terancam Cabut Murah!",
-   "llm": "gemini-flash-latest",
-   "caption": "Kabar kurang sedap datang dari Carrington soal masa depan salah satu aset akademi kita! MU sebenarnya sudah menyodorkan tawaran beasiswa resmi buat JJ Gabriel yang baru saja menginjak usia 16 tahun. Namun, komunikasi dikabarkan retak menyusul ketidaksepakatan soal jaminan menit bermain di tim utama. Gabriel kini hampir dipastikan cabut dan condong menuju klub Eropa, yang artinya Setan Merah terancam cuma menerima kompensasi minim sekitar 350 ribu paun saja. Menurut kalian, langkah klub udah tepa",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261009_2059.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-10-09T20:59:40+07:00"
-  },
   {
    "id": "20261009_2132_mu_news",
    "task": "draft",
@@ -1097,6 +1039,60 @@
    "slides": 5,
    "cover": "covers/20261013_1909.jpg",
    "finished": "2026-10-13T19:11:35+07:00"
+  },
+  {
+   "id": "20261014_0830_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-14T08:30:18+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:30 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-14T08:30:18+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 278 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-14T08:30:20+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Lisandro Martinez Semprot Manajemen MU!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-14T08:30:31+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-14T08:30:37+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-14T08:30:37+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-14T08:30:37+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Lisandro Martinez Semprot Manajemen MU!",
+   "llm": "gemini-flash-latest",
+   "caption": "Waduh, suasana ruang ganti mulai memanas nih, United Fans! 🔥 Lisandro Martinez akhirnya buka suara usai MU dihajar Atletico Madrid 2-0. Sang Jagal merasa manajemen, terutama Direktur Teknik Jason Wilcox, kurang gercep mendatangkan amunisi baru setelah lolos ke Liga Champions. Menurut Licha, jangan cuma bisa menyalahkan pemain atau pelatih Michael Carrick saat hasil jeblok, karena skuadnya memang butuh investasi lebih buat bersaing. Mengingat MU baru menang dua kali dalam sembilan laga musim ini,",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 6,
+   "cover": "covers/20261014_0830.jpg",
+   "finished": "2026-10-14T08:30:38+07:00"
   }
  ]
 }
