@@ -1,65 +1,7 @@
 {
- "updated": "2026-10-14T08:30:38+07:00",
+ "updated": "2026-10-14T12:23:25+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261009_2132_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-09T21:32:44+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 21:32 WIB: Kabar MU — topik: kabar dari Fabrizio Romano tentang Manchester united",
-     "ok": true,
-     "t": "2026-10-09T21:32:44+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW6: 251 pemain, 10 laga, 8 berita (theguardian.com)",
-     "ok": true,
-     "t": "2026-10-09T21:32:46+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Baleba Solusi Lini Tengah MU?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-09T21:33:53+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-09T21:33:59+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-09T21:33:59+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-10-09T21:33:59+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "kabar dari Fabrizio Romano tentang Manchester united",
-   "gw": 6,
-   "title": "Baleba Solusi Lini Tengah MU?",
-   "llm": "gemini-flash-latest",
-   "caption": "Carlos Baleba akhirnya berpeluang besar unjuk gigi buat Manchester United akhir pekan ini! Setelah sempat menepi akibat cedera engkel sejak digaet dari Brighton, gelandang muda ini masuk radar Michael Carrick untuk laga panas kontra Tottenham Hotspur. Ekspektasi fans jelas gede banget, apalagi sektor tengah Setan Merah masih mencari formula terbaik bareng Kobbie Mainoo dan Youri Tielemans. Kehadiran Baleba diharapkan jadi jawaban instan, tapi Carrick tentu harus cermat meracik komposisi pemainny",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261009_2132.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-10-09T21:34:03+07:00"
-  },
   {
    "id": "20261009_2137_mu_news",
    "task": "draft",
@@ -1093,6 +1035,60 @@
    "slides": 6,
    "cover": "covers/20261014_0830.jpg",
    "finished": "2026-10-14T08:30:38+07:00"
+  },
+  {
+   "id": "20261014_1219_fixture_preview",
+   "task": "post",
+   "kind": "fixture_preview",
+   "label": "Preview Fixture",
+   "started": "2026-10-14T12:19:09+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:19 WIB: Preview Fixture",
+     "ok": true,
+     "t": "2026-10-14T12:19:09+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 278 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-14T12:19:09+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Peta Kekuatan dan Jadwal GW7\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-14T12:23:17+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-14T12:23:24+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-14T12:23:24+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-14T12:23:24+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Peta Kekuatan dan Jadwal GW7",
+   "llm": "gemini-flash-latest",
+   "caption": "Jangan asal pasang kapten kalau belum cek peta jadwal GW7 ini, bro! Manchester City punya jalan paling mulus pekan ini pas jamu Ipswich dengan rating 2 vs 5, cocok banget buat target armband utama. Sementara itu, United wajib waspada penuh saat sowan ke markas Leeds yang selalu panas. Chelsea dan Liverpool juga dapet ujian tandang yang nggak gampang. Manfaatkan juga aset murah meriah Fulham atau Brighton yang jadwalnya lumayan bersahabat. Siapa nih yang udah fix kalian kasih ban kapten buat Game",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261014_1219.jpg",
+   "finished": "2026-10-14T12:23:25+07:00"
   }
  ]
 }
