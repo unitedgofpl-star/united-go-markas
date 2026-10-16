@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-16T16:25:54+07:00",
+ "updated": "2026-10-16T19:18:29+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261011_1904_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-11T19:04:26+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:04 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-11T19:04:26+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 269 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-11T19:04:26+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilih De Cuyper atau Pedro?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-11T19:05:02+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-11T19:05:08+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-11T19:05:08+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-11T19:05:08+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Pilih De Cuyper atau Pedro?",
-   "llm": "gemini-flash-latest",
-   "caption": "Lagi pusing muter otak buat nentuin transfer Gameweek kali ini, FPL managers? Kita disodorin dua pilihan mantap. Di satu sisi ada De Cuyper (£5.0m) yang lagi wangi banget dengan form 10.7 dan jadwal kandang kontra Palace. Di sisi lain, João Pedro (£7.7m) jadi andalan banyak manajer dengan kepemilikan 67.5% buat ngacak-ngacak Everton. Satu bek murah jadwal gurih, satu lagi penyerang favorit sejuta umat. Kalau tim lu butuh asupan poin instan, lu bakal pasang siapa di starting eleven?\n\n🔧 Optimasi s",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261011_1904.jpg",
-   "finished": "2026-10-11T19:05:09+07:00"
-  },
   {
    "id": "20261012_0820_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261016_1625.jpg",
    "finished": "2026-10-16T16:25:54+07:00"
+  },
+  {
+   "id": "20261016_1917_promo_tool",
+   "task": "post",
+   "kind": "promo_tool",
+   "label": "Promo FPL Squad Hack",
+   "started": "2026-10-16T19:17:47+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:17 WIB: Promo FPL Squad Hack",
+     "ok": true,
+     "t": "2026-10-16T19:17:47+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 280 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-16T19:17:47+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Rahasia Rank FPL Melejit Naik\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-16T19:18:21+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-16T19:18:29+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-16T19:18:29+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-16T19:18:29+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Rahasia Rank FPL Melejit Naik",
+   "llm": "gemini-flash-latest",
+   "caption": "Sering kena red arrow gara-gara transfer panik lima menit sebelum deadline? 😭\n\nTenang lur, mimin nemu senjata rahasia yang 100% gratis namanya 'FPL Squad Hack'! Tool canggih ini siap ngebantu rating skuad kamu, ngasih rekomendasi transfer yang objektif, sampai ngatur strategi chip kayak Wildcard atau Free Hit biar gak mubazir. Asiknya lagi, tampilannya udah bilingual jadi ada opsi Bahasa Indonesia yang gampang banget dipahami.\n\nUdah siap bantai temen tongkrongan di mini league? Langsung klik lin",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261016_1917.jpg",
+   "finished": "2026-10-16T19:18:29+07:00"
   }
  ]
 }
