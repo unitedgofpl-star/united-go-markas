@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-16T08:29:50+07:00",
+ "updated": "2026-10-16T12:19:24+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261011_1207_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-10-11T12:07:06+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:07 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-10-11T12:07:06+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 268 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-11T12:07:07+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Update Harga FPL Pekan Ini\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-11T12:10:26+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-11T12:10:33+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-11T12:10:33+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-11T12:10:34+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Update Harga FPL Pekan Ini",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Waduh, kapten Bruno Fernandes banyak yang lego nih, Reds! Form-nya lagi agak seret, jadi wajar kalau para manager FPL pada cari pelarian lain kayak Groß atau João Pedro yang lagi gacor-gacornya. Buat kalian yang punya skuad mereka, buru-buru diputuskan mau di-keep atau ditendang sebelum harganya gerak liar. Kalau kalian sendiri, termasuk tim yang sabar nunggu atau tim yang langsung gercep jual pemain?\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unite",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261011_1207.jpg",
-   "finished": "2026-10-11T12:10:34+07:00"
-  },
   {
    "id": "20261011_1611_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261016_0829.jpg",
    "finished": "2026-10-16T08:29:50+07:00"
+  },
+  {
+   "id": "20261016_1219_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-16T12:19:06+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:19 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-16T12:19:06+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 280 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-16T12:19:07+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Opsi Kapten FPL GW7 Tersolid!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-16T12:19:17+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-16T12:19:23+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-16T12:19:23+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-16T12:19:24+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Opsi Kapten FPL GW7 Tersolid!",
+   "llm": "gemini-flash-latest",
+   "caption": "Masih bingung mau pasang ban kapten ke siapa buat FPL Gameweek 7 nanti? Jangan sampai salah pilih dan bikin nyesel seminggu ke depan, Sobat Unitedgo! Di GW7 ini, Brighton dan Man City dapat jadwal enak di kandang. Ada De Cuyper yang lagi wangi banget form-nya di 10.5 buat opsi berani lini belakang. Mau aman di lini tengah? Groß siap jadi andalan. Tapi kalau mau ngebut naik rank, Semenyo dari City dengan kepemilikan cuma 13.9% jelas jadi pembeda gila lawan Ipswich. Dari ketiga nama gacor di atas,",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261016_1219.jpg",
+   "finished": "2026-10-16T12:19:24+07:00"
   }
  ]
 }
