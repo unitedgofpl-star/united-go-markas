@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-17T08:29:29+07:00",
+ "updated": "2026-10-17T12:16:32+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261012_1209_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-12T12:09:13+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:09 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-12T12:09:13+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 275 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-12T12:09:13+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilihan Kapten Terbaik GW7\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-12T12:09:21+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-12T12:09:26+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-12T12:09:26+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-12T12:09:26+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Pilihan Kapten Terbaik GW7",
-   "llm": "gemini-flash-latest",
-   "caption": "Bingung nentuin ban kapten FPL Gameweek 7 biar gak boncos? Tenang, ini tiga nama paling mantap buat lu lirik pekan ini! Ada Groß yang lagi wangi banget performanya bareng Brighton, plus De Cuyper yang siap kasih poin ganda dari lini belakang kontra Palace. Tapi kalau lu kaum cari aman, Erling Haaland jelas jawaban mutlak pas City kedatangan Ipswich di kandang. Jangan sampai salah pasang arm-band biar rank lu langsung meroket! Jadi, siapa nih yang bakal lu percaya pakai ban kapten di GW7?\n\n👕 Jers",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261012_1209.jpg",
-   "finished": "2026-10-12T12:09:27+07:00"
-  },
   {
    "id": "20261012_1616_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261017_0828.jpg",
    "finished": "2026-10-17T08:29:29+07:00"
+  },
+  {
+   "id": "20261017_1216_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-17T12:16:12+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:16 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-17T12:16:12+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 274 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-17T12:16:12+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Opsi Kapten FPL GW7 Meledak\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-17T12:16:26+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-17T12:16:31+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-17T12:16:31+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-17T12:16:31+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Opsi Kapten FPL GW7 Meledak",
+   "llm": "gemini-flash-latest",
+   "caption": "Masih pusing nentuin kapten buat FPL Gameweek 7 nanti? Tenang, mimin kasih rekomendasinya! Pekan ini ada laga kandang gurih buat aset Brighton dan Man City. De Cuyper (£5.2m) dan Groß (£6.1m) lagi gacor parah dengan form dua digit jelang jamu Crystal Palace. Tapi kalau lu butuh diferensial buat dongkrak rank, lirik Semenyo (£8.3m) di City dengan form 10.0 dan kepemilikan baru 14.4% lawan Ipswich. Jadi, siapa nih yang bakal lu kasih ban kapten di GW7?\n\n💎 Mau tips FPL eksklusif + chip strategy tia",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261017_1216.jpg",
+   "finished": "2026-10-17T12:16:32+07:00"
   }
  ]
 }
