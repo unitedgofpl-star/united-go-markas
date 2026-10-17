@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-17T16:19:48+07:00",
+ "updated": "2026-10-17T19:11:15+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261012_1915_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-12T19:15:21+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:15 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-12T19:15:21+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 275 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-12T19:15:21+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilih Groß Atau Haaland Bro?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-12T19:15:32+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-12T19:15:37+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-12T19:15:37+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-12T19:15:37+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Pilih Groß Atau Haaland Bro?",
-   "llm": "gemini-flash-latest",
-   "caption": "Pusing tujuh keliling nentuin kapten FPL pekan ini, mending ikut arus atau berani beda? Di satu sisi ada Pascal Groß yang harganya ramah dompet (£6.0m) tapi form-nya ngeri di angka 12.3 jelang laga kandang lawan Palace. Tapi di sisi lain, robot Erling Haaland (£15.6m) bakal jamu Ipswich di kandang dan udah dipegang nyaris 75% manajer! Salah pilih kapten bisa bikin rank langsung terjun bebas, sob. Kalo kamu sendiri, armband bakal mendarat di lengan Groß atau Haaland nih?\n\n🔧 Optimasi skuad FPL-mu ",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261012_1915.jpg",
-   "finished": "2026-10-12T19:15:38+07:00"
-  },
   {
    "id": "20261013_0820_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261017_1619.jpg",
    "finished": "2026-10-17T16:19:48+07:00"
+  },
+  {
+   "id": "20261017_1910_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-17T19:10:53+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:10 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-17T19:10:53+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 276 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-17T19:10:53+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilih Semenyo atau Cunha, Bos?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-17T19:11:07+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-17T19:11:14+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-17T19:11:14+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-17T19:11:15+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Pilih Semenyo atau Cunha, Bos?",
+   "llm": "gemini-flash-latest",
+   "caption": "Form sama persis di angka 6.7, tapi jalan ninjanya beda banget buat FPL Gameweek ini! Di satu sisi ada Semenyo (£8.3m, owned 14.6%) yang lagi konsisten bareng MCI jelang tandang lawan AVL. Di sisi lain, Cunha (£7.9m) punya daya tarik gila sebagai pembeda rank karena ownership-nya cuma 6.7% pas laga kandang bareng MUN vs BOU. Sisa bujet £0.4m juga lumayan banget buat muter posisi lain. Jadi, kalian bakal pilih Semenyo yang aman atau gas Cunha si diferensial?\n\n📩 Kerja sama / endorse? DM atau email",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261017_1910.jpg",
+   "finished": "2026-10-17T19:11:15+07:00"
   }
  ]
 }
