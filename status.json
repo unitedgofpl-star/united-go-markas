@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-16T19:18:29+07:00",
+ "updated": "2026-10-17T08:29:29+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261012_0820_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-12T08:20:33+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:20 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-12T08:20:33+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 275 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-12T08:20:35+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Lammens Siap Tebus Rasa Pahit\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-12T08:21:24+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-12T08:21:30+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-12T08:21:30+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-12T08:21:30+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Lammens Siap Tebus Rasa Pahit",
-   "llm": "gemini-flash-latest",
-   "caption": "Nyeseknya kebobolan di menit akhir lawan Spurs kemarin emang masih berasa banget, fans! Kiper kita, Senne Lammens, menegaskan skuad Setan Merah nggak boleh terus meratapi hasil seri tersebut. Menghadapi rangkaian tiga laga tandang beruntun yang dibuka lawatan panas ke markas Atletico Madrid di Liga Champions, Lammens mau tim segera bangkit dan menghapus rasa pahit itu. Doi juga ngingetin pentingnya bertahan solid bareng-bareng biar crossing lawan nggak gampang berbuah petaka lagi. Menurut kalian",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261012_0820.jpg",
-   "finished": "2026-10-12T08:21:31+07:00"
-  },
   {
    "id": "20261012_1209_fpl_captain",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261016_1917.jpg",
    "finished": "2026-10-16T19:18:29+07:00"
+  },
+  {
+   "id": "20261017_0828_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-17T08:28:54+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:28 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-17T08:28:54+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW7: 274 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-17T08:28:55+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Deretan Super Sub Paling Mematikan\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-17T08:29:23+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-17T08:29:28+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-17T08:29:28+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-17T08:29:29+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 7,
+   "title": "Deretan Super Sub Paling Mematikan",
+   "llm": "gemini-flash-latest",
+   "caption": "Pemain cadangan itu bukan sekadar pelengkap, tapi kartu as pembalik keadaan! 🔥\n\nPremier League punya deretan game-changer berkelas dari bench. Mulai dari rekor gol semusim Le Fondre, efektivitas Crespo dan Mark Robins, hingga catatan impresif Theo Walcott yang mengemas rekor 14 assist bareng legenda kita Ryan Giggs, serta torehan 10 gol krusial. Jadi super sub sejati jelas butuh konsistensi tinggi sepanjang karier.\n\nKalau menurut kalian, siapa sosok super sub paling berkesan dan paling mematikan",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261017_0828.jpg",
+   "finished": "2026-10-17T08:29:29+07:00"
   }
  ]
 }
