@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-18T16:20:11+07:00",
+ "updated": "2026-10-18T19:11:29+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261013_1909_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-13T19:09:13+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:09 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-13T19:09:13+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 278 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-13T19:09:14+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilih Monster Beda Harga?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-13T19:11:28+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-13T19:11:33+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-13T19:11:33+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-13T19:11:34+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Pilih Monster Beda Harga?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung milih kiper buat GW ini, Reds? 🤔 Hendo si super differential dengan kepemilikan 0.3% siap bikin kejutan di kandang Everton, atau De Cuyper yang digendong 34.8% pemain karena menjamu Crystal Palace di kandang? Harganya beda tipis, tapi dampaknya bisa bikin rank FPL kamu melesat atau malah nyungsep. Kalau tim kamu sendiri, bakal ngekor mayoritas atau nekat ambil resiko beda sendiri? Coba drop pilihan kalian di kolom komentar ya! 👇🔥\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — lin",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261013_1909.jpg",
-   "finished": "2026-10-13T19:11:35+07:00"
-  },
   {
    "id": "20261014_0830_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261018_1619.jpg",
    "finished": "2026-10-18T16:20:11+07:00"
+  },
+  {
+   "id": "20261018_1911_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-18T19:11:03+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:11 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-18T19:11:03+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 286 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-18T19:11:03+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"De Cuyper vs Haaland, Pilih Mana?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-18T19:11:18+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-18T19:11:28+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-18T19:11:28+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-18T19:11:28+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "De Cuyper vs Haaland, Pilih Mana?",
+   "llm": "gemini-flash-latest",
+   "caption": "Lagi-lagi dibikin pusing sama racikan FPL jelang deadline nih, bray! Di satu sisi ada De Cuyper (£5.2m) yang lagi wangi berbekal form 7.0 dan owned 40.0%, walau jadwalnya ngeri harus away lawan Liverpool. Di sisi lain, Haaland (£15.7m) tetap jadi monster dengan form 8.3 dan kepemilikan masif 76.5% buat hadapi Aston Villa. Mau hemat budget demi pos lain atau tetap pasrah sama robot City? Kalau lo pribadi, bakal pasang siapa buat gameweek ini?\n\n📩 Kerja sama / endorse? DM atau email ke admin United",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261018_1911.jpg",
+   "finished": "2026-10-18T19:11:29+07:00"
   }
  ]
 }
