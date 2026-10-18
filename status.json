@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-17T19:11:15+07:00",
+ "updated": "2026-10-18T08:30:03+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261013_0820_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-13T08:20:24+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:20 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-13T08:20:24+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 278 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-13T08:20:26+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick Ogah Pusing Soal Tekanan\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-13T08:20:40+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-13T08:20:46+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-13T08:20:46+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-13T08:20:46+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Carrick Ogah Pusing Soal Tekanan",
-   "llm": "gemini-flash-latest",
-   "caption": "Kursi makin panas, tapi Michael Carrick santai banget hadapi badai di Old Trafford! 🔴🔥 Walau Setan Merah lagi ngalamin start liga terburuk dalam 40 tahun terakhir, bos MU ini ngaku nggak ngerasain tekanan sama sekali. Doi tetap pede dan yakin skuadnya punya talenta yang cukup buat bangkit dan sukses bareng. Tapi ya namanya fans, sebagian udah mulai gerah dan nyuarain rasa kecewa mereka karena performa tim yang belum membaik. Menurut kalian, optimisme Carrick ini tanda percaya diri atau malah bik",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261013_0820.jpg",
-   "finished": "2026-10-13T08:20:47+07:00"
-  },
   {
    "id": "20261013_1209_price_watch",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261017_1910.jpg",
    "finished": "2026-10-17T19:11:15+07:00"
+  },
+  {
+   "id": "20261018_0829_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-18T08:29:40+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:29 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-18T08:29:40+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 286 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-18T08:29:44+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Carrick Buka Suara Soal Licha\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-18T08:29:55+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-18T08:30:02+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-18T08:30:02+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-18T08:30:03+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Carrick Buka Suara Soal Licha",
+   "llm": "gemini-flash-latest",
+   "caption": "Ruang ganti Setan Merah sempat disorot panas gara-gara komentar Lisandro Martinez, tapi Michael Carrick langsung pasang badan! Sang pelatih menegaskan MU sudah melupakan drama tersebut dan kondisi tim di Carrington justru lagi solid-solidnya. Kritik pedas dari luar, termasuk dari Wayne Rooney, ditepis tegas oleh Carrick. Licha sendiri yang sudah meminta maaf soal timing komentarnya dipastikan tetap masuk skuad untuk lawatan ke Elland Road markas Leeds. Dengan modal satu kemenangan di enam laga a",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261018_0829.jpg",
+   "finished": "2026-10-18T08:30:03+07:00"
   }
  ]
 }
