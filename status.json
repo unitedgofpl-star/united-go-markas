@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-19T08:36:56+07:00",
+ "updated": "2026-10-19T12:23:43+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261014_1219_fixture_preview",
-   "task": "post",
-   "kind": "fixture_preview",
-   "label": "Preview Fixture",
-   "started": "2026-10-14T12:19:09+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:19 WIB: Preview Fixture",
-     "ok": true,
-     "t": "2026-10-14T12:19:09+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 278 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-14T12:19:09+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Peta Kekuatan dan Jadwal GW7\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-14T12:23:17+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-14T12:23:24+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-14T12:23:24+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-14T12:23:24+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Peta Kekuatan dan Jadwal GW7",
-   "llm": "gemini-flash-latest",
-   "caption": "Jangan asal pasang kapten kalau belum cek peta jadwal GW7 ini, bro! Manchester City punya jalan paling mulus pekan ini pas jamu Ipswich dengan rating 2 vs 5, cocok banget buat target armband utama. Sementara itu, United wajib waspada penuh saat sowan ke markas Leeds yang selalu panas. Chelsea dan Liverpool juga dapet ujian tandang yang nggak gampang. Manfaatkan juga aset murah meriah Fulham atau Brighton yang jadwalnya lumayan bersahabat. Siapa nih yang udah fix kalian kasih ban kapten buat Game",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261014_1219.jpg",
-   "finished": "2026-10-14T12:23:25+07:00"
-  },
   {
    "id": "20261014_1625_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261019_0833.jpg",
    "finished": "2026-10-19T08:36:56+07:00"
+  },
+  {
+   "id": "20261019_1223_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-19T12:23:23+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:23 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-19T12:23:23+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 295 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-19T12:23:23+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Opsi Ban Kapten GW8 Meledak!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-19T12:23:37+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-19T12:23:42+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-19T12:23:42+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-19T12:23:43+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Opsi Ban Kapten GW8 Meledak!",
+   "llm": "gemini-flash-latest",
+   "caption": "Jangan sampai salah pasang ban kapten biar rank lu gak makin terjun bebas di GW8! Pekan ini ada Haaland yang masih jadi opsi paling aman sejuta umat walau harus tandang lawan Villa. Tapi kalau lu butuh lonjakan rank ekstrem, duo Chelsea wajib dilirik. Ada Neto yang lagi gacor dengan form 10.0, plus Henderson super murah seharga £4.9m dengan form 10.5 buat hadapi Spurs di kandang. Lu tim main aman bareng robot atau berani spekulasi diferensial? Jadi, ban kapten lu bakal melingkar di lengan siapa ",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261019_1223.jpg",
+   "finished": "2026-10-19T12:23:43+07:00"
   }
  ]
 }
