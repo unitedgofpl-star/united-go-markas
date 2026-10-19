@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-18T19:11:29+07:00",
+ "updated": "2026-10-19T08:36:56+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261014_0830_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-14T08:30:18+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:30 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-14T08:30:18+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 278 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-14T08:30:20+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Lisandro Martinez Semprot Manajemen MU!\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-14T08:30:31+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-14T08:30:37+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-14T08:30:37+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-14T08:30:37+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Lisandro Martinez Semprot Manajemen MU!",
-   "llm": "gemini-flash-latest",
-   "caption": "Waduh, suasana ruang ganti mulai memanas nih, United Fans! 🔥 Lisandro Martinez akhirnya buka suara usai MU dihajar Atletico Madrid 2-0. Sang Jagal merasa manajemen, terutama Direktur Teknik Jason Wilcox, kurang gercep mendatangkan amunisi baru setelah lolos ke Liga Champions. Menurut Licha, jangan cuma bisa menyalahkan pemain atau pelatih Michael Carrick saat hasil jeblok, karena skuadnya memang butuh investasi lebih buat bersaing. Mengingat MU baru menang dua kali dalam sembilan laga musim ini,",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261014_0830.jpg",
-   "finished": "2026-10-14T08:30:38+07:00"
-  },
   {
    "id": "20261014_1219_fixture_preview",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261018_1911.jpg",
    "finished": "2026-10-18T19:11:29+07:00"
+  },
+  {
+   "id": "20261019_0833_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-19T08:33:11+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:33 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-19T08:33:11+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 295 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-19T08:33:13+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"MU Imbang Lawan Leeds United\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-19T08:36:49+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-19T08:36:55+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-19T08:36:55+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-19T08:36:56+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "MU Imbang Lawan Leeds United",
+   "llm": "gemini-flash-latest",
+   "caption": "Lagi-lagi gagal bungkus poin penuh, Sob! 😩 Tren tanpa kemenangan Manchester United resmi bertambah panjang jadi enam laga beruntun setelah Leeds United memaksakan hasil imbang lewat Dominic Calvert-Lewin. MU dinilai kesulitan mempertahankan keunggulan, dan keputusan taktikal Michael Carrick mulai menuai sorotan pedas dari suporter. Carrick sendiri mengakui skuadnya sedang terluka, meski tetap percaya anak asuhnya bisa bangkit dari masa sulit ini, dengan Mbeumo jadi sedikit pelipur lara. Situasi ",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261019_0833.jpg",
+   "finished": "2026-10-19T08:36:56+07:00"
   }
  ]
 }
