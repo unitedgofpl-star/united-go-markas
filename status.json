@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-19T12:23:43+07:00",
+ "updated": "2026-10-19T16:34:13+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261014_1625_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-14T16:25:40+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:25 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-14T16:25:40+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 278 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-14T16:25:41+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick Buka Suara Pasca Kalah\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-14T16:25:57+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-14T16:26:03+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-14T16:26:03+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-14T16:26:03+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Carrick Buka Suara Pasca Kalah",
-   "llm": "gemini-flash-latest",
-   "caption": "Kekalahan tandang 0-2 dari Atletico Madrid di panggung Liga Champions benar-benar bikin ruang ganti Manchester United terpukul abis, Sob! 💔\n\nManajer Michael Carrick mengungkapkan kalau anak-anak asuhnya sedang sangat terluka setelah laga berat tersebut. Tapi Carrick nggak mau skuadnya terus terpuruk. Beliau menegaskan kalau Setan Merah punya bakat dan materi yang cukup buat segera bangkit memperbaiki keadaan.\n\nMelihat situasi ini, kalian yakin nggak skuad asuhan Carrick bisa lekas bangkit di per",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261014_1625.jpg",
-   "finished": "2026-10-14T16:26:03+07:00"
-  },
   {
    "id": "20261014_1919_engagement_poll",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261019_1223.jpg",
    "finished": "2026-10-19T12:23:43+07:00"
+  },
+  {
+   "id": "20261019_1629_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-19T16:29:24+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:29 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-19T16:29:24+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 295 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-19T16:29:25+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Gagal Menang Lagi!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-19T16:34:06+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-19T16:34:12+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-19T16:34:12+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-19T16:34:12+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Gagal Menang Lagi!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Duh, ada apa lagi nih sama Setan Merah kita? 😩 Sempat unggul duluan, kemenangan di depan mata harus buyar jadi imbang 1-1 kontra Leeds United. Hasil ini bikin MU ngelewatin enam pertandingan beruntun tanpa kemenangan di semua kompetisi, bikin suporter makin gregetan sama situasi tim. Semoga anak-anak asuh Carrick bisa segera bangkit dan balik ke jalur kemenangan ya, Reds! Kalau menurut pendapat kalian, apa nih masalah utama MU sekarang? Coba tulis di kolom komentar ya! 👇⚽\n\n📰 Sumber: feeds.bbci.c",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261019_1629.jpg",
+   "finished": "2026-10-19T16:34:13+07:00"
   }
  ]
 }
