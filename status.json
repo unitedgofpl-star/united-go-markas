@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-20T12:21:28+07:00",
+ "updated": "2026-10-20T16:28:03+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261015_1626_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-15T16:26:06+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:26 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-15T16:26:06+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 279 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-15T16:26:07+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Outburst came out of 'anger and frustration' - M\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-15T16:26:29+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-15T16:26:34+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-15T16:26:34+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-15T16:26:34+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Outburst came out of 'anger and frustration' - M",
-   "llm": "gemini-flash-latest",
-   "caption": "Kabar terbaru Setan Merah minggu ini 👹\n\nGimana pendapat kalian, Reds? 🔴\n\nKamu pilih siapa? Tulis di komentar 👇\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #MUFCNews #OldTrafford",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261015_1626.jpg",
-   "finished": "2026-10-15T16:26:35+07:00"
-  },
   {
    "id": "20261015_1918_price_watch",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261020_1219.jpg",
    "finished": "2026-10-20T12:21:28+07:00"
+  },
+  {
+   "id": "20261020_1626_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-20T16:26:28+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:26 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-20T16:26:28+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 288 pemain, 10 laga, 5 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-20T16:26:29+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Puasa Kemenangan Berlanjut di Leeds\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-20T16:27:56+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-20T16:28:02+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-20T16:28:02+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-20T16:28:03+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Puasa Kemenangan Berlanjut di Leeds",
+   "llm": "gemini-flash-latest",
+   "caption": "Enam laga tanpa kemenangan, kesabaran fans Setan Merah beneran lagi diuji banget nih! 😮‍💨\n\nHasil imbang 1-1 kontra Leeds United emang ngasih secercah harapan lewat performa gacor Bryan Mbeumo. Tapi rekor tanpa kemenangan ini tercatat jadi yang terburuk sejak 2018-19 lalu, Sob.\n\nDi sisi lain, Michael Carrick milih cuek dari segala kegaduhan luar, termasuk drama kritik Lisandro Martinez ke manajemen soal transfer musim panas kemarin. Carrick tahu betul timnya harus segera menang demi jaga standar ",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261020_1626.jpg",
+   "finished": "2026-10-20T16:28:03+07:00"
   }
  ]
 }
