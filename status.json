@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-21T16:27:11+07:00",
+ "updated": "2026-10-21T19:20:47+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261016_1917_promo_tool",
-   "task": "post",
-   "kind": "promo_tool",
-   "label": "Promo FPL Squad Hack",
-   "started": "2026-10-16T19:17:47+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:17 WIB: Promo FPL Squad Hack",
-     "ok": true,
-     "t": "2026-10-16T19:17:47+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 280 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-16T19:17:47+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Rahasia Rank FPL Melejit Naik\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-16T19:18:21+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-16T19:18:29+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-16T19:18:29+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-16T19:18:29+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Rahasia Rank FPL Melejit Naik",
-   "llm": "gemini-flash-latest",
-   "caption": "Sering kena red arrow gara-gara transfer panik lima menit sebelum deadline? 😭\n\nTenang lur, mimin nemu senjata rahasia yang 100% gratis namanya 'FPL Squad Hack'! Tool canggih ini siap ngebantu rating skuad kamu, ngasih rekomendasi transfer yang objektif, sampai ngatur strategi chip kayak Wildcard atau Free Hit biar gak mubazir. Asiknya lagi, tampilannya udah bilingual jadi ada opsi Bahasa Indonesia yang gampang banget dipahami.\n\nUdah siap bantai temen tongkrongan di mini league? Langsung klik lin",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261016_1917.jpg",
-   "finished": "2026-10-16T19:18:29+07:00"
-  },
   {
    "id": "20261017_0828_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261021_1626.jpg",
    "finished": "2026-10-21T16:27:11+07:00"
+  },
+  {
+   "id": "20261021_1920_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-21T19:20:22+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:20 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-21T19:20:22+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 286 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-21T19:20:22+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Haaland vs De Cuyper: Pilih Siapa?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-21T19:20:39+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-21T19:20:46+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-21T19:20:46+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-21T19:20:46+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Haaland vs De Cuyper: Pilih Siapa?",
+   "llm": "gemini-flash-latest",
+   "caption": "Dilema FPL pekan ini bikin pusing kepala, mending percaya nama besar atau pemain yang lagi on-fire? Di satu sisi ada mesin gol Man City, Erling Haaland (£15.7m, form 9.5) yang dipegang 76.8% manajer buat ladenin Aston Villa di laga sedang. Di sisi lain, bek Brighton De Cuyper (£5.3m) form-nya lagi gila di 10.5 dengan kepemilikan 41.1%, tapi harus hadapi ujian berat away ke markas Liverpool! Amankan poin bareng Haaland atau nekat percayakan De Cuyper walau lawannya sangar nih, managers?\n\n📩 Kerja ",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261021_1920.jpg",
+   "finished": "2026-10-21T19:20:47+07:00"
   }
  ]
 }
