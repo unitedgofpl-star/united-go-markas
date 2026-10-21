@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-21T08:34:52+07:00",
+ "updated": "2026-10-21T12:21:20+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261016_1219_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-16T12:19:06+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:19 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-16T12:19:06+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW7: 280 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-16T12:19:07+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Opsi Kapten FPL GW7 Tersolid!\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-16T12:19:17+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-16T12:19:23+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-16T12:19:23+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-16T12:19:24+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 7,
-   "title": "Opsi Kapten FPL GW7 Tersolid!",
-   "llm": "gemini-flash-latest",
-   "caption": "Masih bingung mau pasang ban kapten ke siapa buat FPL Gameweek 7 nanti? Jangan sampai salah pilih dan bikin nyesel seminggu ke depan, Sobat Unitedgo! Di GW7 ini, Brighton dan Man City dapat jadwal enak di kandang. Ada De Cuyper yang lagi wangi banget form-nya di 10.5 buat opsi berani lini belakang. Mau aman di lini tengah? Groß siap jadi andalan. Tapi kalau mau ngebut naik rank, Semenyo dari City dengan kepemilikan cuma 13.9% jelas jadi pembeda gila lawan Ipswich. Dari ketiga nama gacor di atas,",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261016_1219.jpg",
-   "finished": "2026-10-16T12:19:24+07:00"
-  },
   {
    "id": "20261016_1625_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261021_0833.jpg",
    "finished": "2026-10-21T08:34:52+07:00"
+  },
+  {
+   "id": "20261021_1220_fixture_preview",
+   "task": "post",
+   "kind": "fixture_preview",
+   "label": "Preview Fixture",
+   "started": "2026-10-21T12:20:40+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:20 WIB: Preview Fixture",
+     "ok": true,
+     "t": "2026-10-21T12:20:40+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 286 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-21T12:20:40+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Preview FPL Gameweek 8 Paling Seru\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-21T12:21:14+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-21T12:21:19+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-21T12:21:19+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-21T12:21:20+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Preview FPL Gameweek 8 Paling Seru",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah, manajer FPL United Indonesia udah pada siap buat GW8 belum nih? Pekan ini bakal banyak laga sengit, mulai dari ujian berat buat Manchester City di kandang Villa, derbi panas Chelsea vs Spurs, sampai Arsenal yang siap ladeni Everton. Jangan sampe salah pilih kapten biar panen poin maksimal dan gak terjebak minus ya! Kira-kira siapa nih pemain differential andalan kalian buat GW8 nanti? Coba drop nama pilihannya di kolom komentar bawah ya!\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Ga",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261021_1220.jpg",
+   "finished": "2026-10-21T12:21:20+07:00"
   }
  ]
 }
