@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-23T08:38:35+07:00",
+ "updated": "2026-10-23T12:23:53+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261018_1216_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-10-18T12:16:54+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:16 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-10-18T12:16:54+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 286 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-18T12:16:54+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Prediksi Perubahan Harga Pemain FPL\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-18T12:17:12+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-18T12:17:18+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-18T12:17:18+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-18T12:17:19+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Prediksi Perubahan Harga Pemain FPL",
-   "llm": "gemini-flash-latest",
-   "caption": "Jangan sampai rugi aset gara-gara telat mantau bursa transfer FPL malam ini! Duo Brighton lagi laris manis, Groß sama De Cuyper banyak dibeli manajer. Isak juga mulai naik daun buat lini serang. Sayangnya, kapten kita Bruno Fernandes dan Wissa ramai-ramai dilepas karena form cuma 1.0, disusul Gvardiol yang juga banyak dijual. Amankan transfer kalian sebelum pergantian harga dini hari nanti ya, Sobat FPL!\n\nKalo kalian sendiri, Bruno Fernandes masih aman di skuad atau udah buru-buru dijual nih?\n\n💎",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261018_1216.jpg",
-   "finished": "2026-10-18T12:17:19+07:00"
-  },
   {
    "id": "20261018_1619_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261023_0836.jpg",
    "finished": "2026-10-23T08:38:35+07:00"
+  },
+  {
+   "id": "20261023_1220_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-23T12:20:27+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:20 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-23T12:20:27+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW8: 287 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-23T12:20:27+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Rekomendasi Kapten FPL GW8\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-23T12:23:48+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-23T12:23:53+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-23T12:23:53+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-23T12:23:53+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 8,
+   "title": "Rekomendasi Kapten FPL GW8",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau pasang ban kapten siapa buat FPL GW8, Reds? Tenang, kita udah pilihin tiga opsi menarik mulai dari yang paling aman sampai differential gila! Haaland masih jadi favorit sejuta umat, tapi Neto dan De Cuyper bisa jadi pembeda di mini league kalian nih. Kira-kira siapa nih yang bakal kalian tunjuk jadi kapten minggu ini? Coba tulis di kolom komentar ya!\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo ",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261023_1220.jpg",
+   "finished": "2026-10-23T12:23:53+07:00"
   }
  ]
 }
