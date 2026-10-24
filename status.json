@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-23T19:19:56+07:00",
+ "updated": "2026-10-24T08:39:40+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261019_0833_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-19T08:33:11+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:33 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-19T08:33:11+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 295 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-19T08:33:13+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"MU Imbang Lawan Leeds United\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-19T08:36:49+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-19T08:36:55+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-19T08:36:55+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-19T08:36:56+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "MU Imbang Lawan Leeds United",
-   "llm": "gemini-flash-latest",
-   "caption": "Lagi-lagi gagal bungkus poin penuh, Sob! 😩 Tren tanpa kemenangan Manchester United resmi bertambah panjang jadi enam laga beruntun setelah Leeds United memaksakan hasil imbang lewat Dominic Calvert-Lewin. MU dinilai kesulitan mempertahankan keunggulan, dan keputusan taktikal Michael Carrick mulai menuai sorotan pedas dari suporter. Carrick sendiri mengakui skuadnya sedang terluka, meski tetap percaya anak asuhnya bisa bangkit dari masa sulit ini, dengan Mbeumo jadi sedikit pelipur lara. Situasi ",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261019_0833.jpg",
-   "finished": "2026-10-19T08:36:56+07:00"
-  },
   {
    "id": "20261019_1223_fpl_captain",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261023_1915.jpg",
    "finished": "2026-10-23T19:19:56+07:00"
+  },
+  {
+   "id": "20261024_0837_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-24T08:37:44+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:37 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-24T08:37:44+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 285 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-24T08:37:45+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Carrick Buka Suara Soal Bruno\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-24T08:39:34+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-24T08:39:39+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-24T08:39:39+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-24T08:39:40+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Carrick Buka Suara Soal Bruno",
+   "llm": "gemini-flash-latest",
+   "caption": "Suasana ruang ganti Manchester United lagi panas-panasnya, Sob! Michael Carrick baru aja ngasih pernyataan penuh emosional di sesi jumpa pers. Nggak main-main, Carrick menegaskan tim saat ini lagi terluka dan dia siap mengambil langkah tegas demi kebaikan klub. Menariknya, Carrick sama sekali nggak menutup kemungkinan buat mencadangkan sang kapten, Bruno Fernandes, yang belakangan panen kritik tajam dari berbagai pihak. Carrick berjanji bakal melakukan apa pun yang terbaik untuk Setan Merah agar",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261024_0837.jpg",
+   "finished": "2026-10-24T08:39:40+07:00"
   }
  ]
 }
