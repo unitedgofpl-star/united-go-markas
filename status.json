@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-24T16:24:11+07:00",
+ "updated": "2026-10-24T19:15:25+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261019_1921_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-19T19:21:11+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:21 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-19T19:21:11+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 294 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-19T19:21:11+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Neto vs Henderson: Pilih Mana, Sob?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-19T19:21:25+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-19T19:21:31+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-19T19:21:31+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-19T19:21:32+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Neto vs Henderson: Pilih Mana, Sob?",
-   "llm": "gemini-flash-latest",
-   "caption": "Lagi pusing cari gelandang Chelsea buat manfaatin laga kandang lawan Spurs pekan ini? Dua opsi pembeda ini mendadak jadi perdebatan seru para manajer FPL. Ada Pedro Neto (£6.5m) dengan form sangar 10.0 dan kepemilikan cuma 2.1%. Di sisi lain, ada Henderson (£4.9m) yang luar biasa gacor lewat form 10.5 dan kepemilikan mini 1.0% doang. Keduanya punya potensi dulang poin gede di laga mudah ini. Mau main aman bareng Neto atau spekulasi brutal bareng Henderson? Kalau kamu disuruh milih sekarang, siap",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 6,
-   "cover": "covers/20261019_1921.jpg",
-   "finished": "2026-10-19T19:21:33+07:00"
-  },
   {
    "id": "20261020_0833_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261024_1620.jpg",
    "finished": "2026-10-24T16:24:11+07:00"
+  },
+  {
+   "id": "20261024_1914_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-24T19:14:22+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:14 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-24T19:14:22+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 288 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-24T19:14:22+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"De Cuyper atau Evanilson?\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-24T19:15:19+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-24T19:15:24+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-24T19:15:24+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-24T19:15:24+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "De Cuyper atau Evanilson?",
+   "llm": "gemini-flash-latest",
+   "caption": "DEBAT GW9! ⚔️ Cuma boleh pilih satu:\n\n🅰️ De Cuyper (vs MCI (A) · laga sangat sulit)\n🅱️ Evanilson (vs LEE (H) · laga sedang)\nKomen A atau B!\n\nKamu pilih siapa? Tulis di komentar 👇\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW9",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261024_1914.jpg",
+   "finished": "2026-10-24T19:15:25+07:00"
   }
  ]
 }
