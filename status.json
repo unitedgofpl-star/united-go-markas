@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-25T08:30:44+07:00",
+ "updated": "2026-10-25T12:20:35+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261020_1219_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-10-20T12:19:29+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:19 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-10-20T12:19:29+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 288 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-20T12:19:29+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Prediksi Perubahan Harga Pemain FPL\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-20T12:21:22+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-20T12:21:27+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-20T12:21:27+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-20T12:21:28+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Prediksi Perubahan Harga Pemain FPL",
-   "llm": "gemini-flash-latest",
-   "caption": "Awas nilai skuad FPL lu boncos kalau telat mantau bursa transfer pekan ini! Duo Brighton, De Cuyper dan Groß, lagi jadi primadona transfer masuk berkat form gahar mereka. Di sisi lain, kabar sedih buat kita fans United karena Bruno Fernandes (£11.8m) justru masuk daftar jual teratas akibat form lesu 1.3. Wissa dan Gvardiol juga senasib nih, siap-siap kena penurunan harga kalau tren pelepasan ini terus lanjut. Jangan sampai ketinggalan momen transfer, guys! Menurut kalian, Bruno masih layak diper",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261020_1219.jpg",
-   "finished": "2026-10-20T12:21:28+07:00"
-  },
   {
    "id": "20261020_1626_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261025_0829.jpg",
    "finished": "2026-10-25T08:30:44+07:00"
+  },
+  {
+   "id": "20261025_1219_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-10-25T12:19:19+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:19 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-10-25T12:19:19+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 291 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-25T12:19:19+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Prediksi Naik Turun Harga FPL\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-25T12:20:28+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-25T12:20:34+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-25T12:20:34+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-25T12:20:35+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Prediksi Naik Turun Harga FPL",
+   "llm": "gemini-flash-latest",
+   "caption": "Awas boncos di Gameweek ini, pergerakan bursa transfer FPL lagi panas banget! Banyak manajer FPL mulai panik jual Bruno Fernandes yang performanya lagi drop ke form 0.7, padahal harganya selangit £11.7m. Nggak cuma kapten kita, Wissa dan Gonzalo juga ikutan diobral deras. Di sisi lain, aset wangi kayak Konsa dengan form 9.0 dan N.Jackson siap-siap naik harga karena banjir peminat baru. Jangan sampai nilai skuad kamu tergerus cuma gara-gara telat transfer malam ini, sob. Dari daftar tadi, siapa y",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261025_1219.jpg",
+   "finished": "2026-10-25T12:20:35+07:00"
   }
  ]
 }
