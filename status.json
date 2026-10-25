@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-24T19:15:25+07:00",
+ "updated": "2026-10-25T08:30:44+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261020_0833_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-20T08:33:19+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:33 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-20T08:33:19+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 288 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-20T08:33:20+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Posisi Terbaik Buat Bruno Fernandes?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-20T08:33:31+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-20T08:33:37+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-20T08:33:37+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-20T08:33:37+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Posisi Terbaik Buat Bruno Fernandes?",
-   "llm": "gemini-flash-latest",
-   "caption": "Posisi Bruno Fernandes di skema Michael Carrick lagi jadi obrolan panas nih, Sobat United! Di tengah tren MU yang belum kunjung menang dan bikin suasana tim terluka, tanda tanya soal peran terbaik Bruno makin ramai dibahas. Sebagian suporter mulai mengkritik keputusan sang pelatih, tetapi Carrick tetap yakin materi pemainnya sanggup bikin tim bangkit dari struggle ini. Menurut kamu, Bruno paling cocok dipasang di posisi mana nih?\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai ",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261020_0833.jpg",
-   "finished": "2026-10-20T08:33:37+07:00"
-  },
   {
    "id": "20261020_1219_price_watch",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261024_1914.jpg",
    "finished": "2026-10-24T19:15:25+07:00"
+  },
+  {
+   "id": "20261025_0829_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-25T08:29:18+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:29 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-25T08:29:18+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 291 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-25T08:29:19+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"MU Masih Bisa Diatur, Bos!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-25T08:30:38+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-25T08:30:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-25T08:30:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-25T08:30:44+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "MU Masih Bisa Diatur, Bos!",
+   "llm": "gemini-flash-latest",
+   "caption": "Kursi kepelatihan Michael Carrick lagi bener-bener panas membara, Sob! Tujuh laga beruntun tanpa kemenangan plus kekalahan 4-1 di markas Como bikin sorotan makin tajam. Ditambah lagi ada kritik internal dari Bruno Fernandes dan Lisandro Martinez soal taktik serta rekrutmen. Tapi Carrick menegaskan kalau melatih MU itu bukan misi mustahil. Doi juga membantah tudingan kalau skuadnya malas lari dan ogah nge-press lawan. Demi kebaikan tim jelang laga kontra Bournemouth, Carrick bahkan siap ambil lan",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261025_0829.jpg",
+   "finished": "2026-10-25T08:30:44+07:00"
   }
  ]
 }
