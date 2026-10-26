@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-26T16:37:04+07:00",
+ "updated": "2026-10-26T21:16:45+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261021_1920_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-21T19:20:22+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:20 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-21T19:20:22+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 286 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-21T19:20:22+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Haaland vs De Cuyper: Pilih Siapa?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-21T19:20:39+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-21T19:20:46+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-21T19:20:46+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-21T19:20:46+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Haaland vs De Cuyper: Pilih Siapa?",
-   "llm": "gemini-flash-latest",
-   "caption": "Dilema FPL pekan ini bikin pusing kepala, mending percaya nama besar atau pemain yang lagi on-fire? Di satu sisi ada mesin gol Man City, Erling Haaland (£15.7m, form 9.5) yang dipegang 76.8% manajer buat ladenin Aston Villa di laga sedang. Di sisi lain, bek Brighton De Cuyper (£5.3m) form-nya lagi gila di 10.5 dengan kepemilikan 41.1%, tapi harus hadapi ujian berat away ke markas Liverpool! Amankan poin bareng Haaland atau nekat percayakan De Cuyper walau lawannya sangar nih, managers?\n\n📩 Kerja ",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 6,
-   "cover": "covers/20261021_1920.jpg",
-   "finished": "2026-10-21T19:20:47+07:00"
-  },
   {
    "id": "20261022_0832_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261026_1633.jpg",
    "finished": "2026-10-26T16:37:04+07:00"
+  },
+  {
+   "id": "20261026_2115_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-26T21:15:22+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 21:15 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-26T21:15:22+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 305 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-26T21:15:22+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilih Tavernier Atau Evanilson?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-26T21:16:38+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-26T21:16:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-26T21:16:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-26T21:16:45+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Pilih Tavernier Atau Evanilson?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau comot siapa buat nambah poin FPL pekan ini, Reds? 🤔 Bournemouth bakal menjamu Leeds United di kandang, dan dua pemain ini lagi jadi pusat perhatian. Di satu sisi ada Tavernier yang stabil jadi pilihan banyak orang, tapi di sisi lain ada Evanilson dengan form sadis yang siap meledak di lini depan. Harganya tipis beda, potensinya sama-sama ngeri buat ngangkat ranking tim kita. Kalau skuad kamu sendiri, bakal lebih mantap amankan jasa Tavernier atau nekat nge-diff lewat Evanilson nih? C",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261026_2115.jpg",
+   "finished": "2026-10-26T21:16:45+07:00"
   }
  ]
 }
