@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-25T19:16:01+07:00",
+ "updated": "2026-10-26T08:42:58+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261021_0833_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-21T08:33:50+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:33 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-21T08:33:50+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 286 pemain, 10 laga, 4 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-21T08:33:51+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick wants more clean sheets to turn season a\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-21T08:34:46+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-21T08:34:51+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-21T08:34:51+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-21T08:34:51+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Carrick wants more clean sheets to turn season a",
-   "llm": "gemini-flash-latest",
-   "caption": "Update dari Old Trafford, Reds! 🔴\n\nGimana pendapat kalian, Reds? 🔴\n\nKamu pilih siapa? Tulis di komentar 👇\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #MUFCNews #OldTrafford",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261021_0833.jpg",
-   "finished": "2026-10-21T08:34:52+07:00"
-  },
   {
    "id": "20261021_1220_fixture_preview",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 4,
    "cover": "covers/20261025_1914.jpg",
    "finished": "2026-10-25T19:16:01+07:00"
+  },
+  {
+   "id": "20261026_0841_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-26T08:41:21+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:41 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-26T08:41:21+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 305 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-26T08:41:23+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"MU Kena Sentil Toby Alderweireld\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-26T08:42:51+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-26T08:42:57+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-26T08:42:57+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-26T08:42:57+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "MU Kena Sentil Toby Alderweireld",
+   "llm": "gemini-flash-latest",
+   "caption": "Pedas banget evaluasi pundit Match of the Day buat Manchester United usai digilas Bournemouth 0-3! 🥶 Toby Alderweireld dan Ashley Williams terang-terangan nyorot minimnya intensitas serta fighting spirit skuad Setan Merah. Yang lebih nusuk lagi, Alderweireld ngerasa tim sama sekali gak nunjukin tanda-tanda kebersamaan di rumput hijau. Di sisi lain, Carrick mengakui tim emang lagi terluka dan dia milih tetap fokus bertugas seperti biasa di tengah kepanikan fans. Menurut kalian, kenapa daya juang ",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 6,
+   "cover": "covers/20261026_0841.jpg",
+   "finished": "2026-10-26T08:42:58+07:00"
   }
  ]
 }
