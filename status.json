@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-27T12:25:15+07:00",
+ "updated": "2026-10-27T16:35:08+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261022_1628_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-22T16:28:57+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:28 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-22T16:28:57+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 287 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-22T16:28:58+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick di Ujung Tanduk?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-22T16:29:31+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-22T16:29:39+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-22T16:29:39+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-22T16:29:39+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Carrick di Ujung Tanduk?",
-   "llm": "gemini-flash-latest",
-   "caption": "Kekalahan telak 1-4 dari Como bener-bener bikin geger fans Setan Merah! Hasil pahit di Liga Champions ini bikin banyak suporter, termasuk Jay Motty, merasa era Michael Carrick udah di ujung tanduk. Taktik dan peran Bruno Fernandes pun ikutan disorot tajam. Meski Carrick ngaku timnya lagi terluka dan Martinez udah minta maaf, sang pelatih tetap yakin skuadnya punya cukup talenta buat bangkit kembali. Perdebatan soal nasib sang nahkoda pun makin panas. Menurut kalian, Carrick masih pantas dikasih ",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261022_1628.jpg",
-   "finished": "2026-10-22T16:29:40+07:00"
-  },
   {
    "id": "20261022_1921_price_watch",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261027_1222.jpg",
    "finished": "2026-10-27T12:25:15+07:00"
+  },
+  {
+   "id": "20261027_1631_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-27T16:31:50+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:31 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-27T16:31:50+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 305 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-27T16:31:51+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Wilcox Ikut Disorot Fans MU!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-27T16:35:02+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-27T16:35:08+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-27T16:35:08+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-27T16:35:08+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Wilcox Ikut Disorot Fans MU!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Ada badai besar nih Red Devils! Nggak cuma kursi pelatih yang goyang, Direktur Sepak Bola Jason Wilcox juga lagi kena mental dari suporter usai kekalahan telak kemarin. Ditambah kritik soal kedalaman skuad, suporter mulai melampiaskan kekesalan ke jajaran petinggi klub. Gimana nih, kalian lebih nyalahin pelatih atau manajemen atas hasil bobrok musim ini? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di b",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261027_1631.jpg",
+   "finished": "2026-10-27T16:35:08+07:00"
   }
  ]
 }
