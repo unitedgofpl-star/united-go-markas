@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-28T12:31:45+07:00",
+ "updated": "2026-10-28T16:39:45+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261023_1636_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-23T16:36:15+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:36 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-23T16:36:15+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 287 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-23T16:36:17+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Bruno Fernandes Dicadangkan?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-23T16:40:58+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-23T16:41:03+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-23T16:41:03+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-23T16:41:04+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Bruno Fernandes Dicadangkan?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Masa depan Bruno Fernandes jadi bahan perbincangan hangat jelang laga krusial akhir pekan ini! 🔴 Di satu sisi performanya sangat diandalkan, tapi tekanan untuk membuat keputusan tegas juga makin kencang. Keputusan ada di tangan Michael Carrick nih Red Devils. Menurut kalian sendiri, Bruno harus tetap main atau diparkir dulu di laga penting lawan Bournemouth? Coba tulis pendapat kalian di kolom komentar ya! 👇\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shop",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261023_1636.jpg",
-   "finished": "2026-10-23T16:41:04+07:00"
-  },
   {
    "id": "20261023_1915_promo_tool",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261028_1229.jpg",
    "finished": "2026-10-28T12:31:45+07:00"
+  },
+  {
+   "id": "20261028_1638_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-28T16:38:53+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:38 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-28T16:38:53+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 302 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-28T16:38:55+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Keputusan Carrick Bikin Fans Geram\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-28T16:39:39+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-28T16:39:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-28T16:39:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-28T16:39:45+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Keputusan Carrick Bikin Fans Geram",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Gimana nih tanggapan kalian soal situasi ruang ganti United sekarang? Keputusan INEOS nahan Michael Carrick buat laga lawan Chelsea akhir pekan ini dinilai banyak pihak, termasuk suporter, sebagai langkah yang cuma memperpanjang situasi pelik yang ada. Padahal, masa depan sang pelatih juga masih belum jelas banget di Carrington. Coba komen di bawah, kalian setuju nggak keputusan ini? #mufc #manchesterunited #unitedgo #ligainggris #beritamu\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + ",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261028_1638.jpg",
+   "finished": "2026-10-28T16:39:45+07:00"
   }
  ]
 }
