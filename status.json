@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-27T19:26:52+07:00",
+ "updated": "2026-10-28T08:53:10+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261023_0836_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-23T08:36:26+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:36 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-23T08:36:26+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 287 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-23T08:36:28+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Masalah MU Jauh Lebih Dalam\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-23T08:38:29+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-23T08:38:35+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-23T08:38:35+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-23T08:38:35+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Masalah MU Jauh Lebih Dalam",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Waduh, badai masalah di Old Trafford kayaknya belum mau reda nih, Reds! 🌪️ Menurut laporan The Athletic, masalah utama MU ternyata jauh lebih dalam dari sekadar urusan Michael Carrick di kursi pelatih. Walau manajemen kabarnya belum pengen memecat Carrick, tekanan suporter dan berbagai drama terus mengalir deras buat skuad kita. Kira-kira, apa nih solusi paling cepat buat balikin mental menang anak-anak asuh kita? Coba tulis pendapat jujur kalian di kolom komentar ya! 👇\n\n📰 Sumber: feeds.bbci.co.",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261023_0836.jpg",
-   "finished": "2026-10-23T08:38:35+07:00"
-  },
   {
    "id": "20261023_1220_fpl_captain",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 6,
    "cover": "covers/20261027_1924.jpg",
    "finished": "2026-10-27T19:26:52+07:00"
+  },
+  {
+   "id": "20261028_0851_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-28T08:51:46+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:51 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-28T08:51:46+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 302 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-28T08:51:49+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Carrick Tetap Latih MU\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-28T08:53:04+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-28T08:53:09+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-28T08:53:09+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-28T08:53:09+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Carrick Tetap Latih MU",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Masa depan Michael Carrick akhirnya terjawab setelah sempat bikin deg-degan suporter dalam 48 jam terakhir! Manajemen klub memutuskan buat tetap kasih kesempatan ke Carrick buat mimpin skuad Setan Merah bertandang ke markas Chelsea akhir pekan ini. Walau posisi tim lagi di papan bawah dan situasinya lumayan bikin ketar-ketir, semoga ini jadi awal kebangkitan buat tim kesayangan kita ya. Kalau pendapat kalian sendiri gimana, Setan Merah? Coba tulis di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.u",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261028_0851.jpg",
+   "finished": "2026-10-28T08:53:10+07:00"
   }
  ]
 }
