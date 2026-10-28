@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-28T16:39:45+07:00",
+ "updated": "2026-10-28T19:28:52+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261023_1915_promo_tool",
-   "task": "post",
-   "kind": "promo_tool",
-   "label": "Promo FPL Squad Hack",
-   "started": "2026-10-23T19:15:31+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:15 WIB: Promo FPL Squad Hack",
-     "ok": true,
-     "t": "2026-10-23T19:15:31+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW8: 287 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-23T19:15:31+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Bongkar Rahasia Rank FPL Melejit\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-23T19:19:50+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-23T19:19:56+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-23T19:19:56+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-23T19:19:56+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 8,
-   "title": "Bongkar Rahasia Rank FPL Melejit",
-   "llm": "gemini-flash-latest",
-   "caption": "Capek-capek mikir transfer tiap Jumat malam, pas kelar Gameweek rank malah terjun payung? 😭 Tenang Jon, jangan panik apalagi buru-buru rage delete akun! Biar nggak boncos terus, cobain tool gratis 'FPL Squad Hack'. Di sini kamu bisa dapet rating skuad terkini, rekomendasi transfer jitu, sampe kalkulasi strategi chip paling pas. Asiknya lagi, tampilannya udah bilingual (bisa Indo/Inggris), jadi gampang banget dipake siapa aja tanpa ribet. Langsung gaskeun cek link di bio profil kita ya! Btw, Game",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261023_1915.jpg",
-   "finished": "2026-10-23T19:19:56+07:00"
-  },
   {
    "id": "20261024_0837_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261028_1638.jpg",
    "finished": "2026-10-28T16:39:45+07:00"
+  },
+  {
+   "id": "20261028_1927_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-28T19:27:53+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:27 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-28T19:27:53+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 302 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-28T19:27:54+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Gabriel Atau Evanilson Nih?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-28T19:28:43+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-28T19:28:50+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-28T19:28:50+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-28T19:28:51+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Gabriel Atau Evanilson Nih?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pusing ya tiap mau nentuin transfer FPL? Kali ini kita dihadapkan pilihan pelik antara amankan aset belakang Arsenal atau ambil resiko manis dari Bournemouth. Gabriel memang tangguh tapi lawannya ngeri, sementara Evanilson harganya ramah di kantong dengan lawan yang lebih enteng. Kalau kamu jadi manajer, pos mana nih yang bakal didahulukan buat pekan ini? Coba tulis alasan jagoan kalian di kolom komentar ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.i",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261028_1927.jpg",
+   "finished": "2026-10-28T19:28:52+07:00"
   }
  ]
 }
