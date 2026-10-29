@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-29T16:44:45+07:00",
+ "updated": "2026-10-29T19:31:35+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261024_1914_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-24T19:14:22+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:14 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-24T19:14:22+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 288 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-24T19:14:22+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"De Cuyper atau Evanilson?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-24T19:15:19+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-24T19:15:24+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-24T19:15:24+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-24T19:15:24+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "De Cuyper atau Evanilson?",
-   "llm": "gemini-flash-latest",
-   "caption": "DEBAT GW9! ⚔️ Cuma boleh pilih satu:\n\n🅰️ De Cuyper (vs MCI (A) · laga sangat sulit)\n🅱️ Evanilson (vs LEE (H) · laga sedang)\nKomen A atau B!\n\nKamu pilih siapa? Tulis di komentar 👇\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW9",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261024_1914.jpg",
-   "finished": "2026-10-24T19:15:25+07:00"
-  },
   {
    "id": "20261025_0829_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261029_1641.jpg",
    "finished": "2026-10-29T16:44:45+07:00"
+  },
+  {
+   "id": "20261029_1928_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-10-29T19:28:29+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:28 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-10-29T19:28:29+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 304 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-29T19:28:29+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Siap-Siap Naik Turun Harga!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-29T19:31:27+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-29T19:31:34+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-10-29T19:31:34+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-29T19:31:34+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Siap-Siap Naik Turun Harga!",
+   "llm": "gemini-flash-latest",
+   "caption": "Awas, jangan sampai bangun tidur nyesel gara-gara harga pemain incaranmu keburu naik atau asetmu malah anjlok parah! Tren transfer pekan ini lagi panas banget, fren. Jackson, Tavernier, dan Isak jadi rebutan manajer berkat performa gacor mereka. Di sisi lain, Bruno Fernandes bareng DCL dan Wissa justru ramai-ramai diobral karena form yang lagi drop. Buat yang masih nahan nama-nama ini, segera hitung bujet sebelum perubahan harga dieksekusi malam nanti! Pemain mana nih yang mau langsung kamu aman",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261029_1928.jpg",
+   "finished": "2026-10-29T19:31:35+07:00"
   }
  ]
 }
