@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-29T12:36:54+07:00",
+ "updated": "2026-10-29T16:44:45+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261024_1620_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-24T16:20:48+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:20 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-24T16:20:48+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 285 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-24T16:20:50+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Malacia: Nggak Ada Penyesalan di MU!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-24T16:24:05+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-24T16:24:10+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-24T16:24:10+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-24T16:24:10+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Malacia: Nggak Ada Penyesalan di MU!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mantan bek kiri MU, Tyrell Malacia, akhirnya buka suara nih soal masa-masa sulitnya di Old Trafford sebelum cabut ke MLS. Walau sempat ngalamin cedera panjang dan bahkan harus latihan bareng tim akademi, dia dengan tegas bilang nggak nyesel sedikit pun pernah gabung Setan Merah. Menurut kalian, gimana nih performa Malacia pas masih awal-awal dateng dulu? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di b",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261024_1620.jpg",
-   "finished": "2026-10-24T16:24:11+07:00"
-  },
   {
    "id": "20261024_1914_engagement_poll",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261029_1232.jpg",
    "finished": "2026-10-29T12:36:54+07:00"
+  },
+  {
+   "id": "20261029_1641_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-29T16:41:15+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:41 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-29T16:41:15+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 304 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-29T16:41:16+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Clear-The-Air Talks Bruno & Carrick\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-29T16:44:39+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-29T16:44:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-29T16:44:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-29T16:44:45+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Clear-The-Air Talks Bruno & Carrick",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Ada drama apa lagi nih di Carrington, Reds? Menjelang laga tandang penting ke markas Chelsea akhir pekan ini, pelatih Michael Carrick dan kapten Bruno Fernandes dikabarkan sudah duduk bareng buat ngobrol empat mata di tempat latihan. Diskusi ini dilakukan setelah Bruno sempat dicadangkan imbas kritikan taktik sebelumnya. Di sisi lain, dewan klub masih kasih kepercayaan buat Carrick memimpin skuad, ditambah kabar baik kembalinya Kobbie Mainoo ke sesi latihan. Menurut kalian, mampukah anak-anak as",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261029_1641.jpg",
+   "finished": "2026-10-29T16:44:45+07:00"
   }
  ]
 }
