@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-28T19:28:52+07:00",
+ "updated": "2026-10-29T08:56:05+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261024_0837_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-24T08:37:44+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:37 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-24T08:37:44+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 285 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-24T08:37:45+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick Buka Suara Soal Bruno\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-24T08:39:34+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-24T08:39:39+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-24T08:39:39+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-24T08:39:40+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Carrick Buka Suara Soal Bruno",
-   "llm": "gemini-flash-latest",
-   "caption": "Suasana ruang ganti Manchester United lagi panas-panasnya, Sob! Michael Carrick baru aja ngasih pernyataan penuh emosional di sesi jumpa pers. Nggak main-main, Carrick menegaskan tim saat ini lagi terluka dan dia siap mengambil langkah tegas demi kebaikan klub. Menariknya, Carrick sama sekali nggak menutup kemungkinan buat mencadangkan sang kapten, Bruno Fernandes, yang belakangan panen kritik tajam dari berbagai pihak. Carrick berjanji bakal melakukan apa pun yang terbaik untuk Setan Merah agar",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261024_0837.jpg",
-   "finished": "2026-10-24T08:39:40+07:00"
-  },
   {
    "id": "20261024_1217_fpl_captain",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261028_1927.jpg",
    "finished": "2026-10-28T19:28:52+07:00"
+  },
+  {
+   "id": "20261029_0852_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-29T08:52:33+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:52 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-29T08:52:33+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 305 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-29T08:52:35+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Sesko Absen Sampai Januari!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-29T08:55:59+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-29T08:56:04+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-29T08:56:04+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-29T08:56:04+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Sesko Absen Sampai Januari!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Duh, ada kabar kurang sedap nih buat lini depan Manchester United jelang jadwal padat akhir tahun! 😔 Penyerang andalan kita, Benjamin Sesko, dipastikan harus menepi sampai minimal bulan Januari akibat cedera tulang kering yang sempat kambuh lagi. Kehilangan penyerang murni tentu jadi PR besar buat Coach Carrick di tengah usaha kita bangkit dari tren negatif belakangan ini. Semoga proses pemulihannya lancar dan Sesko bisa segera balik membobol gawang lawan ya! Kalau menurut pendapat kalian, perlu",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261029_0852.jpg",
+   "finished": "2026-10-29T08:56:05+07:00"
   }
  ]
 }
