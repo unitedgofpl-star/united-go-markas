@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-29T08:56:05+07:00",
+ "updated": "2026-10-29T12:36:54+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261024_1217_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-24T12:17:44+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:17 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-24T12:17:44+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 285 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-24T12:17:44+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Ban Kapten GW Ini\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-24T12:18:59+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-24T12:19:05+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-24T12:19:05+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-24T12:19:05+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Ban Kapten GW Ini",
-   "llm": "gemini-flash-latest",
-   "caption": "Kapten GW9: main aman atau ambil risiko? Cek dulu datanya 👇\n\n1. Haaland — vs BHA (H) · laga sedang\n2. Evanilson — vs LEE (H) · laga sedang\n3. De Cuyper — vs MCI (A) · laga sangat sulit\n\nSimpan postingan ini buat referensi sebelum deadline 📌\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW9",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261024_1217.jpg",
-   "finished": "2026-10-24T12:19:06+07:00"
-  },
   {
    "id": "20261024_1620_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261029_0852.jpg",
    "finished": "2026-10-29T08:56:05+07:00"
+  },
+  {
+   "id": "20261029_1232_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-29T12:32:05+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:32 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-29T12:32:05+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 305 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-29T12:32:06+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Jagoan Kapten GW9\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-29T12:36:47+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-29T12:36:53+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-29T12:36:53+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-29T12:36:53+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Jagoan Kapten GW9",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau pasang ban kapten siapa buat GW9 akhir pekan ini, Red Devils? Jangan panik, kita udah pilihin tiga opsi penyerang paling panas buat jadi tumpuan tim FPL kalian! Mulai dari si mesin gol Manchester City sampai opsi penyerang alternatif yang lagi gacor-gacornya. Harganya bervariasi, tapi potensinya sama-sama ngeri buat mendulang poin maksimal di pekan ini. Pastikan keputusanmu nggak salah pilih ya biar nggak menyesal di akhir pekan. Siapa nih yang bakal jadi pilihan utama kapten FPL kal",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261029_1232.jpg",
+   "finished": "2026-10-29T12:36:54+07:00"
   }
  ]
 }
