@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-30T16:47:00+07:00",
+ "updated": "2026-10-30T19:30:16+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261025_1914_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-25T19:14:10+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:14 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-25T19:14:10+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 291 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-25T19:14:11+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilih Gabriel Atau Konsa?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-25T19:15:55+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "4 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-25T19:15:59+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-25T19:15:59+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-25T19:16:00+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Pilih Gabriel Atau Konsa?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau comot siapa buat lini belakang? Gabriel dan Konsa sama-sama lagi on fire dengan form 9.0, tapi tantangannya berat karena ketemu Liverpool tandang! Dengan selisih harga yang cukup jauh, siapa nih yang bakal kamu amankan di skuad buat gameweek nanti? Coba drop pilihan dan alasanmu di kolom komentar ya, Lur!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #fplindonesia #fpltips #fan",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 4,
-   "cover": "covers/20261025_1914.jpg",
-   "finished": "2026-10-25T19:16:01+07:00"
-  },
   {
    "id": "20261026_0841_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261030_1642.jpg",
    "finished": "2026-10-30T16:47:00+07:00"
+  },
+  {
+   "id": "20261030_1927_promo_tool",
+   "task": "post",
+   "kind": "promo_tool",
+   "label": "Promo FPL Squad Hack",
+   "started": "2026-10-30T19:27:50+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:27 WIB: Promo FPL Squad Hack",
+     "ok": true,
+     "t": "2026-10-30T19:27:50+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 303 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-30T19:27:51+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Bongkar Skuad FPL Gratis!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-30T19:30:09+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-30T19:30:15+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-30T19:30:15+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-30T19:30:15+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Bongkar Skuad FPL Gratis!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau ngebut di mini league FPL tapi bingung mulai dari mana, Reds? Tenang, kita punya solusi gres buat kalian! Coba deh 'FPL Squad Hack' gratis dari UnitedGo.id. Mulai dari cek rating skuad, rekomendasi transfer akurat, sampai strategi chip pas banget buat bantu nAIkin rank kalian. Asiknya lagi, tool ini udah support bilingual jadi dijamin gak pake ribet! Langsung klik link di bio kita buat cobain sekarang, gratis tis tis! Btw, kalian udah pake chip apa aja nih sejauh ini di FPL?\n\n🔧 Optimasi skua",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261030_1927.jpg",
+   "finished": "2026-10-30T19:30:16+07:00"
   }
  ]
 }
