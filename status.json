@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-31T12:28:44+07:00",
+ "updated": "2026-10-31T16:30:52+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261026_1633_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-26T16:33:37+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:33 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-26T16:33:37+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 305 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-26T16:33:38+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Badai Belum Reda, Setan Merah Merana\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-26T16:36:58+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-26T16:37:03+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-26T16:37:03+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-26T16:37:03+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Badai Belum Reda, Setan Merah Merana",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Makin pusing nggak sih lihat kondisi Manchester United belakangan ini? 😩 Dihajar Bournemouth tiga gol tanpa balas di kandang sendiri bikin rekor tanpa menang makin panjang. Suporter di Old Trafford kemarin tetap apresiasi Carrick, tapi langsung nge-boo para pemain karena geram sama permainan di lapangan. Manajemen kabarnya lagi serius nentuin langkah selanjutnya. Menurut kalian, beneran ganti pelatih bakal langsung beresin masalah MU saat ini? Coba komen di bawah ya! 👇\n\n📰 Sumber: feeds.bbci.co.u",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261026_1633.jpg",
-   "finished": "2026-10-26T16:37:04+07:00"
-  },
   {
    "id": "20261026_2115_engagement_poll",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261031_1227.jpg",
    "finished": "2026-10-31T12:28:44+07:00"
+  },
+  {
+   "id": "20261031_1630_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-10-31T16:30:11+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:30 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-10-31T16:30:11+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 308 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-10-31T16:30:12+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Batal Incar Calvert-Lewin?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-31T16:30:46+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-31T16:30:51+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-10-31T16:30:51+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-31T16:30:52+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Batal Incar Calvert-Lewin?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, rencana MU buat nambah amunisi lini depan di bursa transfer Januari kayaknya bakal nemuin ganjalan nih! Penyerang Inggris yang sempat dikaitkan sama Setan Merah, Dominic Calvert-Lewin, malah dilaporkan bakal segera memperpanjang masa baktinya di Leeds United. Padahal, MU lagi butuh banget striker baru setelah Benjamin Sesko harus absen lama akibat cedera. Otomatis, manajemen harus muter otak lagi buat cari opsi lain di lini depan. Kalau menurut kalian, siapa nih pemain yang paling pas bua",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261031_1630.jpg",
+   "finished": "2026-10-31T16:30:52+07:00"
   }
  ]
 }
