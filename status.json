@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-31T16:30:52+07:00",
+ "updated": "2026-10-31T19:25:25+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261026_2115_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-26T21:15:22+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 21:15 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-26T21:15:22+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 305 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-26T21:15:22+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilih Tavernier Atau Evanilson?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-26T21:16:38+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-26T21:16:44+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-26T21:16:44+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-26T21:16:45+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Pilih Tavernier Atau Evanilson?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau comot siapa buat nambah poin FPL pekan ini, Reds? 🤔 Bournemouth bakal menjamu Leeds United di kandang, dan dua pemain ini lagi jadi pusat perhatian. Di satu sisi ada Tavernier yang stabil jadi pilihan banyak orang, tapi di sisi lain ada Evanilson dengan form sadis yang siap meledak di lini depan. Harganya tipis beda, potensinya sama-sama ngeri buat ngangkat ranking tim kita. Kalau skuad kamu sendiri, bakal lebih mantap amankan jasa Tavernier atau nekat nge-diff lewat Evanilson nih? C",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261026_2115.jpg",
-   "finished": "2026-10-26T21:16:45+07:00"
-  },
   {
    "id": "20261027_0839_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261031_1630.jpg",
    "finished": "2026-10-31T16:30:52+07:00"
+  },
+  {
+   "id": "20261031_1924_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-10-31T19:24:45+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:24 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-10-31T19:24:45+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 309 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-31T19:24:45+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Gabriel Atau Tavernier Nih?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-10-31T19:25:19+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-31T19:25:25+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-10-31T19:25:25+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-31T19:25:25+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 10,
+   "title": "Gabriel Atau Tavernier Nih?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pusing ya mikirin transfer FPL minggu ini gara-gara dua opsi panas ini? 🤯 Buat para manajer UnitedGo yang budiman, mending nge-lock Gabriel si tembok Arsenal atau bungkus Tavernier yang harganya lebih ramah di kantong tapi potensi poinnya juga nggak kalah saing? Kedua opsi ini sama-sama punya lawan yang relatif enteng di atas kertas, jadi salah pilih bisa bikin peringkat melorot tajam, cuy! Coba absen dulu di kolom komentar, di tim lu sekarang ada siapa nih, Gabriel atau Tavernier? Drop alasan t",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 6,
+   "cover": "covers/20261031_1924.jpg",
+   "finished": "2026-10-31T19:25:25+07:00"
   }
  ]
 }
