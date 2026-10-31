@@ -1,61 +1,7 @@
 {
- "updated": "2026-10-31T08:56:45+07:00",
+ "updated": "2026-10-31T12:28:44+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261026_1223_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-26T12:23:31+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:23 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-26T12:23:31+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 305 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-26T12:23:31+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilihan Kapten GW9 Terbaik!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-26T12:24:15+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-26T12:24:20+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-26T12:24:20+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-26T12:24:20+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Pilihan Kapten GW9 Terbaik!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau pasang ban kapten ke siapa buat FPL GW9 nanti? Tenang, admin udah rangkum tiga opsi penyerang paling hot buat jadi senjata utama tim kamu pekan ini! Dari si robot andalan sejuta umat sampai opsi differential buat ngejar poin liga mini, semua ada. Jangan sampe salah pilih biar rank hijau terus ya! Kalau kamu, ban kapten bakal diserahin ke siapa nih, Reds?\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC ",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261026_1223.jpg",
-   "finished": "2026-10-26T12:24:21+07:00"
-  },
   {
    "id": "20261026_1633_mu_news",
    "task": "post",
@@ -1081,6 +1027,60 @@
    "slides": 5,
    "cover": "covers/20261031_0851.jpg",
    "finished": "2026-10-31T08:56:45+07:00"
+  },
+  {
+   "id": "20261031_1227_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-10-31T12:27:35+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:27 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-10-31T12:27:35+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW9: 308 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-10-31T12:27:35+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pilihan Kapten Terbaik Pekan Ini!\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-10-31T12:28:38+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-10-31T12:28:43+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-10-31T12:28:43+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+     "ok": false,
+     "t": "2026-10-31T12:28:43+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
+   "gw": 9,
+   "title": "Pilihan Kapten Terbaik Pekan Ini!",
+   "llm": "gemini-flash-latest",
+   "caption": "Jangan sampai nyesel salah pasang ban kapten di Game Week 9! Erling Haaland masih jadi pilihan paling aman berkat form 9.0 dan kepemilikan masif 78.8% lawan Brighton di kandang. Tapi kalau butuh diferensial buat dongkrak rank, Evanilson patut dilirik dengan form 8.3. Opsi menarik lainnya ada Nicolas Jackson (£6.9m) yang siap hadapi laga relatif mudah kontra Fulham. Timbang baik-baik sebelum deadline mengunci skuad kalian ya! Jadi, siapa nih yang bakal kamu kasih ban kapten pekan ini?\n\n📩 Kerja sa",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261031_1227.jpg",
+   "finished": "2026-10-31T12:28:44+07:00"
   }
  ]
 }
