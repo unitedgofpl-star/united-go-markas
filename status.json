@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T20:36:06+07:00",
+ "updated": "2026-11-01T20:57:28+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261030_0853_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-30T08:53:12+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:53 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-30T08:53:12+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 302 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-30T08:53:13+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Bruno Fernandes Tetap Jadi Kapten!\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-30T08:53:26+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-30T08:53:31+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-30T08:53:31+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-30T08:53:32+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Bruno Fernandes Tetap Jadi Kapten!",
-   "llm": "gemini-flash-latest",
-   "caption": "Isu ban kapten akhirnya terjawab tuntas, gengs! Bruno Fernandes dipastikan bakal terus mengemban tugas sebagai kapten utama Manchester United. Kepemimpinannya yang solid selama bertahun-tahun serta performanya di atas lapangan dinilai sangat krusial buat perjalanan tim ke depan. Ditambah lagi, komitmen penuh sang pemain buat Setan Merah sama sekali nggak perlu diragukan lagi karena dia siap terus memberikan yang terbaik. Keputusan ini pastinya bikin ruang ganti tetap stabil buat natap pertanding",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261030_0853.jpg",
-   "finished": "2026-10-30T08:53:32+07:00"
-  },
   {
    "id": "20261030_1231_fpl_captain",
    "task": "post",
@@ -1045,6 +991,64 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-01T20:36:06+07:00"
+  },
+  {
+   "id": "20261101_2053_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-01T20:53:33+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 20:53 WIB: Kabar MU — topik: Bruno menangis setelah kalah lawan Chelsea",
+     "ok": true,
+     "t": "2026-11-01T20:53:33+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 314 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-01T20:53:35+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kalah Lagi di Stamford Bridge\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-01T20:57:12+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-01T20:57:18+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-01T20:57:18+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-11-01T20:57:18+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "Bruno menangis setelah kalah lawan Chelsea",
+   "gw": 10,
+   "title": "Kalah Lagi di Stamford Bridge",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Aduh Red Devils, hari yang bener-bener bikin elus dada nih! Harus ngaku kalah 2-0 dari Chelsea di Stamford Bridge, ditambah Lisandro Martinez kena kartu merah dan penalti. Situasi tim kita bener-bener lagi diuji banget di bawah tekanan. Buat kalian yang nonton semalem, apa nih pemain paling bobrok penampilannya? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk, theguardian.com\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUn",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261101_2053.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-11-01T20:57:28+07:00"
   }
  ]
 }
