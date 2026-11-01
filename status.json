@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T13:32:19+07:00",
+ "updated": "2026-11-01T13:58:46+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261028_1638_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-28T16:38:53+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:38 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-28T16:38:53+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 302 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-28T16:38:55+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Keputusan Carrick Bikin Fans Geram\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-28T16:39:39+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-28T16:39:44+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-28T16:39:44+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-28T16:39:45+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Keputusan Carrick Bikin Fans Geram",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Gimana nih tanggapan kalian soal situasi ruang ganti United sekarang? Keputusan INEOS nahan Michael Carrick buat laga lawan Chelsea akhir pekan ini dinilai banyak pihak, termasuk suporter, sebagai langkah yang cuma memperpanjang situasi pelik yang ada. Padahal, masa depan sang pelatih juga masih belum jelas banget di Carrington. Coba komen di bawah, kalian setuju nggak keputusan ini? #mufc #manchesterunited #unitedgo #ligainggris #beritamu\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + ",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261028_1638.jpg",
-   "finished": "2026-10-28T16:39:45+07:00"
-  },
   {
    "id": "20261028_1927_engagement_poll",
    "task": "post",
@@ -1090,6 +1036,64 @@
    "instagram": "18145528261620736",
    "dry_run": false,
    "finished": "2026-11-01T13:32:19+07:00"
+  },
+  {
+   "id": "20261101_1358_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-01T13:58:04+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 13:58 WIB: Kabar MU — topik: kekalahan manchester united vs chelsea",
+     "ok": true,
+     "t": "2026-11-01T13:58:04+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 314 pemain, 10 laga, 8 berita (theguardian.com)",
+     "ok": true,
+     "t": "2026-11-01T13:58:05+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kekalahan Bikin Tim Makin Suram\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-01T13:58:38+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-01T13:58:42+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-01T13:58:42+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-11-01T13:58:42+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "kekalahan manchester united vs chelsea",
+   "gw": 10,
+   "title": "Kekalahan Bikin Tim Makin Suram",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Parah banget sih ini, Red Devils kesayangan kita malah makin tenggelam di papan bawah usai ditekuk Chelsea! Belum lagi rekor buruk yang bikin fans makin elus dada tiap akhir pekan. Kalau kayak gini terus, kira-kira solusi mujarabnya apa ya buat balikin mental tim?\n\n📰 Sumber: theguardian.com\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #mufc #unitedgoid #muindonesia #ligainggris #manchesterun",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261101_1358.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-11-01T13:58:46+07:00"
   }
  ]
 }
