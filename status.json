@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T14:08:49+07:00",
+ "updated": "2026-11-01T14:44:38+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261029_0852_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-29T08:52:33+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:52 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-29T08:52:33+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 305 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-29T08:52:35+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Sesko Absen Sampai Januari!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-29T08:55:59+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-29T08:56:04+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-29T08:56:04+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-29T08:56:04+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Sesko Absen Sampai Januari!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Duh, ada kabar kurang sedap nih buat lini depan Manchester United jelang jadwal padat akhir tahun! 😔 Penyerang andalan kita, Benjamin Sesko, dipastikan harus menepi sampai minimal bulan Januari akibat cedera tulang kering yang sempat kambuh lagi. Kehilangan penyerang murni tentu jadi PR besar buat Coach Carrick di tengah usaha kita bangkit dari tren negatif belakangan ini. Semoga proses pemulihannya lancar dan Sesko bisa segera balik membobol gawang lawan ya! Kalau menurut pendapat kalian, perlu",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261029_0852.jpg",
-   "finished": "2026-10-29T08:56:05+07:00"
-  },
   {
    "id": "20261029_1232_fpl_captain",
    "task": "post",
@@ -1073,6 +1019,22 @@
    "dry_run": false,
    "cover": "covers/20261101_1408.jpg",
    "finished": "2026-11-01T14:08:49+07:00"
+  },
+  {
+   "id": "20261101_1444_analyze",
+   "task": "analyze",
+   "label": "Laporan mingguan",
+   "started": "2026-11-01T14:44:32+07:00",
+   "steps": [
+    {
+     "agent": "analyst",
+     "msg": "# Laporan Analyst United Go — 01 Nov 2026",
+     "ok": true,
+     "t": "2026-11-01T14:44:37+07:00"
+    }
+   ],
+   "error": null,
+   "finished": "2026-11-01T14:44:38+07:00"
   }
  ]
 }
