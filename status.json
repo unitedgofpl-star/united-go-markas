@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T12:01:45+07:00",
+ "updated": "2026-11-01T12:35:27+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261028_0851_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-28T08:51:46+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:51 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-28T08:51:46+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 302 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-28T08:51:49+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick Tetap Latih MU\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-28T08:53:04+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-28T08:53:09+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-10-28T08:53:09+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-28T08:53:09+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Carrick Tetap Latih MU",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Masa depan Michael Carrick akhirnya terjawab setelah sempat bikin deg-degan suporter dalam 48 jam terakhir! Manajemen klub memutuskan buat tetap kasih kesempatan ke Carrick buat mimpin skuad Setan Merah bertandang ke markas Chelsea akhir pekan ini. Walau posisi tim lagi di papan bawah dan situasinya lumayan bikin ketar-ketir, semoga ini jadi awal kebangkitan buat tim kesayangan kita ya. Kalau pendapat kalian sendiri gimana, Setan Merah? Coba tulis di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.u",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261028_0851.jpg",
-   "finished": "2026-10-28T08:53:10+07:00"
-  },
   {
    "id": "20261028_1229_fixture_preview",
    "task": "post",
@@ -1084,6 +1030,63 @@
    "instagram": "18361475368247091",
    "dry_run": false,
    "finished": "2026-11-01T12:01:45+07:00"
+  },
+  {
+   "id": "20261101_1233_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-11-01T12:33:45+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:33 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-11-01T12:33:45+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 314 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-01T12:33:45+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Update Harga FPL Pekan Ini!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-01T12:34:22+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-11-01T12:34:29+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-01T12:34:29+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-01T12:35:24+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Update Harga FPL Pekan Ini!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, kapten andalan kita Bruno Fernandes masuk daftar banyak dijual nih Red Devils! Buat kalian para pejuang FPL, saatnya putar otak buat atur budget tim sebelum deadline. Apakah kalian termasuk yang nge-sell Bruno dan Mbeumo, atau justru lagi nimbang-nimbang bungkus Evanilson? Coba komen di bawah strategi transfer kalian minggu ini!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unitedg",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261101_1233.jpg",
+   "facebook": "102254338861969_1149214100831179",
+   "instagram": "18114717758151260",
+   "dry_run": false,
+   "finished": "2026-11-01T12:35:27+07:00"
   }
  ]
 }
