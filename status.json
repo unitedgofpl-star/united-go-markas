@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T20:57:28+07:00",
+ "updated": "2026-11-01T21:08:17+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261030_1231_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-30T12:31:09+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:31 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-30T12:31:09+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 302 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-30T12:31:09+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Siapa Kapten Kamu?\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-30T12:33:41+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-30T12:33:46+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-30T12:33:46+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-30T12:33:47+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Siapa Kapten Kamu?",
-   "llm": "gemini-flash-latest",
-   "caption": "Deadline GW9 makin dekat, ban kapten mau dipasang ke siapa? 🧢\n\n1. Haaland — vs BHA (H) · laga sedang\n2. Evanilson — vs LEE (H) · laga sedang\n3. N.Jackson — vs FUL (H) · laga mudah\n\nSetuju atau ada pilihan lain? Komen di bawah! 💬\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW9",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261030_1231.jpg",
-   "finished": "2026-10-30T12:33:47+07:00"
-  },
   {
    "id": "20261030_1642_mu_news",
    "task": "post",
@@ -1049,6 +995,64 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-01T20:57:28+07:00"
+  },
+  {
+   "id": "20261101_2104_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-01T21:04:41+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 21:04 WIB: Kabar MU — topik: glazer",
+     "ok": true,
+     "t": "2026-11-01T21:04:41+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 314 pemain, 10 laga, 4 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-01T21:04:43+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"MU Jadi Sinetron?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-01T21:08:08+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-01T21:08:13+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-01T21:08:13+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-11-01T21:08:13+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "glazer",
+   "gw": 10,
+   "title": "MU Jadi Sinetron?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Setan Merah belakangan ini berasa kayak serial drama favorit karena terus-terusan jadi bahan perbincangan. Dari suporter, kru kamera, sampai para legenda klub, semuanya rajin banget bedah kondisi tim. Komentar pedas soal profesionalisme pemain juga gampang banget ditemui di mana-mana. Bikin capek atau malah seru buat disimak, Reds? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/un",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261101_2104.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-11-01T21:08:17+07:00"
   }
  ]
 }
