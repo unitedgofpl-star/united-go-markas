@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T21:08:17+07:00",
+ "updated": "2026-11-01T21:11:56+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261030_1642_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-10-30T16:42:16+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:42 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-10-30T16:42:16+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 302 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-10-30T16:42:17+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Memorial Tragedi Munich 1958 Dirusak\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-10-30T16:46:53+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-30T16:46:58+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-10-30T16:46:58+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-30T16:46:59+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Memorial Tragedi Munich 1958 Dirusak",
-   "llm": "gemini-flash-latest",
-   "caption": "Bikin geram banget dengernya, etalase memorial Tragedi Munich 1958 di Manchesterplatz dibobol maling! Empat medali kenangan dan sebuah trofi kristal dilaporkan hilang setelah kaca etalase dihantam batu. Yayasan memorial (MMMF) sedih mendalam, tapi mereka langsung gerak cepat. Salut juga buat fans Bayern Munich, Red Docs Munich, yang sigap bantu benerin kerusakan hari itu juga. MU sempat tawarkan ganti rugi, tapi ditanggung mandiri oleh yayasan. Pelaku boleh rampas barangnya, tapi sejarah para pa",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261030_1642.jpg",
-   "finished": "2026-10-30T16:47:00+07:00"
-  },
   {
    "id": "20261030_1927_promo_tool",
    "task": "post",
@@ -1053,6 +999,50 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-01T21:08:17+07:00"
+  },
+  {
+   "id": "20261101_2111_mu_news",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "title": "MU Jadi Sinetron?",
+   "gw": 10,
+   "topic": "glazer",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "headings": [
+    "Sorotan Mantan Pemain",
+    "Mesin Pembuat Konten",
+    "Komentar Pedas Legenda"
+   ],
+   "task": "post",
+   "started": "2026-11-01T21:11:10+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Draft disetujui: MU Jadi Sinetron?",
+     "ok": true,
+     "t": "2026-11-01T21:11:10+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-01T21:11:53+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-01T21:11:56+07:00"
+    }
+   ],
+   "error": null,
+   "caption": "Setan Merah belakangan ini berasa kayak serial drama favorit karena terus-terusan jadi bahan perbincangan. Dari suporter, kru kamera, sampai para legenda klub, semuanya rajin banget bedah kondisi tim. Komentar pedas soal profesionalisme pemain juga gampang banget ditemui di mana-mana. Bikin capek atau malah seru buat disimak, Reds? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/un",
+   "facebook": "102254338861969_1149599327459323",
+   "instagram": "18191409343408825",
+   "dry_run": false,
+   "cover": "covers/20261101_2111.jpg",
+   "finished": "2026-11-01T21:11:56+07:00"
   }
  ]
 }
