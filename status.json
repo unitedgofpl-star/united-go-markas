@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T14:44:38+07:00",
+ "updated": "2026-11-01T16:39:52+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261029_1232_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-10-29T12:32:05+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:32 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-10-29T12:32:05+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 305 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-29T12:32:06+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Jagoan Kapten GW9\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-29T12:36:47+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-29T12:36:53+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-29T12:36:53+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-29T12:36:53+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Jagoan Kapten GW9",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau pasang ban kapten siapa buat GW9 akhir pekan ini, Red Devils? Jangan panik, kita udah pilihin tiga opsi penyerang paling panas buat jadi tumpuan tim FPL kalian! Mulai dari si mesin gol Manchester City sampai opsi penyerang alternatif yang lagi gacor-gacornya. Harganya bervariasi, tapi potensinya sama-sama ngeri buat mendulang poin maksimal di pekan ini. Pastikan keputusanmu nggak salah pilih ya biar nggak menyesal di akhir pekan. Siapa nih yang bakal jadi pilihan utama kapten FPL kal",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261029_1232.jpg",
-   "finished": "2026-10-29T12:36:54+07:00"
-  },
   {
    "id": "20261029_1641_mu_news",
    "task": "post",
@@ -1035,6 +981,63 @@
    ],
    "error": null,
    "finished": "2026-11-01T14:44:38+07:00"
+  },
+  {
+   "id": "20261101_1635_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-01T16:35:51+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:35 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-01T16:35:51+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 314 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-01T16:35:52+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Nasib Carrick Di Ujung Tanduk?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-01T16:39:07+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-01T16:39:11+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-01T16:39:11+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-01T16:39:50+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Nasib Carrick Di Ujung Tanduk?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah, suporter United makin gerah nih Red Devils! 😈 Kekalahan 2-0 dari Chelsea bikin posisi kepelatihan makin disorot tajam. Kartu merah cepat di laga itu benar-benar bikin suporter geleng-geleng kepala dan mempertanyakan keputusan taktik yang ada. Apakah ini akhir dari perjalanan sang pelatih di Old Trafford? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261101_1635.jpg",
+   "facebook": "102254338861969_1149386150813974",
+   "instagram": "18131118455491860",
+   "dry_run": false,
+   "finished": "2026-11-01T16:39:52+07:00"
   }
  ]
 }
