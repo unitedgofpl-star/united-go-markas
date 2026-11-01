@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T11:37:38+07:00",
+ "updated": "2026-11-01T11:59:48+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261027_1924_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-10-27T19:24:43+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:24 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-10-27T19:24:43+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 305 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-27T19:24:43+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pilih Tavernier Atau Evanilson?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-27T19:26:46+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-27T19:26:51+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-10-27T19:26:51+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-27T19:26:52+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Pilih Tavernier Atau Evanilson?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau comot siapa dari Bournemouth buat lawan Leeds nanti? Marcus Tavernier si tengah stabil atau Evanilson si tukang gedor differential yang lagi panas-panasnya? Dua-duanya punya potensi poin bagus di kandang, tapi slot FPL kan terbatas, Lur. Kalau kalian disuruh milih, bakal amankan ownership tinggi atau ambil resiko beda sendiri demi panjat klasemen mini league? Coba tulis alasan dan pilihan kalian di bawah ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 ht",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261027_1924.jpg",
-   "finished": "2026-10-27T19:26:52+07:00"
-  },
   {
    "id": "20261028_0851_mu_news",
    "task": "post",
@@ -1081,6 +1027,64 @@
    "slides": 5,
    "cover": "covers/20261101_1135.jpg",
    "finished": "2026-11-01T11:37:38+07:00"
+  },
+  {
+   "id": "20261101_1157_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-01T11:57:08+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 11:57 WIB: Kabar MU — topik: bberita",
+     "ok": true,
+     "t": "2026-11-01T11:57:08+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 314 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-01T11:57:11+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Ujian Berat Setan Merah\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-01T11:59:07+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide 1080×1350 dirender",
+     "ok": true,
+     "t": "2026-11-01T11:59:12+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-01T11:59:12+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-01T11:59:46+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "bberita",
+   "gw": 10,
+   "title": "Ujian Berat Setan Merah",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Lagi-lagi hasil kurang oke harus dirasain sama Setan Merah pas tumbang di kandang Chelsea, Rekor tanpa kemenangan pun makin panjang di semua ajang. Sorotan tajam langsung dateng ngebedah apa aja masalah utama skuad kita sekarang. Situasi yang bener-bener bikin prihatin kita semua sebagai fans setianya. Menurut kalian, apa nih solusi paling pas buat ngatasin periode sulit kayak gini?\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261101_1157.jpg",
+   "facebook": "102254338861969_1149191700833419",
+   "instagram": "18343405903276056",
+   "dry_run": false,
+   "finished": "2026-11-01T11:59:48+07:00"
   }
  ]
 }
