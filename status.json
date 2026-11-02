@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-01T21:11:56+07:00",
+ "updated": "2026-11-02T09:00:02+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261030_1927_promo_tool",
-   "task": "post",
-   "kind": "promo_tool",
-   "label": "Promo FPL Squad Hack",
-   "started": "2026-10-30T19:27:50+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:27 WIB: Promo FPL Squad Hack",
-     "ok": true,
-     "t": "2026-10-30T19:27:50+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW9: 303 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-10-30T19:27:51+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Bongkar Skuad FPL Gratis!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-10-30T19:30:09+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-10-30T19:30:15+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-10-30T19:30:15+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-     "ok": false,
-     "t": "2026-10-30T19:30:15+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Any of the pages_read_engagement, pages_manage_metadata,\\n        pages_read_user_content, pages_manage_ads, pages_show_list or\\n        pages_messaging permission(s) must be grante",
-   "gw": 9,
-   "title": "Bongkar Skuad FPL Gratis!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mau ngebut di mini league FPL tapi bingung mulai dari mana, Reds? Tenang, kita punya solusi gres buat kalian! Coba deh 'FPL Squad Hack' gratis dari UnitedGo.id. Mulai dari cek rating skuad, rekomendasi transfer akurat, sampai strategi chip pas banget buat bantu nAIkin rank kalian. Asiknya lagi, tool ini udah support bilingual jadi dijamin gak pake ribet! Langsung klik link di bio kita buat cobain sekarang, gratis tis tis! Btw, kalian udah pake chip apa aja nih sejauh ini di FPL?\n\n🔧 Optimasi skua",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 6,
-   "cover": "covers/20261030_1927.jpg",
-   "finished": "2026-10-30T19:30:16+07:00"
-  },
   {
    "id": "20261031_0851_mu_news",
    "task": "post",
@@ -1043,6 +989,69 @@
    "dry_run": false,
    "cover": "covers/20261101_2111.jpg",
    "finished": "2026-11-01T21:11:56+07:00"
+  },
+  {
+   "id": "20261102_0857_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-02T08:57:51+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:57 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-02T08:57:51+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 320 pemain, 10 laga, 3 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-02T08:57:52+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Bruno Fernandes Tetap Jadi Kapten\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-11-02T08:58:54+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-02T08:59:00+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-02T08:59:00+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-02T08:59:57+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-02T09:00:02+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Bruno Fernandes Tetap Jadi Kapten",
+   "llm": "gemini-flash-latest",
+   "caption": "Sempat heboh dicadangkan, status ban kapten Bruno Fernandes akhirnya terang benderang, sob! Michael Carrick memastikan kalau Bruno tetap sosok pemimpin utama dan punya komitmen total buat skuad Setan Merah. Keduanya juga udah ngobrol langsung di Carrington buat bersihin suasana jelang partai berat kontra Chelsea. Di sisi lain, Carrick sendiri dipastikan masih mengawal tim di Stamford Bridge setelah petinggi klub memberi waktu untuk membalikkan situasi, di tengah rentetan delapan laga tanpa toreh",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261102_0857.jpg",
+   "facebook": "102254338861969_1150073177411938",
+   "instagram": "18133702501758574",
+   "dry_run": false,
+   "finished": "2026-11-02T09:00:02+07:00"
   }
  ]
 }
