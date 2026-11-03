@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-03T07:45:07+07:00",
+ "updated": "2026-11-03T09:02:06+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_1121_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-01T11:21:00+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 11:21 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-01T11:21:00+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 314 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-01T11:21:02+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"MU Terancam Degradasi?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-01T11:21:36+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide 1080×1350 dirender",
-     "ok": true,
-     "t": "2026-11-01T11:21:41+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-01T11:21:41+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Bad signature\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A-sa5V6kXdr0_7_EWnA2YTS\"}}",
-     "ok": false,
-     "t": "2026-11-01T11:21:42+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Bad signature\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A-sa5V6kXdr0_7_EWnA2YTS\"}}",
-   "gw": 10,
-   "title": "MU Terancam Degradasi?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Parah banget gak sih Reds, posisi MU musim ini bikin jantungan dan ngeliat zona merah makin deket! Setelah tumbang dari Chelsea, rekor tanpa kemenangan kita nambah panjang dan bikin tekanan buat Michael Carrick makin gila-gilaan. Kalau terus kayak gini, bisa-bisa kita beneran masuk ancaman degradasi nih. Gimana menurut kalian, apa solusi paling cepat buat balikin performa tim kesayangan kita?\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.i",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261101_1121.jpg",
-   "finished": "2026-11-01T11:21:42+07:00"
-  },
   {
    "id": "20261101_1135_mu_news",
    "task": "post",
@@ -1039,6 +985,69 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-03T07:45:07+07:00"
+  },
+  {
+   "id": "20261103_0856_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-03T08:56:30+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:56 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-03T08:56:30+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 322 pemain, 10 laga, 1 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-03T08:56:32+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Carrick Antusias Lawan AS Roma\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-03T09:01:13+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-03T09:01:18+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-03T09:01:18+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-03T09:02:02+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-03T09:02:06+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Carrick Antusias Lawan AS Roma",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, gimana nih Reds, siap nularin semangat coach Carrick buat laga lawan AS Roma nanti? Di tengah rentetan situasi yang lagi menantang, sang pelatih justru keliatan antusias banget nyambut pertandingan di Liga Champions ini. Semoga jadi momentum kebangkitan buat skuad Setan Merah ya! Coba komen di bawah, prediksi skor kalian berapa nih buat laga nanti?\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnite",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261103_0856.jpg",
+   "facebook": "102254338861969_1151044100648179",
+   "instagram": "17966418945250697",
+   "dry_run": false,
+   "finished": "2026-11-03T09:02:06+07:00"
   }
  ]
 }
