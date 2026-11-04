@@ -1,23 +1,7 @@
 {
- "updated": "2026-11-04T16:53:37+07:00",
+ "updated": "2026-11-04T19:42:17+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_1444_analyze",
-   "task": "analyze",
-   "label": "Laporan mingguan",
-   "started": "2026-11-01T14:44:32+07:00",
-   "steps": [
-    {
-     "agent": "analyst",
-     "msg": "# Laporan Analyst United Go — 01 Nov 2026",
-     "ok": true,
-     "t": "2026-11-01T14:44:37+07:00"
-    }
-   ],
-   "error": null,
-   "finished": "2026-11-01T14:44:38+07:00"
-  },
   {
    "id": "20261101_1635_mu_news",
    "task": "post",
@@ -1092,6 +1076,63 @@
    "instagram": "18116631098582357",
    "dry_run": false,
    "finished": "2026-11-04T16:53:37+07:00"
+  },
+  {
+   "id": "20261104_1940_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-11-04T19:40:26+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:40 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-11-04T19:40:26+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 321 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-04T19:40:27+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Konsa atau Evanilson?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-04T19:41:29+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-04T19:41:32+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-04T19:41:32+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-04T19:42:15+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Konsa atau Evanilson?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau angkut siapa buat GW ini? Tenang, Red Army FPL gak sendirian kok! Di satu sisi ada Ezri Konsa yang siap jaga pertahanan Aston Villa lawan Hull City di kandang. Di sisi lain, Evanilson dari Bournemouth siap ngamuk tandang ke markas Ipswich Town. Harganya ramah di kantong, formnya juga sama-sama gacor! Kalau kalian, lebih mantap pasang bek solid atau striker tajam? Coba drop pilihan kalian di kolom komentar ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 h",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261104_1940.jpg",
+   "facebook": "102254338861969_1152469170505672",
+   "instagram": "18111278515916155",
+   "dry_run": false,
+   "finished": "2026-11-04T19:42:17+07:00"
   }
  ]
 }
