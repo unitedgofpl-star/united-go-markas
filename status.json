@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-04T19:42:17+07:00",
+ "updated": "2026-11-05T09:06:53+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_1635_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-01T16:35:51+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:35 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-01T16:35:51+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 314 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-01T16:35:52+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Nasib Carrick Di Ujung Tanduk?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-01T16:39:07+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-01T16:39:11+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-01T16:39:11+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-01T16:39:50+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Nasib Carrick Di Ujung Tanduk?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Wah, suporter United makin gerah nih Red Devils! 😈 Kekalahan 2-0 dari Chelsea bikin posisi kepelatihan makin disorot tajam. Kartu merah cepat di laga itu benar-benar bikin suporter geleng-geleng kepala dan mempertanyakan keputusan taktik yang ada. Apakah ini akhir dari perjalanan sang pelatih di Old Trafford? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261101_1635.jpg",
-   "facebook": "102254338861969_1149386150813974",
-   "instagram": "18131118455491860",
-   "dry_run": false,
-   "finished": "2026-11-01T16:39:52+07:00"
-  },
   {
    "id": "20261101_1926_engagement_poll",
    "task": "post",
@@ -1133,6 +1076,69 @@
    "instagram": "18111278515916155",
    "dry_run": false,
    "finished": "2026-11-04T19:42:17+07:00"
+  },
+  {
+   "id": "20261105_0904_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-05T09:04:30+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 09:04 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-05T09:04:30+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 321 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-05T09:04:32+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Setan Merah Mengamuk di Old Trafford\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-05T09:05:53+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-05T09:05:57+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-05T09:05:57+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-05T09:06:47+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-05T09:06:53+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Setan Merah Mengamuk di Old Trafford",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Parah sih ini, mentalitas anak-anak United beneran nyala lagi! Sempat tertinggal dua gol di Old Trafford, eh malah ngamuk dan bikin comeback epic lawan Roma di Liga Champions. Dukungan suporter emang bener-bener gila bikin suasana makin membara! Gimana semalem, pada nonton langsung atau ketiduran nih? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unite",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261105_0904.jpg",
+   "facebook": "102254338861969_1153023580450231",
+   "instagram": "18122299063991383",
+   "dry_run": false,
+   "finished": "2026-11-05T09:06:53+07:00"
   }
  ]
 }
