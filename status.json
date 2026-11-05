@@ -1,65 +1,7 @@
 {
- "updated": "2026-11-05T12:51:36+07:00",
+ "updated": "2026-11-05T16:54:08+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_2034_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-01T20:34:43+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 20:34 WIB: Kabar MU — topik: Bruno Fernandes",
-     "ok": true,
-     "t": "2026-11-01T20:34:43+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 314 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-01T20:34:45+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick Tegaskan Hubungan dengan Bruno\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-11-01T20:35:55+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-01T20:36:00+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-01T20:36:00+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-11-01T20:36:00+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "Bruno Fernandes",
-   "gw": 10,
-   "title": "Carrick Tegaskan Hubungan dengan Bruno",
-   "llm": "gemini-flash-latest",
-   "caption": "Sempat dicadangkan lawan Bournemouth, status Bruno Fernandes langsung ramai dibahas! Tenang lur, Michael Carrick langsung tegaskan bahwa gak ada masalah sama sekali antara dirinya dan sang kapten. Bruno dipastikan tetap memegang ban kapten Manchester United tanpa keraguan soal masa depannya. Lewat pembicaraan terbuka, gelandang asal Portugal ini menyatakan komitmen total untuk berjuang membalikkan performa tim musim ini. Ruang ganti tetap solid, fokus bangkit bareng-bareng! Gimana menurut kalian",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261101_2034.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-11-01T20:36:06+07:00"
-  },
   {
    "id": "20261101_2053_mu_news",
    "task": "draft",
@@ -1145,6 +1087,69 @@
    "instagram": "17903539647604360",
    "dry_run": false,
    "finished": "2026-11-05T12:51:36+07:00"
+  },
+  {
+   "id": "20261105_1652_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-05T16:52:03+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:52 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-05T16:52:03+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 320 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-05T16:52:05+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Wonderkid MU Dilirik Madrid\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-05T16:53:23+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-05T16:53:28+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-05T16:53:28+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-05T16:54:03+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-05T16:54:08+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Wonderkid MU Dilirik Madrid",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah, ada kabar kurang enak nih dari Carrington, Red Devils! Wonderkid kita, JJ Gabriel, kabarnya udah punya kesepakatan lisan buat gabung sama Real Madrid. Padahal, pemain muda berbakat ini sempat dipuji-puji dan punya masa depan cerah di Old Trafford. Sayangnya, situasi bikin dia milih buat nyari peluang lain di luar Inggris. Menurut kalian, manajemen harusnya gimana nih ngadepin situasi kayak gini? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eks",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261105_1652.jpg",
+   "facebook": "102254338861969_1153328847086371",
+   "instagram": "17965113603238413",
+   "dry_run": false,
+   "finished": "2026-11-05T16:54:08+07:00"
   }
  ]
 }
