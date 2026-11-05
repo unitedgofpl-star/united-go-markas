@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-05T09:06:53+07:00",
+ "updated": "2026-11-05T12:51:36+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_1926_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-01T19:26:21+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:26 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-11-01T19:26:21+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 314 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-01T19:26:21+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Jackson Atau De Cuyper\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-01T19:29:47+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-01T19:29:49+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-01T19:29:49+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-01T19:30:45+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Jackson Atau De Cuyper",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau amankan poin atau kejar diferensial buat GW kali ini, Reds? 🤔 Nicolas Jackson lagi on fire tapi ujiannya berat di Old Trafford. Di sisi lain, Maxim De Cuyper adem ayem jadi pilihan sejuta umat dengan jadwal kandang yang cukup menggiurkan. Kalau kamu jadi manajer mereka, siapa yang bakal dipasang sebagai starter? Drop pilihan terbaikmu di bawah ya! 👇⚽\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261101_1926.jpg",
-   "facebook": "102254338861969_1149517127467543",
-   "instagram": "17954570277286858",
-   "dry_run": false,
-   "finished": "2026-11-01T19:30:47+07:00"
-  },
   {
    "id": "20261101_2034_mu_news",
    "task": "draft",
@@ -1139,6 +1082,69 @@
    "instagram": "18122299063991383",
    "dry_run": false,
    "finished": "2026-11-05T09:06:53+07:00"
+  },
+  {
+   "id": "20261105_1249_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-05T12:49:03+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:49 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-05T12:49:03+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 321 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-05T12:49:05+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Drama Comeback Kontra Roma\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-05T12:50:39+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-05T12:50:51+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-05T12:50:51+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-05T12:51:32+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-05T12:51:36+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Drama Comeback Kontra Roma",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Anak asuh Manchester United baru aja ngasih kita drama comeback 3-2 yang gokil banget atas AS Roma di Old Trafford! Sempat tertinggal dan bikin suporter geregetan, mental Setan Merah akhirnya ngasih nafas buat Michael Carrick setelah puasa kemenangan panjang. Tapi suporter pasti inget, situasi mirip begini sempat kejadian juga di era Jose Mourinho dulu. Semoga ini bukan sekadar nunda masalah ya, Red Devils! Gimana menurut kalian, bisa nggak nih Carrick lanjutin tren positifnya di laga berikutnya",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261105_1249.jpg",
+   "facebook": "102254338861969_1153167923769130",
+   "instagram": "17903539647604360",
+   "dry_run": false,
+   "finished": "2026-11-05T12:51:36+07:00"
   }
  ]
 }
