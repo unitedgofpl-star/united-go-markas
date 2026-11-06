@@ -1,23 +1,7 @@
 {
- "updated": "2026-11-06T16:58:33+07:00",
+ "updated": "2026-11-06T19:46:12+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261102_0940_analyze",
-   "task": "analyze",
-   "label": "Laporan mingguan",
-   "started": "2026-11-02T09:40:27+07:00",
-   "steps": [
-    {
-     "agent": "analyst",
-     "msg": "# Laporan Analyst United Go — 02 Nov 2026",
-     "ok": true,
-     "t": "2026-11-02T09:40:38+07:00"
-    }
-   ],
-   "error": null,
-   "finished": "2026-11-02T09:40:39+07:00"
-  },
   {
    "id": "20261102_1248_mu_news",
    "task": "post",
@@ -1173,6 +1157,63 @@
    "instagram": "18119573294046881",
    "dry_run": false,
    "finished": "2026-11-06T16:58:33+07:00"
+  },
+  {
+   "id": "20261106_1944_promo_tool",
+   "task": "post",
+   "kind": "promo_tool",
+   "label": "Promo FPL Squad Hack",
+   "started": "2026-11-06T19:44:21+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:44 WIB: Promo FPL Squad Hack",
+     "ok": true,
+     "t": "2026-11-06T19:44:21+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 317 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-06T19:44:22+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Cek Rangkuman Skuad FPL Kamu\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-06T19:45:24+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hijau, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-06T19:45:26+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-06T19:45:26+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-06T19:46:10+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Cek Rangkuman Skuad FPL Kamu",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pernah ngalamin salah pilih kapten terus poin FPL malah terjun bebas? Duh, jangan sampe kejadian lagi ya Red Devils! Buat kalian yang mau performa tim FPL makin gacor tiap gameweek, kita siapin tool spesial nih. Lewat 'FPL Squad Hack', kalian bisa cek rating skuad, dapet rekomendasi transfer jitu, sampe strategi penggunaan chip yang pas. Serunya lagi, tool ini gratis dan bilingual bro! Tunggu apa lagi, yuk langsung jajal sekarang biar makin jago racik strategi. Kamu pake chip apa nih buat GW dep",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261106_1944.jpg",
+   "facebook": "102254338861969_1154465930305996",
+   "instagram": "18013772804989047",
+   "dry_run": false,
+   "finished": "2026-11-06T19:46:12+07:00"
   }
  ]
 }
