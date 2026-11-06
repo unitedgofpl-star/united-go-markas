@@ -1,51 +1,7 @@
 {
- "updated": "2026-11-06T09:09:29+07:00",
+ "updated": "2026-11-06T12:49:49+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_2111_mu_news",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "title": "MU Jadi Sinetron?",
-   "gw": 10,
-   "topic": "glazer",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "headings": [
-    "Sorotan Mantan Pemain",
-    "Mesin Pembuat Konten",
-    "Komentar Pedas Legenda"
-   ],
-   "task": "post",
-   "started": "2026-11-01T21:11:10+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Draft disetujui: MU Jadi Sinetron?",
-     "ok": true,
-     "t": "2026-11-01T21:11:10+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-01T21:11:53+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-01T21:11:56+07:00"
-    }
-   ],
-   "error": null,
-   "caption": "Setan Merah belakangan ini berasa kayak serial drama favorit karena terus-terusan jadi bahan perbincangan. Dari suporter, kru kamera, sampai para legenda klub, semuanya rajin banget bedah kondisi tim. Komentar pedas soal profesionalisme pemain juga gampang banget ditemui di mana-mana. Bikin capek atau malah seru buat disimak, Reds? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/un",
-   "facebook": "102254338861969_1149599327459323",
-   "instagram": "18191409343408825",
-   "dry_run": false,
-   "cover": "covers/20261101_2111.jpg",
-   "finished": "2026-11-01T21:11:56+07:00"
-  },
   {
    "id": "20261102_0857_mu_news",
    "task": "post",
@@ -1154,6 +1110,69 @@
    "instagram": "18496103641106020",
    "dry_run": false,
    "finished": "2026-11-06T09:09:29+07:00"
+  },
+  {
+   "id": "20261106_1246_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-06T12:46:55+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:46 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-06T12:46:55+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 317 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-06T12:46:57+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Magis Old Trafford Beraksi\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-06T12:48:49+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-06T12:49:10+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-06T12:49:10+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-06T12:49:46+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-06T12:49:49+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Magis Old Trafford Beraksi",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Anak asuh Manchester United bener-bener bikin jantung mau copot pas ngadepin Roma semalem! Tertinggal dua gol duluan, eh malah dibalikin jadi menang 3-2 di Liga Champions. Kata Michael Carrick, suporter di Old Trafford punya magis sendiri buat ngerubah jalannya laga lewat dukungan luar biasa mereka. Emang paling ngeri kalau Old Trafford udah bergemuruh ya Red Devils! Gimana nih, kalian nonton langsung atau streaming sambil deg-degan?\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pa",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261106_1246.jpg",
+   "facebook": "102254338861969_1154161893669733",
+   "instagram": "18021181646964589",
+   "dry_run": false,
+   "finished": "2026-11-06T12:49:49+07:00"
   }
  ]
 }
