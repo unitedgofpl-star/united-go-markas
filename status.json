@@ -1,65 +1,7 @@
 {
- "updated": "2026-11-05T19:49:41+07:00",
+ "updated": "2026-11-06T09:09:29+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261101_2104_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-01T21:04:41+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 21:04 WIB: Kabar MU — topik: glazer",
-     "ok": true,
-     "t": "2026-11-01T21:04:41+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 314 pemain, 10 laga, 4 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-01T21:04:43+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"MU Jadi Sinetron?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-01T21:08:08+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-01T21:08:13+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-01T21:08:13+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-11-01T21:08:13+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "glazer",
-   "gw": 10,
-   "title": "MU Jadi Sinetron?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Setan Merah belakangan ini berasa kayak serial drama favorit karena terus-terusan jadi bahan perbincangan. Dari suporter, kru kamera, sampai para legenda klub, semuanya rajin banget bedah kondisi tim. Komentar pedas soal profesionalisme pemain juga gampang banget ditemui di mana-mana. Bikin capek atau malah seru buat disimak, Reds? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/un",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261101_2104.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-11-01T21:08:17+07:00"
-  },
   {
    "id": "20261101_2111_mu_news",
    "kind": "mu_news",
@@ -1149,6 +1091,69 @@
    "instagram": "18107276333293726",
    "dry_run": false,
    "finished": "2026-11-05T19:49:41+07:00"
+  },
+  {
+   "id": "20261106_0905_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-06T09:05:04+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 09:05 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-06T09:05:04+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW10: 317 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-06T09:05:06+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kisah Kepindahan Legendaris\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-06T09:08:35+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-06T09:08:40+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-06T09:08:40+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-06T09:09:25+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-06T09:09:29+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 10,
+   "title": "Kisah Kepindahan Legendaris",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Siapa sangka keputusan Sir Alex Ferguson pindah ke Old Trafford puluhan tahun lalu sempat diremehkan suporter Aberdeen ya, Reds? Padahal itu jadi awal dari sejarah manis era kepelatihan paling sukses di dunia sepak bola. Menurut kalian, bakal ada lagi nggak manajer dengan mentalitas sekuat Fergie di era sekarang?\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #SirAlexFerguso",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261106_0905.jpg",
+   "facebook": "102254338861969_1154008793685043",
+   "instagram": "18496103641106020",
+   "dry_run": false,
+   "finished": "2026-11-06T09:09:29+07:00"
   }
  ]
 }
