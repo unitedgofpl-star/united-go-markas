@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-07T08:58:22+07:00",
+ "updated": "2026-11-07T12:39:33+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261102_1653_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-02T16:53:04+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:53 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-02T16:53:04+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 320 pemain, 10 laga, 1 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-02T16:53:06+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Nasib Michael Carrick\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-02T16:53:40+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-02T16:53:45+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-02T16:53:45+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-02T16:54:31+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-02T16:54:35+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Nasib Michael Carrick",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Masa depan Michael Carrick di Old Trafford lagi jadi sorotan hangat nih, Red Devils! Komentar jujur datang dari legenda klub Gary Neville yang bilang kalau pemecatan kadang bisa jadi jalan keluar terbaik buat sang pelatih sendiri. Di sisi lain, persiapan tim terus berjalan jelang laga tandang penting lawan Chelsea berikutnya. Gimana nih, kalian pro lanjut atau ganti?\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#Unit",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261102_1653.jpg",
-   "facebook": "102254338861969_1150381604047762",
-   "instagram": "18076634135721832",
-   "dry_run": false,
-   "finished": "2026-11-02T16:54:35+07:00"
-  },
   {
    "id": "20261102_1942_engagement_poll",
    "task": "post",
@@ -1214,6 +1151,69 @@
    "instagram": "17917832412536325",
    "dry_run": false,
    "finished": "2026-11-07T08:58:22+07:00"
+  },
+  {
+   "id": "20261107_1238_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-07T12:38:01+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:38 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-07T12:38:01+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 321 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-07T12:38:02+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Masa Depan Carrick di MU\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-07T12:38:36+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-07T12:38:43+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-07T12:38:43+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-07T12:39:29+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-07T12:39:33+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Masa Depan Carrick di MU",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo, Faithful Red Devils! Lagi hangat nih omongan soal kursi kepelatihan Michael Carrick di Old Trafford. Dari suporter yang ngasih pendapat sampai drama soal kapten tim, suasananya bener-bener lagi dinamis banget. Menurut kalian, apakah ganti pelatih beneran jadi solusi instan buat Setan Merah, atau kita butuh sabar sedikit lagi? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261107_1238.jpg",
+   "facebook": "102254338861969_1155204726898783",
+   "instagram": "18072350969785228",
+   "dry_run": false,
+   "finished": "2026-11-07T12:39:33+07:00"
   }
  ]
 }
