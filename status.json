@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-07T12:39:33+07:00",
+ "updated": "2026-11-07T16:43:53+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261102_1942_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-02T19:42:59+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:42 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-11-02T19:42:59+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 320 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-02T19:43:00+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Konsa Atau Haaland?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-02T19:46:24+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-02T19:46:26+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-02T19:46:26+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-02T19:47:05+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Konsa Atau Haaland?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Pusing ya mikirin strategi FPL pekan ini, Reds? Di satu sisi ada Konsa yang harganya murah meriah cuma £4.7m dengan potensi cleansheet gede karena ketemu Hull City di kandang. Tapi di sisi lain, Haaland si robot gol dengan harga £15.8m udah nunggu buat dijadiin kapten meski tandang ke markas Forest. Kepemilikan Haaland yang nyaris 80% bikin deg-degan kalau ditinggal. Kalau kalian jadi manajer FPL, lebih milih amankan bek jagoan atau tetep pasang ban kapten ke Haaland? Coba tumpahin pilihan kalia",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261102_1942.jpg",
-   "facebook": "102254338861969_1150504500702139",
-   "instagram": "18238323001316666",
-   "dry_run": false,
-   "finished": "2026-11-02T19:47:08+07:00"
-  },
   {
    "id": "20261103_0740_mu_news",
    "task": "draft",
@@ -1214,6 +1157,69 @@
    "instagram": "18072350969785228",
    "dry_run": false,
    "finished": "2026-11-07T12:39:33+07:00"
+  },
+  {
+   "id": "20261107_1638_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-07T16:38:18+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 16:38 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-07T16:38:18+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 321 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-07T16:38:20+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kenang Malam Kelabu Kontra Southend\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-07T16:43:02+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-07T16:43:09+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-07T16:43:09+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-07T16:43:49+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-07T16:43:53+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Kenang Malam Kelabu Kontra Southend",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pernah dengar cerita waktu Manchester United dijegal habis sama tim semenjana Southend United dua puluh tahun lalu, Reds? Padahal waktu itu Sir Alex nurunin pemain bintang kayak Cristiano Ronaldo sama Wayne Rooney, tapi malah kepeleset gara-gara tendangan bebas jarak jauh! Wah, malam itu benar-benar bikin gempar sepak bola Inggris deh. Coba tebak, ada gak dari kalian yang udah ngikutin MU sejak era jadul ini? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pak",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261107_1638.jpg",
+   "facebook": "102254338861969_1155373330215256",
+   "instagram": "18127723639909519",
+   "dry_run": false,
+   "finished": "2026-11-07T16:43:53+07:00"
   }
  ]
 }
