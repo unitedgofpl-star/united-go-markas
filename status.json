@@ -1,65 +1,7 @@
 {
- "updated": "2026-11-07T16:43:53+07:00",
+ "updated": "2026-11-07T19:32:25+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261103_0740_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-03T07:40:16+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 07:40 WIB: Kabar MU — topik: Benjamin Sesko yang cidera",
-     "ok": true,
-     "t": "2026-11-03T07:40:16+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 322 pemain, 10 laga, 2 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-03T07:40:17+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Ujian Berat Carrick\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-03T07:44:58+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-03T07:45:04+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-03T07:45:04+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-11-03T07:45:04+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "Benjamin Sesko yang cidera",
-   "gw": 10,
-   "title": "Ujian Berat Carrick",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mumpung lagi persiapan duel Liga Champions lawan Roma di Old Trafford, pelatih Michael Carrick ngaku tetap antusias walau situasi tim lagi nggak gampang nih, Red Devils! Latihan terakhir di Carrington juga kelihatan serius banget demi target bangkit. Kira-kira, MU bakal sanggup kasih hasil manis nggak ya malam nanti? Coba tulis prediksinya di kolom komentar!\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261103_0740.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-11-03T07:45:07+07:00"
-  },
   {
    "id": "20261103_0856_mu_news",
    "task": "post",
@@ -1220,6 +1162,63 @@
    "instagram": "18127723639909519",
    "dry_run": false,
    "finished": "2026-11-07T16:43:53+07:00"
+  },
+  {
+   "id": "20261107_1929_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-11-07T19:29:13+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:29 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-11-07T19:29:13+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-07T19:29:14+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Haaland Mahal vs Evanilson Gacor\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-11-07T19:31:33+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-07T19:31:36+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-07T19:31:36+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-07T19:32:23+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Haaland Mahal vs Evanilson Gacor",
+   "llm": "gemini-flash-latest",
+   "caption": "Bikin pusing tiap pekan, mending amankan robot atau lirik penyerang murah yang lagi wangi? Haaland (£15.8m) punya laga kandang empuk lawan Fulham dengan kepemilikan masif 79.2%. Tapi jangan remehkan Evanilson (£6.5m) dari Bournemouth! Form-nya lagi lebih gacor di 6.8 dan bakal jamu Forest di kandang. Selisih harganya lumayan banget buat upgrade lini tengah FPL lu. Lu tim setia nahan Haaland atau berani ambil resiko bareng Evanilson pekan ini, lur?\n\n💎 Mau tips FPL eksklusif + chip strategy tiap G",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261107_1929.jpg",
+   "facebook": "102254338861969_1155505286868727",
+   "instagram": "18081062534568046",
+   "dry_run": false,
+   "finished": "2026-11-07T19:32:25+07:00"
   }
  ]
 }
