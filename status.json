@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-06T19:46:12+07:00",
+ "updated": "2026-11-07T08:58:22+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261102_1248_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-02T12:48:31+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:48 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-02T12:48:31+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 320 pemain, 10 laga, 2 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-02T12:48:33+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Masa Depan Carrick di MU\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-02T12:50:31+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-02T12:50:38+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-02T12:50:38+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-02T12:51:21+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-02T12:51:25+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Masa Depan Carrick di MU",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Anak asuh Michael Carrick dipastikan bakal dapet kesempatan buat buktiin diri lagi setelah sempat dikabarkan bakal didepak minggu ini, Red Devils! Sang pelatih juga santai banget nanggepin situasinya dan bilang kalau dia nggak butuh jaminan khusus dari klub, plus mastiin kalau hubungannya sama Bruno Fernandes baik-baik aja. Gimana nih, kalian optimis nggak Carrick bisa balikin performa MU ke jalur kemenangan?\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261102_1248.jpg",
-   "facebook": "102254338861969_1150224690730120",
-   "instagram": "17925733785433627",
-   "dry_run": false,
-   "finished": "2026-11-02T12:51:25+07:00"
-  },
   {
    "id": "20261102_1653_mu_news",
    "task": "post",
@@ -1214,6 +1151,69 @@
    "instagram": "18013772804989047",
    "dry_run": false,
    "finished": "2026-11-06T19:46:12+07:00"
+  },
+  {
+   "id": "20261107_0854_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-07T08:54:24+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 08:54 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-07T08:54:24+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 321 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-07T08:54:26+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pernyataan Glazer Dibuang ke Tong Sampah\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-07T08:56:16+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "4 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-07T08:57:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-07T08:57:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-07T08:58:18+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-07T08:58:22+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Pernyataan Glazer Dibuang ke Tong Sampah",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Ada-ada saja nih Reds! Omongan petinggi klub lagi-lagi bikin elus dada fans. Menurut kalian, beneran gak sih performa tim di lapangan gak ngaruh ke keuangan klub? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unitedgo #manchesterunited #mufc #glazersout #infomu",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 4,
+   "cover": "covers/20261107_0854.jpg",
+   "facebook": "102254338861969_1155052770247312",
+   "instagram": "17917832412536325",
+   "dry_run": false,
+   "finished": "2026-11-07T08:58:22+07:00"
   }
  ]
 }
