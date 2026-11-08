@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-08T18:43:50+07:00",
+ "updated": "2026-11-08T22:51:25+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261103_1649_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-03T16:49:14+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:49 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-03T16:49:14+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 322 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-03T16:49:15+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Info Terbaru Setan Merah\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-03T16:50:25+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-03T16:50:30+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-03T16:50:30+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-03T16:51:15+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-03T16:51:19+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Info Terbaru Setan Merah",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo, manian United GO! Pantengin terus update terbaru seputar dapur pacu skuad Setan Merah kita minggu ini. Biar gak ketinggalan info taktik dan kesiapan tim, kira-kira siapa nih pemain yang paling lo tunggu aksinya di laga nanti? Coba komen di bawah ya!\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #mufc #manchesterunited #unitedgo #infomanu",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261103_1649.jpg",
-   "facebook": "102254338861969_1151342587284997",
-   "instagram": "18124770221512773",
-   "dry_run": false,
-   "finished": "2026-11-03T16:51:19+07:00"
-  },
   {
    "id": "20261103_1943_engagement_poll",
    "task": "post",
@@ -1219,6 +1156,69 @@
    "instagram": "18081947195422864",
    "dry_run": false,
    "finished": "2026-11-08T18:43:50+07:00"
+  },
+  {
+   "id": "20261108_2248_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-08T22:48:27+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 22:48 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-08T22:48:27+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga, 5 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-08T22:48:29+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Mimpi Ballon d'Or JJ Gabriel\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-08T22:50:34+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "4 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-08T22:50:38+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-08T22:50:38+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-08T22:51:20+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-08T22:51:25+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Mimpi Ballon d'Or JJ Gabriel",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah, ada kabar kurang sedap nih buat pendukung Setan Merah soal wonderkid kita! Penyerang muda MU, JJ Gabriel, blak-blakan bilang kalau mimpinya adalah meraih Ballon d'Or di tengah rumor kepindahannya ke Real Madrid. Pemain 16 tahun ini sebelumnya sempat jadi sorotan waktu jadi pemain terbaik U-18 Liga Inggris musim lalu. Gimana tanggapan kalian soal situasi Gabriel ini, Reds?\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unite",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 4,
+   "cover": "covers/20261108_2248.jpg",
+   "facebook": "102254338861969_1156748733411049",
+   "instagram": "18121456316063229",
+   "dry_run": false,
+   "finished": "2026-11-08T22:51:25+07:00"
   }
  ]
 }
