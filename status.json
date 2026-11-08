@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-08T14:16:33+07:00",
+ "updated": "2026-11-08T18:43:50+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261103_1242_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-11-03T12:42:08+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:42 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-11-03T12:42:08+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 322 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-03T12:42:08+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Gerakan Transfer FPL Pekan Ini\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-03T12:42:42+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-03T12:42:44+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-03T12:42:44+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-03T12:43:27+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Gerakan Transfer FPL Pekan Ini",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Wah, pergerakan harga pemain FPL makin liar nih, Reds! Buat kalian yang mau ngamankan tim sebelum deadline, pastikan cek dompet dan form pemain incaran. Evanilson sama Jackson lagi jadi buruan utama buat nambah poin, sementara beberapa nama besar kayak Bruno harus rela dilepas dulu sama banyak manajer. Kalau kalian sendiri, timnya sudah siap buat GW ini atau masih males-malesan mindahin pemain? Coba komen di bawah strategi transfer kalian!\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — l",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261103_1242.jpg",
-   "facebook": "102254338861969_1151183657300890",
-   "instagram": "17954659464305643",
-   "dry_run": false,
-   "finished": "2026-11-03T12:43:28+07:00"
-  },
   {
    "id": "20261103_1649_mu_news",
    "task": "post",
@@ -1219,6 +1162,63 @@
    "instagram": "18030619076874283",
    "dry_run": false,
    "finished": "2026-11-08T14:16:33+07:00"
+  },
+  {
+   "id": "20261108_1838_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-11-08T18:38:16+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 18:38 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-11-08T18:38:16+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 328 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-08T18:38:16+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pergerakan Harga Pemain FPL\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-08T18:42:57+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-08T18:43:00+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-08T18:43:00+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-08T18:43:48+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Pergerakan Harga Pemain FPL",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, tim FPL kalian udah aman belum nih jelang deadline? 🚨 Deretan pemain kayak Barry sama Jackson lagi rame banget diboyong, sementara Calvert-Lewin malah banyak yang lego gara-gara penurunannya. Kalau strategi kalian gimana nih, mau ikut bungkus yang lagi gacor atau malah mau nahan sabar dulu? Coba komen di bawah, siapa pemain yang bakal kalianangkut minggu ini, Reds!\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FP",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261108_1838.jpg",
+   "facebook": "102254338861969_1156534650099124",
+   "instagram": "18081947195422864",
+   "dry_run": false,
+   "finished": "2026-11-08T18:43:50+07:00"
   }
  ]
 }
