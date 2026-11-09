@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-10T02:42:17+07:00",
+ "updated": "2026-11-10T04:49:20+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261105_0904_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-05T09:04:30+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 09:04 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-05T09:04:30+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 321 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-05T09:04:32+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Setan Merah Mengamuk di Old Trafford\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-05T09:05:53+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-05T09:05:57+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-05T09:05:57+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-05T09:06:47+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-05T09:06:53+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Setan Merah Mengamuk di Old Trafford",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Parah sih ini, mentalitas anak-anak United beneran nyala lagi! Sempat tertinggal dua gol di Old Trafford, eh malah ngamuk dan bikin comeback epic lawan Roma di Liga Champions. Dukungan suporter emang bener-bener gila bikin suasana makin membara! Gimana semalem, pada nonton langsung atau ketiduran nih? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unite",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261105_0904.jpg",
-   "facebook": "102254338861969_1153023580450231",
-   "instagram": "18122299063991383",
-   "dry_run": false,
-   "finished": "2026-11-05T09:06:53+07:00"
-  },
   {
    "id": "20261105_1249_mu_news",
    "task": "post",
@@ -1178,6 +1115,63 @@
    "instagram": "18100710074539842",
    "dry_run": false,
    "finished": "2026-11-10T02:42:17+07:00"
+  },
+  {
+   "id": "20261110_0443_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-11-10T04:43:37+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 04:43 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-11-10T04:43:37+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 337 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-10T04:43:37+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Evanilson atau Gabriel Nih Boss?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-10T04:48:19+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-10T04:48:21+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-10T04:48:21+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-10T04:49:18+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Evanilson atau Gabriel Nih Boss?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pusing ya, Reds! Milih Evanilson yang lagi on fire buat gedor pertahanan Nottingham Forest, atau pasang Gabriel yang selalu jadi ancaman bola mati Arsenal pas tandang ke Newcastle? Dua-duanya punya statistik ciamik dan harganya masuk akal buat skuad kita pekan ini. Kalau kalian jadi pelatih FPL, siapa nih yang bakal langsung diangkut ke 11 pertama? Coba komen di bawah, alasannya apa biar kita bisa diskusi bareng!\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (l",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261110_0443.jpg",
+   "facebook": "102254338861969_1158032693282653",
+   "instagram": "17960569704256604",
+   "dry_run": false,
+   "finished": "2026-11-10T04:49:20+07:00"
   }
  ]
 }
