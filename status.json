@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-09T14:58:46+07:00",
+ "updated": "2026-11-09T20:35:31+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261104_1652_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-04T16:52:03+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:52 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-04T16:52:03+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 321 pemain, 10 laga, 5 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-04T16:52:04+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Wonderkid MU Diincar Madrid\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-04T16:52:44+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-04T16:52:49+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-04T16:52:49+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-04T16:53:33+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-04T16:53:37+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Wonderkid MU Diincar Madrid",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Waduh, ada kabar kurang sedap nih buat masa depan wonderkid kita, Reds! JJ Gabriel yang sempat disebut-sebut bakal jadi debutan termuda malah santer dikabarkan bakal merapat ke Real Madrid. Padahal talentanya di level akademi luar biasa banget musim lalu. Kalau kalian jadi manajemen MU, bakal relagelepas atau coba dibujuk buat bertahan nih?\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#Uni",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261104_1652.jpg",
-   "facebook": "102254338861969_1152341993851723",
-   "instagram": "18116631098582357",
-   "dry_run": false,
-   "finished": "2026-11-04T16:53:37+07:00"
-  },
   {
    "id": "20261104_1940_engagement_poll",
    "task": "post",
@@ -1178,6 +1115,63 @@
    "instagram": "18150166540577426",
    "dry_run": false,
    "finished": "2026-11-09T14:58:46+07:00"
+  },
+  {
+   "id": "20261109_2030_fpl_differential",
+   "task": "post",
+   "kind": "fpl_differential",
+   "label": "Differential FPL",
+   "started": "2026-11-09T20:30:54+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 20:30 WIB: Differential FPL",
+     "ok": true,
+     "t": "2026-11-09T20:30:54+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 337 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-09T20:30:54+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pemain Diferensial FPL GW11\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-09T20:34:39+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "4 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-09T20:34:41+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-09T20:34:41+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-09T20:35:29+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Pemain Diferensial FPL GW11",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Mau ngebut di FPL GW11 tapi bosan pakai pemain mainstream? Tenang, bos! Deretan pemain differential dengan kepemilikan di bawah 10% ini siap bikin tim kamu melesat jauh di tangga klasemen. Dari aset Brighton yang away ke Hull sampai andalan Bournemouth di kandang, semuanya punya form ciamik buat jadi pembeda. Siapa nih yang bakal langsung kamu angkut ke starting XI minggu ini?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUF",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 4,
+   "cover": "covers/20261109_2030.jpg",
+   "facebook": "102254338861969_1157666329985956",
+   "instagram": "17910767727581572",
+   "dry_run": false,
+   "finished": "2026-11-09T20:35:31+07:00"
   }
  ]
 }
