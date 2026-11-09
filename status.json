@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-09T20:35:31+07:00",
+ "updated": "2026-11-10T02:42:17+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261104_1940_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-04T19:40:26+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:40 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-11-04T19:40:26+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 321 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-04T19:40:27+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Konsa atau Evanilson?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-04T19:41:29+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-04T19:41:32+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-04T19:41:32+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-04T19:42:15+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Konsa atau Evanilson?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau angkut siapa buat GW ini? Tenang, Red Army FPL gak sendirian kok! Di satu sisi ada Ezri Konsa yang siap jaga pertahanan Aston Villa lawan Hull City di kandang. Di sisi lain, Evanilson dari Bournemouth siap ngamuk tandang ke markas Ipswich Town. Harganya ramah di kantong, formnya juga sama-sama gacor! Kalau kalian, lebih mantap pasang bek solid atau striker tajam? Coba drop pilihan kalian di kolom komentar ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 h",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261104_1940.jpg",
-   "facebook": "102254338861969_1152469170505672",
-   "instagram": "18111278515916155",
-   "dry_run": false,
-   "finished": "2026-11-04T19:42:17+07:00"
-  },
   {
    "id": "20261105_0904_mu_news",
    "task": "post",
@@ -1172,6 +1115,69 @@
    "instagram": "17910767727581572",
    "dry_run": false,
    "finished": "2026-11-09T20:35:31+07:00"
+  },
+  {
+   "id": "20261110_0230_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-10T02:30:38+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 02:30 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-10T02:30:38+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 336 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-10T02:30:40+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Aksi Penyelamat Dorgu\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-10T02:35:21+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "4 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-10T02:41:28+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-10T02:41:28+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-10T02:42:12+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-10T02:42:17+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Aksi Penyelamat Dorgu",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Anak-anak MU sukses amankan satu poin penting berkat gol dramatis dari Patrick Dorgu di ujung laga kontra Aston Villa, Red Devils! Komentator Ali Bruce-Ball juga sempat kasih lihat reaksinya soal momen krusial di Old Trafford ini. Menurut kalian, gimana performa tim secara keseluruhan di laga kemarin? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUn",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 4,
+   "cover": "covers/20261110_0230.jpg",
+   "facebook": "102254338861969_1157953223290600",
+   "instagram": "18100710074539842",
+   "dry_run": false,
+   "finished": "2026-11-10T02:42:17+07:00"
   }
  ]
 }
