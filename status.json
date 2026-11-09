@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-09T00:24:54+07:00",
+ "updated": "2026-11-09T09:44:01+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261104_0855_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-04T08:55:24+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 08:55 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-04T08:55:24+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 321 pemain, 10 laga, 4 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-04T08:55:26+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Buka Suara\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-04T08:56:25+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-04T08:56:32+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-04T08:56:32+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-04T08:57:17+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-04T08:57:21+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Buka Suara",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo Reds! Bruno Fernandes akhirnya buka suara soal berbagai rumor miring yang beredar tentang hubungannya dengan sang pelatih. Menurut sang kapten, banyak berita bohong yang dibesar-besarkan media belakangan ini. Kemenangan dramatis atas Roma kemarin semoga jadi titik balik buat konsistensi tim kita ya, Reds. Gimana nih pendapat kalian soal performa kapten kita kemarin? Coba komen di bawah!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261104_0855.jpg",
-   "facebook": "102254338861969_1152026987216557",
-   "instagram": "18595421827067949",
-   "dry_run": false,
-   "finished": "2026-11-04T08:57:21+07:00"
-  },
   {
    "id": "20261104_1246_fixture_preview",
    "task": "post",
@@ -1219,6 +1156,22 @@
    "instagram": "18100275575388498",
    "dry_run": false,
    "finished": "2026-11-09T00:24:54+07:00"
+  },
+  {
+   "id": "20261109_0943_analyze",
+   "task": "analyze",
+   "label": "Laporan mingguan",
+   "started": "2026-11-09T09:43:39+07:00",
+   "steps": [
+    {
+     "agent": "analyst",
+     "msg": "# Laporan Analyst United Go — 09 Nov 2026",
+     "ok": true,
+     "t": "2026-11-09T09:44:01+07:00"
+    }
+   ],
+   "error": null,
+   "finished": "2026-11-09T09:44:01+07:00"
   }
  ]
 }
