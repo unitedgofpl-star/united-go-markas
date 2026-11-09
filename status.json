@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-09T09:44:01+07:00",
+ "updated": "2026-11-09T14:58:46+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261104_1246_fixture_preview",
-   "task": "post",
-   "kind": "fixture_preview",
-   "label": "Preview Fixture",
-   "started": "2026-11-04T12:46:00+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:46 WIB: Preview Fixture",
-     "ok": true,
-     "t": "2026-11-04T12:46:00+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 321 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-04T12:46:00+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Jadwal Seru Premier League\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-04T12:47:38+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hijau, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-04T12:47:42+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-04T12:47:42+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-04T12:48:22+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Jadwal Seru Premier League",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo, Boss! Gameweek 10 udah di depan mata nih. Buat kamu yang lagi pusing nyiapin strategi FPL, yuk intip tingkat kesulitan laga akhir pekan ini. Jangan sampai salah pilih kapten yang malah bikin minus poin ya! Kalau jagoan kamu bakal menang mudah atau justru ketiban sial minggu ini? Coba tulis prediksi skor tim jagoanmu di kolom komentar bawah, lur!\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261104_1246.jpg",
-   "facebook": "102254338861969_1152180923867830",
-   "instagram": "18128313934667842",
-   "dry_run": false,
-   "finished": "2026-11-04T12:48:25+07:00"
-  },
   {
    "id": "20261104_1652_mu_news",
    "task": "post",
@@ -1172,6 +1115,69 @@
    ],
    "error": null,
    "finished": "2026-11-09T09:44:01+07:00"
+  },
+  {
+   "id": "20261109_1448_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-09T14:48:50+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 14:48 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-09T14:48:50+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 337 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-09T14:48:51+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Four 'huge mistakes' that show Man Utd's defensi\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-09T14:52:14+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-09T14:57:37+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-09T14:57:37+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-09T14:58:41+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-09T14:58:46+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Four 'huge mistakes' that show Man Utd's defensi",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Kabar terbaru Setan Merah minggu ini 👹\n\nGimana pendapat kalian, Reds? 🔴\n\nSimpan postingan ini buat referensi sebelum deadline 📌\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #MUFCNews #OldTrafford",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261109_1448.jpg",
+   "facebook": "102254338861969_1157415873344335",
+   "instagram": "18150166540577426",
+   "dry_run": false,
+   "finished": "2026-11-09T14:58:46+07:00"
   }
  ]
 }
