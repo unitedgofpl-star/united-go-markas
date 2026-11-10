@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-10T20:13:10+07:00",
+ "updated": "2026-11-10T23:50:25+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261105_1946_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-11-05T19:46:22+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:46 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-11-05T19:46:22+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 320 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-05T19:46:23+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Siapa Naik, Siapa Turun?\" (cadangan)",
-     "ok": true,
-     "t": "2026-11-05T19:48:52+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "7 slide dirender (tema hijau, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-05T19:48:56+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-05T19:48:56+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-05T19:49:39+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Siapa Naik, Siapa Turun?",
-   "llm": "cadangan",
-   "caption": "Siapa yang lagi diburu manajer & siapa yang ditinggal? Price watch GW10 📈📉\n\n📈 Diburu: Evanilson, N.Jackson, Tavernier\n📉 Ditinggal: Cherki, B.Fernandes, Mbeumo\n\nSimpan postingan ini buat referensi sebelum deadline 📌\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW10",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 7,
-   "cover": "covers/20261105_1946.jpg",
-   "facebook": "102254338861969_1153462470406342",
-   "instagram": "18107276333293726",
-   "dry_run": false,
-   "finished": "2026-11-05T19:49:41+07:00"
-  },
   {
    "id": "20261106_0905_mu_news",
    "task": "post",
@@ -1166,6 +1109,69 @@
    "instagram": "18415272028089177",
    "dry_run": false,
    "finished": "2026-11-10T20:13:10+07:00"
+  },
+  {
+   "id": "20261110_2348_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-10T23:48:18+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:48 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-10T23:48:18+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 336 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-10T23:48:19+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Nasib Michael Carrick di MU\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-10T23:49:15+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-10T23:49:35+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-10T23:49:35+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-10T23:50:20+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-10T23:50:25+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Nasib Michael Carrick di MU",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah Red Devils lagi diuji banget nih, Reds! Start musim ini bener-bener di luar dugaan dan bikin kursi kepelatihan jadi panas. Kabarnya para petinggi bakal segera ngobrolin masa depan tim di Monaco. Kalauurutannya kayak gini, kira-kira siapa nih pelatih yang paling pas buat nakhodai MU selanjutnya? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnite",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261110_2348.jpg",
+   "facebook": "102254338861969_1158850649867524",
+   "instagram": "17922588141515920",
+   "dry_run": false,
+   "finished": "2026-11-10T23:50:25+07:00"
   }
  ]
 }
