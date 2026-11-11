@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-11T19:24:01+07:00",
+ "updated": "2026-11-12T02:03:50+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261106_1944_promo_tool",
-   "task": "post",
-   "kind": "promo_tool",
-   "label": "Promo FPL Squad Hack",
-   "started": "2026-11-06T19:44:21+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:44 WIB: Promo FPL Squad Hack",
-     "ok": true,
-     "t": "2026-11-06T19:44:21+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 317 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-06T19:44:22+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Cek Rangkuman Skuad FPL Kamu\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-06T19:45:24+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hijau, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-06T19:45:26+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-06T19:45:26+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-06T19:46:10+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Cek Rangkuman Skuad FPL Kamu",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Pernah ngalamin salah pilih kapten terus poin FPL malah terjun bebas? Duh, jangan sampe kejadian lagi ya Red Devils! Buat kalian yang mau performa tim FPL makin gacor tiap gameweek, kita siapin tool spesial nih. Lewat 'FPL Squad Hack', kalian bisa cek rating skuad, dapet rekomendasi transfer jitu, sampe strategi penggunaan chip yang pas. Serunya lagi, tool ini gratis dan bilingual bro! Tunggu apa lagi, yuk langsung jajal sekarang biar makin jago racik strategi. Kamu pake chip apa nih buat GW dep",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261106_1944.jpg",
-   "facebook": "102254338861969_1154465930305996",
-   "instagram": "18013772804989047",
-   "dry_run": false,
-   "finished": "2026-11-06T19:46:12+07:00"
-  },
   {
    "id": "20261107_0854_mu_news",
    "task": "post",
@@ -1160,6 +1103,63 @@
    "instagram": "18000679166825159",
    "dry_run": false,
    "finished": "2026-11-11T19:24:01+07:00"
+  },
+  {
+   "id": "20261112_0158_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-11-12T01:58:48+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 01:58 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-11-12T01:58:48+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 333 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-12T01:58:49+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Siapa Naik, Siapa Turun?\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-12T02:02:40+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "7 slide dirender (tema biru, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-12T02:02:43+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-12T02:02:43+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-12T02:03:48+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Siapa Naik, Siapa Turun?",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Transfer sekarang atau nanti? Cek dulu pergerakan harga ini 👀\n\n📈 Diburu: N.Jackson, Barry, Evanilson\n📉 Ditinggal: Calvert-Lewin, Mbeumo, Hall\n\nKamu pilih siapa? Tulis di komentar 👇\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW11",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 7,
+   "cover": "covers/20261112_0158.jpg",
+   "facebook": "102254338861969_1159983713087551",
+   "instagram": "17978147775154773",
+   "dry_run": false,
+   "finished": "2026-11-12T02:03:50+07:00"
   }
  ]
 }
