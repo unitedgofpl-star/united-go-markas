@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-11T14:44:32+07:00",
+ "updated": "2026-11-11T19:24:01+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261106_1653_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-06T16:53:33+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:53 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-06T16:53:33+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 317 pemain, 10 laga, 5 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-06T16:53:35+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Saatnya Fans Lebih Positif?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-06T16:54:37+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-06T16:57:25+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-06T16:57:25+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-06T16:58:28+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-06T16:58:33+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Saatnya Fans Lebih Positif?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo, Red Devils! Gara-gara kemenangan epic kemarin, Kasper Schmeichel ngasih saran bagus nih buat kita semua. Dia bilang udah waktunya suporter makin solid di belakang tim. Setuju nggak nih kalau energi positif dari tribun bener-bener ngefek buat mental pemain di lapangan? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUn",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261106_1653.jpg",
-   "facebook": "102254338861969_1154329170319672",
-   "instagram": "18119573294046881",
-   "dry_run": false,
-   "finished": "2026-11-06T16:58:33+07:00"
-  },
   {
    "id": "20261106_1944_promo_tool",
    "task": "post",
@@ -1166,6 +1103,63 @@
    "instagram": "18160715563511511",
    "dry_run": false,
    "finished": "2026-11-11T14:44:32+07:00"
+  },
+  {
+   "id": "20261111_1919_fixture_preview",
+   "task": "post",
+   "kind": "fixture_preview",
+   "label": "Preview Fixture",
+   "started": "2026-11-11T19:19:47+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:19 WIB: Preview Fixture",
+     "ok": true,
+     "t": "2026-11-11T19:19:47+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 334 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-11T19:19:47+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Jadwal Seru FPL Gameweek 11\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-11T19:23:13+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hijau, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-11T19:23:15+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-11T19:23:15+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-11T19:23:59+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Jadwal Seru FPL Gameweek 11",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo mancing mania FPL! Gameweek 11 udah di depan mata nih, saatnya racik skuad terbaik kalian biar poin melesat naik. Perhatiin baik-baik tingkat kesulitan tiap fixture sebelum kunci transfer ya. Siapa nih pemain yang bakal jadi jagoan kalian buat meraup poin maksimal pekan ini? Coba sebutin di kolom komentar!\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unitedgo #fplindonesia #fantasypremierleague",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261111_1919.jpg",
+   "facebook": "102254338861969_1159659529786636",
+   "instagram": "18000679166825159",
+   "dry_run": false,
+   "finished": "2026-11-11T19:24:01+07:00"
   }
  ]
 }
