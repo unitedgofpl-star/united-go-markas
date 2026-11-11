@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-11T02:05:09+07:00",
+ "updated": "2026-11-11T14:44:32+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261106_1246_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-06T12:46:55+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:46 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-06T12:46:55+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW10: 317 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-06T12:46:57+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Magis Old Trafford Beraksi\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-06T12:48:49+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-06T12:49:10+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-06T12:49:10+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-06T12:49:46+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-06T12:49:49+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 10,
-   "title": "Magis Old Trafford Beraksi",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Anak asuh Manchester United bener-bener bikin jantung mau copot pas ngadepin Roma semalem! Tertinggal dua gol duluan, eh malah dibalikin jadi menang 3-2 di Liga Champions. Kata Michael Carrick, suporter di Old Trafford punya magis sendiri buat ngerubah jalannya laga lewat dukungan luar biasa mereka. Emang paling ngeri kalau Old Trafford udah bergemuruh ya Red Devils! Gimana nih, kalian nonton langsung atau streaming sambil deg-degan?\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pa",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261106_1246.jpg",
-   "facebook": "102254338861969_1154161893669733",
-   "instagram": "18021181646964589",
-   "dry_run": false,
-   "finished": "2026-11-06T12:49:49+07:00"
-  },
   {
    "id": "20261106_1653_mu_news",
    "task": "post",
@@ -1166,6 +1103,69 @@
    "instagram": "17912779299303765",
    "dry_run": false,
    "finished": "2026-11-11T02:05:09+07:00"
+  },
+  {
+   "id": "20261111_1438_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-11T14:38:13+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 14:38 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-11T14:38:13+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 334 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-11T14:38:14+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Masa Depan Carrick Ditentukan Hari Ini\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-11-11T14:38:48+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-11T14:43:41+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-11T14:43:41+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-11T14:44:28+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-11T14:44:32+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Masa Depan Carrick Ditentukan Hari Ini",
+   "llm": "gemini-flash-latest",
+   "caption": "Kursi kepelatihan Manchester United kembali memanas, bro! Hari Rabu ini, bos-bos Setan Merah kumpul di Monaco. Omar Berrada dan Jason Wilcox nemuin Sir Jim Ratcliffe dalam agenda rutin yang kini fokus nentuin nasib Michael Carrick. Kabarnya, manajemen condong merekomendasikan pergantian pelatih kepala. Wajar aja, kondisinya emang lagi darurat: United kejebak di peringkat 18 zona degradasi dengan cuma sekali menang dari 10 laga, catatan paling suram sejak musim 1986-87. Sir Jim bener-bener diuji ",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261111_1438.jpg",
+   "facebook": "102254338861969_1159440586475197",
+   "instagram": "18160715563511511",
+   "dry_run": false,
+   "finished": "2026-11-11T14:44:32+07:00"
   }
  ]
 }
