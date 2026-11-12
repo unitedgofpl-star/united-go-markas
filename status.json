@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-12T20:32:10+07:00",
+ "updated": "2026-11-13T00:28:15+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261107_1638_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-07T16:38:18+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 16:38 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-07T16:38:18+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 321 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-07T16:38:20+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Kenang Malam Kelabu Kontra Southend\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-07T16:43:02+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-07T16:43:09+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-07T16:43:09+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-07T16:43:49+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-07T16:43:53+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Kenang Malam Kelabu Kontra Southend",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Pernah dengar cerita waktu Manchester United dijegal habis sama tim semenjana Southend United dua puluh tahun lalu, Reds? Padahal waktu itu Sir Alex nurunin pemain bintang kayak Cristiano Ronaldo sama Wayne Rooney, tapi malah kepeleset gara-gara tendangan bebas jarak jauh! Wah, malam itu benar-benar bikin gempar sepak bola Inggris deh. Coba tebak, ada gak dari kalian yang udah ngikutin MU sejak era jadul ini? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pak",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261107_1638.jpg",
-   "facebook": "102254338861969_1155373330215256",
-   "instagram": "18127723639909519",
-   "dry_run": false,
-   "finished": "2026-11-07T16:43:53+07:00"
-  },
   {
    "id": "20261107_1929_engagement_poll",
    "task": "post",
@@ -1154,6 +1091,63 @@
    "instagram": "18146688895606159",
    "dry_run": false,
    "finished": "2026-11-12T20:32:10+07:00"
+  },
+  {
+   "id": "20261113_0022_mu_news",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-11-13T00:22:55+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 00:22 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-13T00:22:55+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-13T00:23:10+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Gabriel atau N.Jackson?\" (cadangan)",
+     "ok": true,
+     "t": "2026-11-13T00:27:25+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-13T00:27:28+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-13T00:27:28+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-13T00:28:12+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Gabriel atau N.Jackson?",
+   "llm": "cadangan",
+   "caption": "Voting dibuka! 🗳️ Siapa lebih layak di skuad kamu GW11?\n\n🅰️ Gabriel (vs NEW (A) · laga sedang)\n🅱️ N.Jackson (vs SUN (H) · laga mudah)\nKomen A atau B!\n\nSimpan postingan ini buat referensi sebelum deadline 📌\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW11",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261113_0022.jpg",
+   "facebook": "102254338861969_1160952136324042",
+   "instagram": "18081982370717665",
+   "dry_run": false,
+   "finished": "2026-11-13T00:28:15+07:00"
   }
  ]
 }
