@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-13T00:28:15+07:00",
+ "updated": "2026-11-13T02:20:02+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261107_1929_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-07T19:29:13+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:29 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-11-07T19:29:13+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 323 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-07T19:29:14+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Haaland Mahal vs Evanilson Gacor\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-11-07T19:31:33+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-07T19:31:36+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-07T19:31:36+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-07T19:32:23+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Haaland Mahal vs Evanilson Gacor",
-   "llm": "gemini-flash-latest",
-   "caption": "Bikin pusing tiap pekan, mending amankan robot atau lirik penyerang murah yang lagi wangi? Haaland (£15.8m) punya laga kandang empuk lawan Fulham dengan kepemilikan masif 79.2%. Tapi jangan remehkan Evanilson (£6.5m) dari Bournemouth! Form-nya lagi lebih gacor di 6.8 dan bakal jamu Forest di kandang. Selisih harganya lumayan banget buat upgrade lini tengah FPL lu. Lu tim setia nahan Haaland atau berani ambil resiko bareng Evanilson pekan ini, lur?\n\n💎 Mau tips FPL eksklusif + chip strategy tiap G",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261107_1929.jpg",
-   "facebook": "102254338861969_1155505286868727",
-   "instagram": "18081062534568046",
-   "dry_run": false,
-   "finished": "2026-11-07T19:32:25+07:00"
-  },
   {
    "id": "20261108_1404_mu_news",
    "task": "post",
@@ -1148,6 +1091,63 @@
    "instagram": "18081982370717665",
    "dry_run": false,
    "finished": "2026-11-13T00:28:15+07:00"
+  },
+  {
+   "id": "20261113_0217_promo_tool",
+   "task": "post",
+   "kind": "promo_tool",
+   "label": "Promo FPL Squad Hack",
+   "started": "2026-11-13T02:17:47+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 02:17 WIB: Promo FPL Squad Hack",
+     "ok": true,
+     "t": "2026-11-13T02:17:47+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-13T02:17:48+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Skuad FPL-mu Dinilai AI\" (cadangan)",
+     "ok": true,
+     "t": "2026-11-13T02:19:14+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide dirender (tema hijau, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-13T02:19:16+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-13T02:19:16+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-13T02:20:00+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Skuad FPL-mu Dinilai AI",
+   "llm": "cadangan",
+   "caption": "Capek mikir transfer sendirian? 😮‍💨\n\nFPL Squad Hack: rating skuad, saran transfer & strategi chip dalam satu klik.\nGratis, bahasa Indonesia, link di bio 🔗\n\nKamu pilih siapa? Tulis di komentar 👇\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW11",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261113_0217.jpg",
+   "facebook": "102254338861969_1161033846315871",
+   "instagram": "17910223191597878",
+   "dry_run": false,
+   "finished": "2026-11-13T02:20:02+07:00"
   }
  ]
 }
