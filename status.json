@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-13T02:20:02+07:00",
+ "updated": "2026-11-13T14:45:28+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261108_1404_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-08T14:04:44+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 14:04 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-08T14:04:44+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 328 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-08T14:04:44+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Carrick Bela Total Bruno Fernandes\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-11-08T14:07:06+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-08T14:15:46+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-08T14:15:46+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-08T14:16:30+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-08T14:16:33+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Carrick Bela Total Bruno Fernandes",
-   "llm": "gemini-flash-latest",
-   "caption": "Sempat digosipkan retak, Michael Carrick langsung pasang badan buat sang kapten! Bos Manchester United ini menegaskan komitmen Bruno Fernandes buat klub sama sekali nggak perlu diragukan lagi. Menurut Carrick, mentalitas dan aksi Bruno di lapangan sudah menjawab segalanya, termasuk saat mencetak gol penalti krusial lawan Roma. Bruno sendiri juga sudah membantah keras kabar burung soal hubungannya dengan sang pelatih. Bagi Carrick, diskusi dan evaluasi tim di Carrington adalah hal lumrah demi mem",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261108_1404.jpg",
-   "facebook": "102254338861969_1156346430117946",
-   "instagram": "18030619076874283",
-   "dry_run": false,
-   "finished": "2026-11-08T14:16:33+07:00"
-  },
   {
    "id": "20261108_1838_price_watch",
    "task": "post",
@@ -1148,6 +1085,69 @@
    "instagram": "17910223191597878",
    "dry_run": false,
    "finished": "2026-11-13T02:20:02+07:00"
+  },
+  {
+   "id": "20261113_1443_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-13T14:43:50+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 14:43 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-13T14:43:50+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-13T14:43:52+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kabar Terbaru United\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-13T14:44:36+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-13T14:44:42+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-13T14:44:42+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-13T14:45:23+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-13T14:45:28+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Kabar Terbaru United",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo Red Devils! Ada update seputar rumor kursi kepelatihan Manchester United nih yang lagi ramai dibahas. Mulai dari pergerakan Mauricio Pochettino sampai situasi internal tim saat ini. Gimana nih tanggapan kalian soal dinamika Setan Merah belakangan ini? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unitedgoid #ma",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261113_1443.jpg",
+   "facebook": "102254338861969_1161546789597910",
+   "instagram": "18048326690830568",
+   "dry_run": false,
+   "finished": "2026-11-13T14:45:28+07:00"
   }
  ]
 }
