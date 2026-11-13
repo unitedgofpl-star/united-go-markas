@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-13T23:59:53+07:00",
+ "updated": "2026-11-14T01:56:18+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261109_1448_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-09T14:48:50+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 14:48 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-09T14:48:50+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 337 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-09T14:48:51+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Four 'huge mistakes' that show Man Utd's defensi\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-09T14:52:14+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-09T14:57:37+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-09T14:57:37+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-09T14:58:41+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-09T14:58:46+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Four 'huge mistakes' that show Man Utd's defensi",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Kabar terbaru Setan Merah minggu ini 👹\n\nGimana pendapat kalian, Reds? 🔴\n\nSimpan postingan ini buat referensi sebelum deadline 📌\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #MUFCNews #OldTrafford",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261109_1448.jpg",
-   "facebook": "102254338861969_1157415873344335",
-   "instagram": "18150166540577426",
-   "dry_run": false,
-   "finished": "2026-11-09T14:58:46+07:00"
-  },
   {
    "id": "20261109_2030_fpl_differential",
    "task": "post",
@@ -1177,6 +1114,63 @@
    "instagram": "18120744388778405",
    "dry_run": false,
    "finished": "2026-11-13T23:59:53+07:00"
+  },
+  {
+   "id": "20261114_0154_engagement_poll",
+   "task": "post",
+   "kind": "engagement_poll",
+   "label": "Polling Debat",
+   "started": "2026-11-14T01:54:23+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 01:54 WIB: Polling Debat",
+     "ok": true,
+     "t": "2026-11-14T01:54:23+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-14T01:54:23+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Evanilson atau Gabriel\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T01:55:37+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-14T01:55:39+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-14T01:55:39+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-14T01:56:16+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Evanilson atau Gabriel",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau amankan lini serang atau pertahanan buat GW ini? Tenang, Red Devils! Kita punya dua opsi panas yang lagi jadi rebutan para manajer FPL. Di satu sisi ada Evanilson dari Bournemouth yang lagi gacor-gacornya dengan harga terjangkau 6.5m. Di sisi lain, Gabriel dari Arsenal siap jadi tembok kokoh sekaligus ancaman bola mati dengan harga 8.1m. Dua-duanya punya modal form oke dan lawan yang seimbang. Kalau kalian disuruh milih, lebih mantap ngangkut Evanilson buat nge-golin poin atau nge-lo",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261114_0154.jpg",
+   "facebook": "102254338861969_1162074496211806",
+   "instagram": "17992547499077545",
+   "dry_run": false,
+   "finished": "2026-11-14T01:56:18+07:00"
   }
  ]
 }
