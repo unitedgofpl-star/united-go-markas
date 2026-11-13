@@ -1,23 +1,7 @@
 {
- "updated": "2026-11-13T19:47:37+07:00",
+ "updated": "2026-11-13T23:59:53+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261109_0943_analyze",
-   "task": "analyze",
-   "label": "Laporan mingguan",
-   "started": "2026-11-09T09:43:39+07:00",
-   "steps": [
-    {
-     "agent": "analyst",
-     "msg": "# Laporan Analyst United Go — 09 Nov 2026",
-     "ok": true,
-     "t": "2026-11-09T09:44:01+07:00"
-    }
-   ],
-   "error": null,
-   "finished": "2026-11-09T09:44:01+07:00"
-  },
   {
    "id": "20261109_1448_mu_news",
    "task": "post",
@@ -1130,6 +1114,69 @@
    "instagram": "17920634268469361",
    "dry_run": false,
    "finished": "2026-11-13T19:47:37+07:00"
+  },
+  {
+   "id": "20261113_2357_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-13T23:57:49+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:57 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-13T23:57:49+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-13T23:57:51+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Alasan Pindah ke United\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-13T23:58:59+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-13T23:59:15+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-13T23:59:15+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-13T23:59:49+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-13T23:59:53+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Alasan Pindah ke United",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo Reds! Calon pelatih anyar kita, Mauricio Pochettino, akhirnya buka suara soal keputusannya ninggalin timnas Amerika Serikat demi nerima pinangan Manchester United. Menurut beliau, tawaran dari klub sebesar MU itu ibarat kesempatan emas yang susah banget buat ditolak. Gimana nih pendapat kalian soal kedatangan Coach Poch ke Old Trafford? Coba tulis di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#United",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261113_2357.jpg",
+   "facebook": "102254338861969_1161988616220394",
+   "instagram": "18120744388778405",
+   "dry_run": false,
+   "finished": "2026-11-13T23:59:53+07:00"
   }
  ]
 }
