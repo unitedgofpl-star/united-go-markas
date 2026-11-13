@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-13T16:14:55+07:00",
+ "updated": "2026-11-13T16:17:34+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261108_2248_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-08T22:48:27+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 22:48 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-08T22:48:27+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 332 pemain, 10 laga, 5 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-08T22:48:29+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Mimpi Ballon d'Or JJ Gabriel\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-08T22:50:34+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "4 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-08T22:50:38+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-08T22:50:38+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-08T22:51:20+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-08T22:51:25+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Mimpi Ballon d'Or JJ Gabriel",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Wah, ada kabar kurang sedap nih buat pendukung Setan Merah soal wonderkid kita! Penyerang muda MU, JJ Gabriel, blak-blakan bilang kalau mimpinya adalah meraih Ballon d'Or di tengah rumor kepindahannya ke Real Madrid. Pemain 16 tahun ini sebelumnya sempat jadi sorotan waktu jadi pemain terbaik U-18 Liga Inggris musim lalu. Gimana tanggapan kalian soal situasi Gabriel ini, Reds?\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unite",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 4,
-   "cover": "covers/20261108_2248.jpg",
-   "facebook": "102254338861969_1156748733411049",
-   "instagram": "18121456316063229",
-   "dry_run": false,
-   "finished": "2026-11-08T22:51:25+07:00"
-  },
   {
    "id": "20261109_0021_engagement_poll",
    "task": "post",
@@ -1149,6 +1086,50 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-13T16:14:55+07:00"
+  },
+  {
+   "id": "20261113_1616_mu_news",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "title": "Michael Carrick Dipecat MU",
+   "gw": 11,
+   "topic": "formasi Manchester United terburuk musim ini",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "headings": [
+    "Situasi Makin Parah",
+    "Reaksi Ruang Ganti",
+    "Teka-Teki Masa Depan"
+   ],
+   "task": "post",
+   "started": "2026-11-13T16:16:49+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Draft disetujui: Michael Carrick Dipecat MU",
+     "ok": true,
+     "t": "2026-11-13T16:16:49+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-13T16:17:31+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-13T16:17:34+07:00"
+    }
+   ],
+   "error": null,
+   "caption": "Parah banget sih kondisi Setan Merah belakangan ini! Pemecatan Michael Carrick dari kursi manajer disebut-sebut sebagai titik terendah baru buat Manchester United musim ini. Belum lagi situasi makin panas dengan berbagai sorotan tajam ke internal tim, termasuk soal kritik terhadap kapten. Bikin geleng-geleng kepala kan? Menurut kalian, siapa sih yang paling harus bertanggung jawab atas carut-marut ini dan bisa nggak MU bangkit dalam waktu dekat? Coba tulis pendapat kalian di kolom komentar ya, R",
+   "facebook": "102254338861969_1161610169591572",
+   "instagram": "18100586318442507",
+   "dry_run": false,
+   "cover": "covers/20261113_1616.jpg",
+   "finished": "2026-11-13T16:17:34+07:00"
   }
  ]
 }
