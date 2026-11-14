@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-14T17:57:54+07:00",
+ "updated": "2026-11-14T18:57:28+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261110_0443_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-10T04:43:37+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 04:43 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-11-10T04:43:37+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 337 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-10T04:43:37+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Evanilson atau Gabriel Nih Boss?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-10T04:48:19+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-10T04:48:21+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-10T04:48:21+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-10T04:49:18+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Evanilson atau Gabriel Nih Boss?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Pusing ya, Reds! Milih Evanilson yang lagi on fire buat gedor pertahanan Nottingham Forest, atau pasang Gabriel yang selalu jadi ancaman bola mati Arsenal pas tandang ke Newcastle? Dua-duanya punya statistik ciamik dan harganya masuk akal buat skuad kita pekan ini. Kalau kalian jadi pelatih FPL, siapa nih yang bakal langsung diangkut ke 11 pertama? Coba komen di bawah, alasannya apa biar kita bisa diskusi bareng!\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (l",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261110_0443.jpg",
-   "facebook": "102254338861969_1158032693282653",
-   "instagram": "17960569704256604",
-   "dry_run": false,
-   "finished": "2026-11-10T04:49:20+07:00"
-  },
   {
    "id": "20261110_1509_mu_news",
    "task": "post",
@@ -1172,6 +1115,60 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-14T17:57:54+07:00"
+  },
+  {
+   "id": "20261114_1853_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-11-14T18:53:58+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 18:53 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-11-14T18:53:58+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 331 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-14T18:53:59+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Rekomendasi Kapten FPL Gameweek 11\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T18:57:24+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-14T18:57:27+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-14T18:57:27+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AcIEs_-2sWxUkg-BHqZvzif\"}}",
+     "ok": false,
+     "t": "2026-11-14T18:57:27+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AcIEs_-2sWxUkg-BHqZvzif\"}}",
+   "gw": 11,
+   "title": "Rekomendasi Kapten FPL Gameweek 11",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo para manajer FPL United Indonesia! Udah pada pusing belum mau nunjuk siapa jadi kapten buat GW11? Nih, Mimin bawain tiga opsi penyerang yang lagi on fire buat mimpin tim kalian minggu ini. Dari Evanilson yang main kandang, Jackson yang banyak dijagokan, sampe Barry si opsi hemat buat tandang. Kalau kalian sendiri, ban kapten bakal dipasang ke lengan siapa nih, Reds?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPL",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261114_1853.jpg",
+   "finished": "2026-11-14T18:57:28+07:00"
   }
  ]
 }
