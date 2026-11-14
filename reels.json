@@ -58,7 +58,67 @@
    "draft": true,
    "dry_run": true,
    "finished": "2026-11-14T09:45:11+07:00"
+  },
+  {
+   "id": "20261114_235519_reels",
+   "task": "reels",
+   "kind": "reels",
+   "label": "Reels FYP",
+   "started": "2026-11-14T23:55:19+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift Reels 23:55 WIB (langsung)",
+     "ok": true,
+     "t": "2026-11-14T23:55:19+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Berita dipilih: Tearful Pochettino on 'difficult' decision to leave USA for Man Utd (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-14T23:55:20+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Naskah \"Pochettino Nangis Latih United\": hook + 4 adegan (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T23:58:51+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Suara narator Ardi · 32 dtk",
+     "ok": true,
+     "t": "2026-11-14T23:59:04+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Visual bebas lisensi: 0 video, 4 foto, 2 latar desain",
+     "ok": true,
+     "t": "2026-11-14T23:59:35+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Video 32 dtk 1080×1920 dirender (56 dtk)",
+     "ok": true,
+     "t": "2026-11-15T00:00:30+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Gagal: Reels gagal diposting: IG: https://graph.facebook.com/v21.0/17841445659829493/media: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"code\":190,\"type\":\"OAuthExc",
+     "ok": false,
+     "t": "2026-11-15T00:00:32+07:00"
+    }
+   ],
+   "error": "Reels gagal diposting: IG: https://graph.facebook.com/v21.0/17841445659829493/media: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"code\":190,\"type\":\"OAuthException\",\"fbtrace_id\":\"AGoIqxLtqUz2gTQu3VQzoVa\"}}; FB: https://graph.facebook.com/v21.0/102254338861969/vide",
+   "title": "Pochettino Nangis Latih United",
+   "llm": "gemini-flash-lite-latest",
+   "cover": "covers/reels_20261115_000030.jpg",
+   "seconds": 32,
+   "instagram": null,
+   "facebook": null,
+   "dry_run": false,
+   "finished": "2026-11-15T00:00:32+07:00"
   }
  ],
- "updated": "2026-11-14T09:45:11+07:00"
+ "updated": "2026-11-15T00:00:32+07:00"
 }
