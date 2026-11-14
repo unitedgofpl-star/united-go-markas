@@ -1,0 +1,64 @@
+{
+ "runs": [
+  {
+   "id": "20261114_094131_reels",
+   "task": "reels",
+   "kind": "reels",
+   "label": "Reels FYP",
+   "started": "2026-11-14T09:41:31+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift Reels 09:41 WIB (draft)",
+     "ok": true,
+     "t": "2026-11-14T09:41:31+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Berita dipilih: Pochettino defends USA exit to take Man Utd job (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-14T09:41:32+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Naskah \"Pochettino Bela Keputusan Tinggalkan Timnas AS\": hook + 3 adegan (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T09:43:32+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Suara narator Ardi · 27 dtk",
+     "ok": true,
+     "t": "2026-11-14T09:43:41+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Visual bebas lisensi: 0 video, 4 foto, 1 latar desain",
+     "ok": true,
+     "t": "2026-11-14T09:43:59+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Video 27 dtk 1080×1920 dirender (67 dtk)",
+     "ok": true,
+     "t": "2026-11-14T09:45:06+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Draft dikirim ke Telegram, menunggu persetujuan",
+     "ok": true,
+     "t": "2026-11-14T09:45:11+07:00"
+    }
+   ],
+   "error": null,
+   "title": "Pochettino Bela Keputusan Tinggalkan Timnas AS",
+   "llm": "gemini-flash-lite-latest",
+   "cover": "covers/reels_20261114_094506.jpg",
+   "seconds": 27,
+   "draft": true,
+   "dry_run": true,
+   "finished": "2026-11-14T09:45:11+07:00"
+  }
+ ],
+ "updated": "2026-11-14T09:45:11+07:00"
+}
