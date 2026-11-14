@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-14T18:57:28+07:00",
+ "updated": "2026-11-14T19:13:31+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261110_1509_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-10T15:09:20+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 15:09 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-10T15:09:20+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 337 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-10T15:09:22+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Masa Depan Carrick di Ujung Tanduk\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-10T15:11:36+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-10T15:15:41+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-10T15:15:41+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-10T15:16:35+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-10T15:16:39+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Masa Depan Carrick di Ujung Tanduk",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Wah Red Devils, situasi di Carrington makin panas aja nih setelah hasil kurang memuaskan belakangan ini! Manajemen kabarnya bakal segera ambil keputusan soal masa depan Michael Carrick menyusul start musim yang cukup berat buat tim kita di liga. Tetap tenang dan kawal terus, semoga ada jalan keluar terbaik buat Setan Merah. Menurut kalian, siapa nih sosok paling pas buat nakhodai MU selanjutnya?\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261110_1509.jpg",
-   "facebook": "102254338861969_1158436723242250",
-   "instagram": "18129828440291251",
-   "dry_run": false,
-   "finished": "2026-11-10T15:16:39+07:00"
-  },
   {
    "id": "20261110_2010_price_watch",
    "task": "post",
@@ -1169,6 +1106,64 @@
    "slides": 5,
    "cover": "covers/20261114_1853.jpg",
    "finished": "2026-11-14T18:57:28+07:00"
+  },
+  {
+   "id": "20261114_1912_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-14T19:12:31+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 19:12 WIB: Kabar MU — topik: Manchester united",
+     "ok": true,
+     "t": "2026-11-14T19:12:31+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 331 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-14T19:12:32+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Michael Carrick Resmi Didepak MU!\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T19:13:22+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-14T19:13:27+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-14T19:13:27+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-11-14T19:13:27+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "Manchester united",
+   "gw": 11,
+   "title": "Michael Carrick Resmi Didepak MU!",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh Red Devils, drama di Old Trafford belum mau usai nih! Michael Carrick yang tadinya dapet kontrak dua tahun, harus rela ngeliat masa jabatannya habis dalam waktu 15 pertandingan aja dan dikonfirmasi langsung sama jurnalis. Kondisi tim bener-bener lagi diuji banget musim ini. Gimana nih tanggapan kalian soal keputusan manajemen klub kali ini?\n\n📰 Sumber: feeds.bbci.co.uk, theguardian.com\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261114_1912.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-11-14T19:13:31+07:00"
   }
  ]
 }
