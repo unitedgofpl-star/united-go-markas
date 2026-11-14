@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-14T19:13:31+07:00",
+ "updated": "2026-11-14T22:37:45+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261110_2010_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-11-10T20:10:43+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 20:10 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-11-10T20:10:43+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 336 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-10T20:10:43+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Siapa Naik, Siapa Turun?\" (cadangan)",
-     "ok": true,
-     "t": "2026-11-10T20:11:49+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "7 slide dirender (tema merah, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-10T20:11:53+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-10T20:11:53+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-10T20:13:07+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Siapa Naik, Siapa Turun?",
-   "llm": "cadangan",
-   "caption": "Transfer sekarang atau nanti? Cek dulu pergerakan harga ini 👀\n\n📈 Diburu: N.Jackson, Barry, Evanilson\n📉 Ditinggal: Calvert-Lewin, Mbeumo, Hall\n\nTag teman satu mini-league kamu biar nggak ketinggalan 👀\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #FPL #FantasyPremierLeague #GW11",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 7,
-   "cover": "covers/20261110_2010.jpg",
-   "facebook": "102254338861969_1158666479885941",
-   "instagram": "18415272028089177",
-   "dry_run": false,
-   "finished": "2026-11-10T20:13:10+07:00"
-  },
   {
    "id": "20261110_2348_mu_news",
    "task": "post",
@@ -1164,6 +1107,60 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-14T19:13:31+07:00"
+  },
+  {
+   "id": "20261114_2234_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-14T22:34:53+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 22:34 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-14T22:34:53+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 330 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-14T22:34:54+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pochettino Pelatih Baru United\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T22:36:24+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-14T22:37:44+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-14T22:37:44+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aq9x1qAxG_-C1hcO1_mxl2m\"}}",
+     "ok": false,
+     "t": "2026-11-14T22:37:45+07:00"
+    }
+   ],
+   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aq9x1qAxG_-C1hcO1_mxl2m\"}}",
+   "gw": 11,
+   "title": "Pochettino Pelatih Baru United",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Momen emosional mewarnai langkah awal Mauricio Pochettino saat resmi meninggalkan kursi pelatih timnas USA demi menerima pinangan Manchester United, Redns! Keputusan ini jelas jadi pertaruhan besar di tengah situasi tim yang lagi butuh banget sentuhan magis buat bangkit dari papan bawah. Tantangan pertamanya langsung bertandang ke markas Liverpool akhir bulan ini, bro. Gimana nih, yakin racikan Poch bakal langsung tokcer bawa Setan Merah terbang tinggi lagi? Coba tulis pendapat kalian di kolom k",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261114_2234.jpg",
+   "finished": "2026-11-14T22:37:45+07:00"
   }
  ]
 }
