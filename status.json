@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-14T14:32:28+07:00",
+ "updated": "2026-11-14T17:57:54+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261110_0230_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-10T02:30:38+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 02:30 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-10T02:30:38+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 336 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-10T02:30:40+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Aksi Penyelamat Dorgu\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-10T02:35:21+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "4 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-10T02:41:28+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-10T02:41:28+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-10T02:42:12+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-10T02:42:17+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Aksi Penyelamat Dorgu",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Anak-anak MU sukses amankan satu poin penting berkat gol dramatis dari Patrick Dorgu di ujung laga kontra Aston Villa, Red Devils! Komentator Ali Bruce-Ball juga sempat kasih lihat reaksinya soal momen krusial di Old Trafford ini. Menurut kalian, gimana performa tim secara keseluruhan di laga kemarin? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUn",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 4,
-   "cover": "covers/20261110_0230.jpg",
-   "facebook": "102254338861969_1157953223290600",
-   "instagram": "18100710074539842",
-   "dry_run": false,
-   "finished": "2026-11-10T02:42:17+07:00"
-  },
   {
    "id": "20261110_0443_engagement_poll",
    "task": "post",
@@ -1177,6 +1114,64 @@
    "instagram": "18108872930458503",
    "dry_run": false,
    "finished": "2026-11-14T14:32:28+07:00"
+  },
+  {
+   "id": "20261114_1753_mu_news",
+   "task": "draft",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-14T17:53:06+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 17:53 WIB: Kabar MU — topik: Tyler Adjei : Here We go",
+     "ok": true,
+     "t": "2026-11-14T17:53:06+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 331 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-14T17:53:07+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Mauricio Pochettino Resmi Jadi Manajer Baru United\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-14T17:57:48+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-14T17:57:51+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-14T17:57:51+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft disimpan, menunggu persetujuan admin",
+     "ok": true,
+     "t": "2026-11-14T17:57:51+07:00"
+    }
+   ],
+   "error": null,
+   "topic": "Tyler Adjei : Here We go",
+   "gw": 11,
+   "title": "Mauricio Pochettino Resmi Jadi Manajer Baru United",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Annis Setan Merah, akhirnya teka-teki soal kursi kepelatihan Manchester United terjawab sudah nih! Mauricio Pochettino resmi ditunjuk jadi manajer anyar. Menariknya, Poch selama ini dikenal sangat mengidolakan sosok Sir Alex Ferguson dan menjadikannya panutan dalam dunia kepelatihan. Lewat latar belakang taktik dan kekagumannya itu, kehadiran sang juru taktik diharapkan bisa membawa kestabilan serta mengembalikan identitas permainan tim kebanggaan kita. Gimana nih komentarnya, apakah kalian opti",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261114_1753.jpg",
+   "facebook": null,
+   "instagram": null,
+   "dry_run": true,
+   "finished": "2026-11-14T17:57:54+07:00"
   }
  ]
 }
