@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-15T19:30:29+07:00",
+ "updated": "2026-11-15T23:08:53+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261112_1507_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-12T15:07:07+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 15:07 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-12T15:07:07+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 333 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-12T15:07:07+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Kursi Panas MU\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-12T15:08:16+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-12T15:08:21+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-12T15:08:21+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-12T15:08:55+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-12T15:08:58+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Kursi Panas MU",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Ada rumor menarik nih, Red Devils! Kursi kepelatihan Manchester United kabarnya selalu jadi destinasi impian buat Mauricio Pochettino menurut pengamat bola Guillem Balague. Gimana nih menurut kalian, pas nggak kalau suatu hari nanti dia merapat ke Old Trafford? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #mufc #",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261112_1507.jpg",
-   "facebook": "102254338861969_1160488479703741",
-   "instagram": "18082244408567497",
-   "dry_run": false,
-   "finished": "2026-11-12T15:08:58+07:00"
-  },
   {
    "id": "20261112_2029_fpl_captain",
    "task": "post",
@@ -1112,6 +1049,69 @@
    "instagram": "18092743016261045",
    "dry_run": false,
    "finished": "2026-11-15T19:30:29+07:00"
+  },
+  {
+   "id": "20261115_2305_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-15T23:05:47+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:05 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-15T23:05:47+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 329 pemain, 10 laga, 5 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-15T23:05:49+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Respons Fans soal Rumor Pochettino\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-15T23:07:49+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema biru, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-15T23:07:56+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-15T23:07:56+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-15T23:08:46+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-15T23:08:53+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Respons Fans soal Rumor Pochettino",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo, Red Devils! Suasana di sekitar Old Trafford lagi panas banget bahas rumor Mauricio Pochettino yang dikaitkan bakal jadi manajer baru MU. Berbagai respons dari suporter, standar disiplin pelatih, sampai situasi kapten Bruno Fernandes jadi sorotan hangat saat ini. Kalau kalian sendiri setuju nggak kalau dia benar-benar datang ke Old Trafford? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 ",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261115_2305.jpg",
+   "facebook": "102254338861969_1163887552697167",
+   "instagram": "18112420457522950",
+   "dry_run": false,
+   "finished": "2026-11-15T23:08:53+07:00"
   }
  ]
 }
