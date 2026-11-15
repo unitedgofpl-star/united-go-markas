@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-15T07:51:45+07:00",
+ "updated": "2026-11-15T14:02:32+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261111_1438_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-11T14:38:13+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 14:38 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-11T14:38:13+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 334 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-11T14:38:14+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Masa Depan Carrick Ditentukan Hari Ini\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-11-11T14:38:48+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-11T14:43:41+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-11T14:43:41+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-11T14:44:28+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-11T14:44:32+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Masa Depan Carrick Ditentukan Hari Ini",
-   "llm": "gemini-flash-latest",
-   "caption": "Kursi kepelatihan Manchester United kembali memanas, bro! Hari Rabu ini, bos-bos Setan Merah kumpul di Monaco. Omar Berrada dan Jason Wilcox nemuin Sir Jim Ratcliffe dalam agenda rutin yang kini fokus nentuin nasib Michael Carrick. Kabarnya, manajemen condong merekomendasikan pergantian pelatih kepala. Wajar aja, kondisinya emang lagi darurat: United kejebak di peringkat 18 zona degradasi dengan cuma sekali menang dari 10 laga, catatan paling suram sejak musim 1986-87. Sir Jim bener-bener diuji ",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 6,
-   "cover": "covers/20261111_1438.jpg",
-   "facebook": "102254338861969_1159440586475197",
-   "instagram": "18160715563511511",
-   "dry_run": false,
-   "finished": "2026-11-11T14:44:32+07:00"
-  },
   {
    "id": "20261111_1919_fixture_preview",
    "task": "post",
@@ -1153,6 +1090,22 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-15T07:51:45+07:00"
+  },
+  {
+   "id": "20261115_1402_analyze",
+   "task": "analyze",
+   "label": "Laporan mingguan",
+   "started": "2026-11-15T14:02:19+07:00",
+   "steps": [
+    {
+     "agent": "analyst",
+     "msg": "# Laporan Analyst United Go — 15 Nov 2026",
+     "ok": true,
+     "t": "2026-11-15T14:02:31+07:00"
+    }
+   ],
+   "error": null,
+   "finished": "2026-11-15T14:02:32+07:00"
   }
  ]
 }
