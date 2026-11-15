@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-15T14:02:32+07:00",
+ "updated": "2026-11-15T14:46:29+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261111_1919_fixture_preview",
-   "task": "post",
-   "kind": "fixture_preview",
-   "label": "Preview Fixture",
-   "started": "2026-11-11T19:19:47+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:19 WIB: Preview Fixture",
-     "ok": true,
-     "t": "2026-11-11T19:19:47+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 334 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-11T19:19:47+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Jadwal Seru FPL Gameweek 11\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-11T19:23:13+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hijau, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-11T19:23:15+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-11T19:23:15+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-11T19:23:59+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Jadwal Seru FPL Gameweek 11",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo mancing mania FPL! Gameweek 11 udah di depan mata nih, saatnya racik skuad terbaik kalian biar poin melesat naik. Perhatiin baik-baik tingkat kesulitan tiap fixture sebelum kunci transfer ya. Siapa nih pemain yang bakal jadi jagoan kalian buat meraup poin maksimal pekan ini? Coba sebutin di kolom komentar!\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #unitedgo #fplindonesia #fantasypremierleague",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261111_1919.jpg",
-   "facebook": "102254338861969_1159659529786636",
-   "instagram": "18000679166825159",
-   "dry_run": false,
-   "finished": "2026-11-11T19:24:01+07:00"
-  },
   {
    "id": "20261112_0158_price_watch",
    "task": "post",
@@ -1106,6 +1049,69 @@
    ],
    "error": null,
    "finished": "2026-11-15T14:02:32+07:00"
+  },
+  {
+   "id": "20261115_1442_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-15T14:42:32+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 14:42 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-15T14:42:32+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 330 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-15T14:42:34+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pochettino Pelatih Baru MU\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-15T14:44:32+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-15T14:45:41+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-15T14:45:41+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-15T14:46:22+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-15T14:46:29+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Pochettino Pelatih Baru MU",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo Reds! Kabar hangat datang buat kita semua nih. Setelah hari-hari penuh teka-teki, Mauricio Pochettino resmi diumumkan jadi manajer baru Manchester United! Pendukung setia MU, Jay Motty, langsung bersuara dan menilai mantan juru taktik Spurs ini sebagai sosok yang paling pas buat kebutuhan klub saat ini. Katanya sih, Poch ini tipe 'safe pair of hands' alias pelatih yang bisa diandalkan buat nanganin tim. Gimana menurut kalian, Reds? Apakah kedatangan Pochettino bakal bawa perubahan besar bua",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261115_1442.jpg",
+   "facebook": "102254338861969_1163512146068041",
+   "instagram": "18019689959978488",
+   "dry_run": false,
+   "finished": "2026-11-15T14:46:29+07:00"
   }
  ]
 }
