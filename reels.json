@@ -118,7 +118,66 @@
    "facebook": null,
    "dry_run": false,
    "finished": "2026-11-15T00:00:32+07:00"
+  },
+  {
+   "id": "20261115_074138_reels",
+   "task": "reels",
+   "kind": "reels",
+   "label": "Reels FYP · Rashford",
+   "started": "2026-11-15T07:41:38+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift Reels 07:41 WIB — topik: Rashford (draft)",
+     "ok": true,
+     "t": "2026-11-15T07:41:38+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Berita dipilih: Tearful Pochettino on 'difficult' decision to leave USA for Man Utd (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-15T07:41:39+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Naskah \"Pochettino Resmi Latih Manchester United\": hook + 4 adegan (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-15T07:46:21+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Suara narator Ardi · 32 dtk",
+     "ok": true,
+     "t": "2026-11-15T07:46:37+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Visual bebas lisensi: 0 video, 4 foto, 2 latar desain",
+     "ok": true,
+     "t": "2026-11-15T07:47:06+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Video 32 dtk 1080×1920 dirender (84 dtk)",
+     "ok": true,
+     "t": "2026-11-15T07:48:29+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Draft dikirim ke Telegram, menunggu persetujuan",
+     "ok": true,
+     "t": "2026-11-15T07:48:36+07:00"
+    }
+   ],
+   "error": null,
+   "title": "Pochettino Resmi Latih Manchester United",
+   "llm": "gemini-flash-lite-latest",
+   "cover": "covers/reels_20261115_074829.jpg",
+   "seconds": 32,
+   "draft": true,
+   "dry_run": true,
+   "finished": "2026-11-15T07:48:36+07:00"
   }
  ],
- "updated": "2026-11-15T00:00:32+07:00"
+ "updated": "2026-11-15T07:48:36+07:00"
 }
