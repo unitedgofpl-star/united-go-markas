@@ -296,7 +296,34 @@
    "draft": true,
    "dry_run": true,
    "finished": "2026-11-16T20:34:10+07:00"
+  },
+  {
+   "id": "20261116_204935_reels",
+   "task": "reels",
+   "kind": "reels",
+   "label": "Reels: draft disetujui",
+   "started": "2026-11-16T20:49:35+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Draft reels disetujui: Bruno Fernandes Tolak Kontrak Baru MU!",
+     "ok": true,
+     "t": "2026-11-16T20:49:35+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Tayang di Instagram & Facebook Reels",
+     "ok": true,
+     "t": "2026-11-16T20:50:16+07:00"
+    }
+   ],
+   "error": null,
+   "title": "Bruno Fernandes Tolak Kontrak Baru MU!",
+   "instagram": null,
+   "facebook": "https://www.facebook.com/reel/2349346885825636",
+   "dry_run": false,
+   "finished": "2026-11-16T20:50:16+07:00"
   }
  ],
- "updated": "2026-11-16T20:34:10+07:00"
+ "updated": "2026-11-16T20:50:16+07:00"
 }
