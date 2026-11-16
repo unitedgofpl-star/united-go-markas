@@ -323,7 +323,67 @@
    "facebook": "https://www.facebook.com/reel/2349346885825636",
    "dry_run": false,
    "finished": "2026-11-16T20:50:16+07:00"
+  },
+  {
+   "id": "20261117_035431_reels",
+   "task": "reels",
+   "kind": "reels",
+   "label": "Reels FYP",
+   "started": "2026-11-17T03:54:31+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift Reels 03:54 WIB (langsung)",
+     "ok": true,
+     "t": "2026-11-17T03:54:31+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Berita dipilih: Could Pochettino bring USA players to Man Utd? (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-17T03:54:32+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Naskah \"Pochettino Incar Pemain Lama ke United?\": hook + 3 adegan (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-17T03:55:25+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Suara narator Ardi · 28 dtk",
+     "ok": true,
+     "t": "2026-11-17T03:55:39+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Visual bebas lisensi: 0 video, 3 foto, 2 latar desain",
+     "ok": true,
+     "t": "2026-11-17T03:55:55+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Video 28 dtk 1080×1920 dirender (80 dtk)",
+     "ok": true,
+     "t": "2026-11-17T03:57:16+07:00"
+    },
+    {
+     "agent": "reels",
+     "msg": "Gagal: Reels gagal diposting: IG: https://graph.facebook.com/v21.0/17841445659829493/media: 400 {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user ch",
+     "ok": false,
+     "t": "2026-11-17T03:57:18+07:00"
+    }
+   ],
+   "error": "Reels gagal diposting: IG: https://graph.facebook.com/v21.0/17841445659829493/media: 400 {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthExc",
+   "title": "Pochettino Incar Pemain Lama ke United?",
+   "llm": "gemini-flash-lite-latest",
+   "cover": "covers/reels_20261117_035716.jpg",
+   "seconds": 28,
+   "instagram": null,
+   "facebook": null,
+   "dry_run": false,
+   "finished": "2026-11-17T03:57:18+07:00"
   }
  ],
- "updated": "2026-11-16T20:50:16+07:00"
+ "updated": "2026-11-17T03:57:18+07:00"
 }
