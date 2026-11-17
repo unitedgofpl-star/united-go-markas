@@ -1,65 +1,7 @@
 {
- "updated": "2026-11-18T01:17:03+07:00",
+ "updated": "2026-11-18T03:16:00+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261114_1912_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-14T19:12:31+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:12 WIB: Kabar MU — topik: Manchester united",
-     "ok": true,
-     "t": "2026-11-14T19:12:31+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 331 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-14T19:12:32+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Michael Carrick Resmi Didepak MU!\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-14T19:13:22+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-14T19:13:27+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-14T19:13:27+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-11-14T19:13:27+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "Manchester united",
-   "gw": 11,
-   "title": "Michael Carrick Resmi Didepak MU!",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Waduh Red Devils, drama di Old Trafford belum mau usai nih! Michael Carrick yang tadinya dapet kontrak dua tahun, harus rela ngeliat masa jabatannya habis dalam waktu 15 pertandingan aja dan dikonfirmasi langsung sama jurnalis. Kondisi tim bener-bener lagi diuji banget musim ini. Gimana nih tanggapan kalian soal keputusan manajemen klub kali ini?\n\n📰 Sumber: feeds.bbci.co.uk, theguardian.com\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261114_1912.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-11-14T19:13:31+07:00"
-  },
   {
    "id": "20261114_2234_mu_news",
    "task": "post",
@@ -1076,6 +1018,69 @@
    "instagram": "17879496159576443",
    "dry_run": false,
    "finished": "2026-11-18T01:17:03+07:00"
+  },
+  {
+   "id": "20261118_0311_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-18T03:11:40+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 03:11 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-18T03:11:40+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga, 2 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-18T03:11:41+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"JJ Gabriel Resmi Pamit\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-18T03:14:47+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-18T03:14:51+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-18T03:14:51+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-18T03:15:55+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-18T03:16:00+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "JJ Gabriel Resmi Pamit",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, ada kabar kurang enak nih, Red Devils! Wonderkid akademi kita, JJ Gabriel, resmi bikin video perpisahan dan bakal segera merapat ke Real Madrid. Padahal, dia sempat jadi salah satu bintang masa depan yang bersinar banget di kelompok umur. Kehilangan pemain potensial emang selalu bikin nyesek, tapi ya mau gimana lagi kalau mimpinya udah ke lain hati. Gimana tanggapan kalian, Reds, soal keputusan cabut si wonderkid ini?\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy t",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261118_0311.jpg",
+   "facebook": "102254338861969_1165990325820223",
+   "instagram": "18087066563650758",
+   "dry_run": false,
+   "finished": "2026-11-18T03:16:00+07:00"
   }
  ]
 }
