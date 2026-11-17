@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-17T11:46:34+07:00",
+ "updated": "2026-11-17T12:31:36+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261113_2357_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-13T23:57:49+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 23:57 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-13T23:57:49+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-13T23:57:51+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Alasan Pindah ke United\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-13T23:58:59+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-13T23:59:15+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-13T23:59:15+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-13T23:59:49+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-13T23:59:53+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Alasan Pindah ke United",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo Reds! Calon pelatih anyar kita, Mauricio Pochettino, akhirnya buka suara soal keputusannya ninggalin timnas Amerika Serikat demi nerima pinangan Manchester United. Menurut beliau, tawaran dari klub sebesar MU itu ibarat kesempatan emas yang susah banget buat ditolak. Gimana nih pendapat kalian soal kedatangan Coach Poch ke Old Trafford? Coba tulis di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#United",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261113_2357.jpg",
-   "facebook": "102254338861969_1161988616220394",
-   "instagram": "18120744388778405",
-   "dry_run": false,
-   "finished": "2026-11-13T23:59:53+07:00"
-  },
   {
    "id": "20261114_0154_engagement_poll",
    "task": "post",
@@ -1080,6 +1017,69 @@
    "slides": 5,
    "cover": "covers/20261117_1142.jpg",
    "finished": "2026-11-17T11:46:34+07:00"
+  },
+  {
+   "id": "20261117_1230_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-17T12:30:13+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 12:30 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-17T12:30:13+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 324 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-17T12:30:14+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Info Terbaru Setan Merah\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-17T12:30:46+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-17T12:30:49+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-17T12:30:49+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-17T12:31:30+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-17T12:31:36+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Info Terbaru Setan Merah",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo, Maniak MU dan pejuang FPL! Gimana nih persiapan tim kalian minggu ini? Biar gak ketinggalan update soal strategi FPL dan kabar terbaru Manchester United, pastikan kalian selalu pantengin @unitedgo.id tiap hari ya! Coba komen di bawah, siapa pemain United yang paling wajib dibawa di tim FPL kalian pekan ini?\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #mufc ",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 5,
+   "cover": "covers/20261117_1230.jpg",
+   "facebook": "102254338861969_1165361552549767",
+   "instagram": "18148956457595807",
+   "dry_run": false,
+   "finished": "2026-11-17T12:31:36+07:00"
   }
  ]
 }
