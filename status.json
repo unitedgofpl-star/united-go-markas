@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-17T16:00:46+07:00",
+ "updated": "2026-11-17T21:04:21+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261114_1429_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-14T14:29:50+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 14:29 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-14T14:29:50+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-14T14:29:52+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pochettino Datang Bawa Standar Keras\" (gemini-flash-latest)",
-     "ok": true,
-     "t": "2026-11-14T14:30:55+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-14T14:31:38+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-14T14:31:38+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-14T14:32:21+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-14T14:32:28+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Pochettino Datang Bawa Standar Keras",
-   "llm": "gemini-flash-latest",
-   "caption": "Siap-siap latihan fisik super brutal, skuad MU gak bisa leha-leha lagi bareng nahkoda baru! Mauricio Pochettino udah resmi diumumkan buat pimpin Manchester United gantikan Carrick dengan kontrak sampai Juni 2029. Mantan anak asuhnya di Spurs, Toby Alderweireld, ngasih bocoran kalau Poch itu sosok yang gila kebugaran dan tanpa kompromi. Menurutnya, tim selalu jadi nomor satu, dan siapa pun yang gak mau ikut rencananya bakal langsung dipinggirkan. Karakter tegas begini dinilai pas banget buat bena",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261114_1429.jpg",
-   "facebook": "102254338861969_1162542932831629",
-   "instagram": "18108872930458503",
-   "dry_run": false,
-   "finished": "2026-11-14T14:32:28+07:00"
-  },
   {
    "id": "20261114_1753_mu_news",
    "task": "draft",
@@ -1086,6 +1023,60 @@
    "instagram": "18392248408229160",
    "dry_run": false,
    "finished": "2026-11-17T16:00:46+07:00"
+  },
+  {
+   "id": "20261117_2102_price_watch",
+   "task": "post",
+   "kind": "price_watch",
+   "label": "Price Watch",
+   "started": "2026-11-17T21:02:27+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 21:02 WIB: Price Watch",
+     "ok": true,
+     "t": "2026-11-17T21:02:27+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-17T21:02:27+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Update Harga FPL\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-17T21:03:45+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hijau, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-17T21:03:48+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-17T21:03:48+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Gagal: Graph API 17841445659829493/media_publish: 400 {\"error\":{\"message\":\"Media ID is not available\",\"code\":9007,\"type\":\"OAuthException\",\"error_subcode\":2207027,\"is_transient\":false,\"error_user_msg\":\"Media belum siap untuk menerbitkan, tunggu beb",
+     "ok": false,
+     "t": "2026-11-17T21:04:20+07:00"
+    }
+   ],
+   "error": "Graph API 17841445659829493/media_publish: 400 {\"error\":{\"message\":\"Media ID is not available\",\"code\":9007,\"type\":\"OAuthException\",\"error_subcode\":2207027,\"is_transient\":false,\"error_user_msg\":\"Media belum siap untuk menerbitkan, tunggu beb",
+   "gw": 11,
+   "title": "Update Harga FPL",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Waduh, gimana nih tim FPL kalian jelang deadline? Buat yang punya N. Jackson, Evanilson, atau Barry di skuad, siap-siap ketiban hoki karena harganya bisa naik terus gara-gara lagi laris manis dibeli orang. Di sisi lain, Mbeumo sama Calvert-Lewin malah jadi langganan dijual karena formnya lagi loyo banget. Coba absen dulu di bawah, siapa nih penyerang andalan kalian di FPL minggu ini?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnit",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261117_2102.jpg",
+   "finished": "2026-11-17T21:04:21+07:00"
   }
  ]
 }
