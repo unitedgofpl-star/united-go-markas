@@ -1,65 +1,7 @@
 {
- "updated": "2026-11-17T21:08:36+07:00",
+ "updated": "2026-11-17T21:30:12+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261114_1753_mu_news",
-   "task": "draft",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-14T17:53:06+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 17:53 WIB: Kabar MU — topik: Tyler Adjei : Here We go",
-     "ok": true,
-     "t": "2026-11-14T17:53:06+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 331 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-14T17:53:07+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Mauricio Pochettino Resmi Jadi Manajer Baru United\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-14T17:57:48+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-14T17:57:51+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-14T17:57:51+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Draft disimpan, menunggu persetujuan admin",
-     "ok": true,
-     "t": "2026-11-14T17:57:51+07:00"
-    }
-   ],
-   "error": null,
-   "topic": "Tyler Adjei : Here We go",
-   "gw": 11,
-   "title": "Mauricio Pochettino Resmi Jadi Manajer Baru United",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Annis Setan Merah, akhirnya teka-teki soal kursi kepelatihan Manchester United terjawab sudah nih! Mauricio Pochettino resmi ditunjuk jadi manajer anyar. Menariknya, Poch selama ini dikenal sangat mengidolakan sosok Sir Alex Ferguson dan menjadikannya panutan dalam dunia kepelatihan. Lewat latar belakang taktik dan kekagumannya itu, kehadiran sang juru taktik diharapkan bisa membawa kestabilan serta mengembalikan identitas permainan tim kebanggaan kita. Gimana nih komentarnya, apakah kalian opti",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261114_1753.jpg",
-   "facebook": null,
-   "instagram": null,
-   "dry_run": true,
-   "finished": "2026-11-14T17:57:54+07:00"
-  },
   {
    "id": "20261114_1853_fpl_captain",
    "task": "post",
@@ -1081,6 +1023,50 @@
    "instagram": null,
    "dry_run": true,
    "finished": "2026-11-17T21:08:36+07:00"
+  },
+  {
+   "id": "20261117_2129_mu_news",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "title": "Welcome Coach Poch!",
+   "gw": 11,
+   "topic": "topik tentang Cristiano Ronaldo",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "headings": [
+    "Poch Jadi Pelatih MU!",
+    "Saran Buat Pep Guardiola",
+    "Ujian Perdana di Anfield"
+   ],
+   "task": "post",
+   "started": "2026-11-17T21:29:14+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Draft disetujui: Welcome Coach Poch!",
+     "ok": true,
+     "t": "2026-11-17T21:29:14+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Draft terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-17T21:30:07+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-17T21:30:12+07:00"
+    }
+   ],
+   "error": null,
+   "caption": "Waduh, gebrakan baru nih dari Old Trafford! 🚨 Mauricio Pochettino resmi ninggalin kursi pelatih Timnas Amerika Serikat buat nangkring jadi manajer anyar Manchester United sampai 2029. Pelatih asal Argentina ini bakal langsung dihadapkan sama ujian super berat bertandang ke Anfield lawan Liverpool akhir pekan ini. Gimana nih pendapat kalian, guys, bakal tokcer gak nih racikan taktik Coach Poch di Premier League? Coba komen di bawah ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau ",
+   "facebook": "102254338861969_1165727639179825",
+   "instagram": "17913151605581062",
+   "dry_run": false,
+   "cover": "covers/20261117_2129.jpg",
+   "finished": "2026-11-17T21:30:12+07:00"
   }
  ]
 }
