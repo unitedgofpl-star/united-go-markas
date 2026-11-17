@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-17T21:30:12+07:00",
+ "updated": "2026-11-18T01:17:03+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261114_1853_fpl_captain",
-   "task": "post",
-   "kind": "fpl_captain",
-   "label": "Kapten FPL",
-   "started": "2026-11-14T18:53:58+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 18:53 WIB: Kapten FPL",
-     "ok": true,
-     "t": "2026-11-14T18:53:58+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 331 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-14T18:53:59+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Rekomendasi Kapten FPL Gameweek 11\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-14T18:57:24+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-14T18:57:27+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-14T18:57:27+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AcIEs_-2sWxUkg-BHqZvzif\"}}",
-     "ok": false,
-     "t": "2026-11-14T18:57:27+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AcIEs_-2sWxUkg-BHqZvzif\"}}",
-   "gw": 11,
-   "title": "Rekomendasi Kapten FPL Gameweek 11",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo para manajer FPL United Indonesia! Udah pada pusing belum mau nunjuk siapa jadi kapten buat GW11? Nih, Mimin bawain tiga opsi penyerang yang lagi on fire buat mimpin tim kalian minggu ini. Dari Evanilson yang main kandang, Jackson yang banyak dijagokan, sampe Barry si opsi hemat buat tandang. Kalau kalian sendiri, ban kapten bakal dipasang ke lengan siapa nih, Reds?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPL",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261114_1853.jpg",
-   "finished": "2026-11-14T18:57:28+07:00"
-  },
   {
    "id": "20261114_1912_mu_news",
    "task": "draft",
@@ -1067,6 +1013,69 @@
    "dry_run": false,
    "cover": "covers/20261117_2129.jpg",
    "finished": "2026-11-17T21:30:12+07:00"
+  },
+  {
+   "id": "20261118_0110_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-18T01:10:21+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 01:10 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-18T01:10:21+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga, 2 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-18T01:10:22+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Sisi Gelap Wayne Rooney\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-18T01:13:49+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-18T01:15:49+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-18T01:15:49+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-18T01:16:56+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-18T01:17:03+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Sisi Gelap Wayne Rooney",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Jajaran legenda Setan Merah ternyata juga pernah nyimpen cerita berat di balik gemerlapnya panggung sepak bola, Red Devils! Wayne Rooney belum lama ini buka-bukaan soal masa lalunya saat masih membela panji Manchester United. Di balik gol-gol ikoniknya, Wazza sempat ngaku kewalahan hadapin tekanan luar biasa sampai-sampai sempat berpikir buat mengakhiri hidupnya. Untungnya, dia sadar butuh bantuan profesional dan terbuka ke keluarga terdekatnya. Kesehatan mental emang sepenting itu, lur. Buat ka",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 6,
+   "cover": "covers/20261118_0110.jpg",
+   "facebook": "102254338861969_1165911369161452",
+   "instagram": "17879496159576443",
+   "dry_run": false,
+   "finished": "2026-11-18T01:17:03+07:00"
   }
  ]
 }
