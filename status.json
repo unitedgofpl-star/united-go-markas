@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-18T15:29:12+07:00",
+ "updated": "2026-11-18T20:39:37+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261115_0027_engagement_poll",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-15T00:27:07+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 00:27 WIB: Polling Debat",
-     "ok": true,
-     "t": "2026-11-15T00:27:07+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 330 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-15T00:27:07+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Barry vs Jackson, Siapa Gendong Tim?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-15T00:27:40+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-15T00:27:42+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-15T00:27:42+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A2p1DgtZFmjNdnJzpWJYRor\"}}",
-     "ok": false,
-     "t": "2026-11-15T00:27:42+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A2p1DgtZFmjNdnJzpWJYRor\"}}",
-   "gw": 11,
-   "title": "Barry vs Jackson, Siapa Gendong Tim?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Bingung mau angkut siapa buat lini depan FPL kalian, Reds? Di satu sisi ada Dominic Calvert-Lewin yang harganya murah meriah tapi harus tandang susah. Di sisi lain, Nicolas Jackson lebih mahal dan banyak yang punya, plus ketiban hoki dapet lawan kandang yang relatif empuk. Kalau kalian jadi manajer, lebih milih ambil resiko atau cari aman nih? Coba tulis jagoan kalian di bawah dan alasannya, jangan lupa tag teman setim FPL-mu ya!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di ",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 5,
-   "cover": "covers/20261115_0027.jpg",
-   "finished": "2026-11-15T00:27:43+07:00"
-  },
   {
    "id": "20261115_0749_mu_news",
    "task": "draft",
@@ -1090,6 +1036,63 @@
    "instagram": "18127657720906414",
    "dry_run": false,
    "finished": "2026-11-18T15:29:12+07:00"
+  },
+  {
+   "id": "20261118_2036_fixture_preview",
+   "task": "post",
+   "kind": "fixture_preview",
+   "label": "Preview Fixture",
+   "started": "2026-11-18T20:36:29+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 20:36 WIB: Preview Fixture",
+     "ok": true,
+     "t": "2026-11-18T20:36:29+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-18T20:36:29+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Preview Jadwal GW11 FPL\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-18T20:38:37+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-18T20:38:40+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-18T20:38:40+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-18T20:39:35+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Preview Jadwal GW11 FPL",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo, Pejuang FPL UnitedGo! Gimana nih persiapan skuad kalian buat Gameweek 11? Deretan jadwal udah rilis, mulai dari yang relatif santai kayak City dan Villa, sampai duel sengit antara Newcastle lawan Arsenal yang tingkat kesulitannya lumayan tinggi. Pastikan udah cek kondisi pemain andalan kalian sebelum deadline, jangan sampai salah pasang kapten dan malah zonok ya! Coba drop di kolom komentar, siapa nih pemain yang bakal jadi kapten pilihan kalian pekan ini?\n\n📩 Kerja sama / endorse? DM atau ",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261118_2036.jpg",
+   "facebook": "102254338861969_1166649482420974",
+   "instagram": "18131654071914220",
+   "dry_run": false,
+   "finished": "2026-11-18T20:39:37+07:00"
   }
  ]
 }
