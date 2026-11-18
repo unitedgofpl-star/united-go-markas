@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-18T03:16:00+07:00",
+ "updated": "2026-11-18T15:29:12+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261114_2234_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-14T22:34:53+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 22:34 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-14T22:34:53+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 330 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-14T22:34:54+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pochettino Pelatih Baru United\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-14T22:36:24+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-14T22:37:44+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-14T22:37:44+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aq9x1qAxG_-C1hcO1_mxl2m\"}}",
-     "ok": false,
-     "t": "2026-11-14T22:37:45+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aq9x1qAxG_-C1hcO1_mxl2m\"}}",
-   "gw": 11,
-   "title": "Pochettino Pelatih Baru United",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Momen emosional mewarnai langkah awal Mauricio Pochettino saat resmi meninggalkan kursi pelatih timnas USA demi menerima pinangan Manchester United, Redns! Keputusan ini jelas jadi pertaruhan besar di tengah situasi tim yang lagi butuh banget sentuhan magis buat bangkit dari papan bawah. Tantangan pertamanya langsung bertandang ke markas Liverpool akhir bulan ini, bro. Gimana nih, yakin racikan Poch bakal langsung tokcer bawa Setan Merah terbang tinggi lagi? Coba tulis pendapat kalian di kolom k",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261114_2234.jpg",
-   "finished": "2026-11-14T22:37:45+07:00"
-  },
   {
    "id": "20261115_0027_engagement_poll",
    "task": "post",
@@ -1081,6 +1027,69 @@
    "instagram": "18087066563650758",
    "dry_run": false,
    "finished": "2026-11-18T03:16:00+07:00"
+  },
+  {
+   "id": "20261118_1522_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-18T15:22:46+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 15:22 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-18T15:22:46+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga, 2 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-18T15:22:47+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Bruno Fernandes Cetak Gol Cepat\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-11-18T15:23:48+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "6 slide dirender (tema hitam_emas, foto dari pemain)",
+     "ok": true,
+     "t": "2026-11-18T15:27:57+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-18T15:27:57+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-18T15:29:06+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-18T15:29:12+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Bruno Fernandes Cetak Gol Cepat",
+   "llm": "gemini-flash-latest",
+   "caption": "Kapten kita emang gak ada obatnya kalau lagi tugas negara, bray! Bruno Fernandes sukses cetak gol cepat buat Portugal saat bersua Wales di ajang Nations League, yang juga diwarnai gol kilat dari David Brooks. Naluri gol El Capitano jelas jadi angin segar buat kita semua di Old Trafford. Apalagi Michael Carrick juga sempat menegaskan kalau kepemimpinan Bruno di tim sama sekali aman dan nggak ada masalah. Semoga performa tajamnya ini nular terus pas balik berseragam United, ya! Gimana menurut kali",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 6,
+   "cover": "covers/20261118_1522.jpg",
+   "facebook": "102254338861969_1166424349110154",
+   "instagram": "18127657720906414",
+   "dry_run": false,
+   "finished": "2026-11-18T15:29:12+07:00"
   }
  ]
 }
