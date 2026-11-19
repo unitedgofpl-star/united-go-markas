@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-19T15:52:39+07:00",
+ "updated": "2026-11-19T21:04:34+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261115_1924_price_watch",
-   "task": "post",
-   "kind": "price_watch",
-   "label": "Price Watch",
-   "started": "2026-11-15T19:24:40+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 19:24 WIB: Price Watch",
-     "ok": true,
-     "t": "2026-11-15T19:24:40+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 329 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-15T19:24:40+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Update Harga & Transfer FPL Terbaru\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-15T19:29:21+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hijau, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-15T19:29:25+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-15T19:29:25+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-15T19:30:27+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Update Harga & Transfer FPL Terbaru",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Waduh, tim FPL kalian udah aman belum buat pekan ini? 😱 Pergerakan transfer lagi gila banget! N.Jackson sama Evanilson jadi buruan utama para manager buat lini depan, sementara Mbeumo sama Calvert-Lewin malah banyak yang nyingkirin gara-gara formnya lagi adem ayem. Biar gak salah ambil keputusan, yuk cek dulu update-nya sebelum harga pemain berubah. Kalau kalian sendiri, lebih pilih gercep nge-buy atau sabar nahan transfer dulu nih? Coba komen di bawah! 👇\n\n💎 Mau tips FPL eksklusif + chip strateg",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261115_1924.jpg",
-   "facebook": "102254338861969_1163704266048829",
-   "instagram": "18092743016261045",
-   "dry_run": false,
-   "finished": "2026-11-15T19:30:29+07:00"
-  },
   {
    "id": "20261115_2305_mu_news",
    "task": "post",
@@ -1139,6 +1082,63 @@
    "instagram": "17919390954512769",
    "dry_run": false,
    "finished": "2026-11-19T15:52:39+07:00"
+  },
+  {
+   "id": "20261119_2102_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-11-19T21:02:31+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 21:02 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-11-19T21:02:31+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-19T21:02:31+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Rekomendasi Kapten FPL GW11\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-19T21:03:17+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-19T21:03:19+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-19T21:03:19+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-19T21:04:31+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Rekomendasi Kapten FPL GW11",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Bingung mau pasang ban kapten siapa di FPL GW11, Reds? Tenang, admin kasih pencerahan nih biar poin kalian nggak jeblok! Nicolas Jackson paling dijagokan karena ketemu Sunderland di kandang dengan modal form 11.0. Mau ngambil resiko dengan Gabriel atau malah mau cari aman? Coba dipikirin baik-baik sebelum deadline ya! Kalau kalian, ban kapten bakal dipasang ke lengan siapa nih, bro?\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnite",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261119_2102.jpg",
+   "facebook": "102254338861969_1167629998989589",
+   "instagram": "18094939115212876",
+   "dry_run": false,
+   "finished": "2026-11-19T21:04:34+07:00"
   }
  ]
 }
