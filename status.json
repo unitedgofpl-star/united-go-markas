@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-20T01:02:45+07:00",
+ "updated": "2026-11-20T02:46:27+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261116_0108_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-16T01:08:24+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 01:08 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-16T01:08:24+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 328 pemain, 10 laga, 4 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-16T01:08:25+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pandangan Toby Alderweireld\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-16T01:09:23+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-16T01:09:27+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-     "ok": true,
-     "t": "2026-11-16T01:09:27+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-16T01:10:08+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-16T01:10:14+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Pandangan Toby Alderweireld",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo, Faithful! 🔴 Ada kilas balik menarik nih soal Mauricio Pochettino dari mantan anak asuhnya, Toby Alderweireld. Katanya sih, standar kerjanya tinggi banget dan pemain harus totalitas! Gimana nih menurut kalian soal dinamika tim kita belakangan ini? Coba tulis pendapatmu di kolom komentar ya! 👇\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #mufc #unitedgo #manchesterunit",
-   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
-   "slides": 5,
-   "cover": "covers/20261116_0108.jpg",
-   "facebook": "102254338861969_1163980589354530",
-   "instagram": "18110524820205894",
-   "dry_run": false,
-   "finished": "2026-11-16T01:10:14+07:00"
-  },
   {
    "id": "20261116_1448_mu_news",
    "task": "post",
@@ -1139,6 +1076,63 @@
    "instagram": "18054657956818100",
    "dry_run": false,
    "finished": "2026-11-20T01:02:45+07:00"
+  },
+  {
+   "id": "20261120_0243_promo_tool",
+   "task": "post",
+   "kind": "promo_tool",
+   "label": "Promo FPL Squad Hack",
+   "started": "2026-11-20T02:43:19+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 02:43 WIB: Promo FPL Squad Hack",
+     "ok": true,
+     "t": "2026-11-20T02:43:19+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-20T02:43:19+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Cek Skuad FPL Gratis\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-20T02:45:31+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-20T02:45:33+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-20T02:45:33+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-20T02:46:25+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Cek Skuad FPL Gratis",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Pusing tiap deadline FPL karena poin stuck di situ-situ aja? Tenang, Red Devils! Sekarang kalian bisa pakai tool 'FPL Squad Hack' secara gratis buat ngecek rating skuad, dapet rekomendasi transfer akurat, sampai strategi chip paling pas buat ngejar rank tinggi. Pas banget buat kalian yang pengen ngebut di mini league bareng temen-temen. Langsung cek link di bio kita ya! Kalau kalian, siapa nih pemain yang bakal jadi kapten minggu ini?\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link d",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261120_0243.jpg",
+   "facebook": "102254338861969_1167895312296391",
+   "instagram": "17937431112142473",
+   "dry_run": false,
+   "finished": "2026-11-20T02:46:27+07:00"
   }
  ]
 }
