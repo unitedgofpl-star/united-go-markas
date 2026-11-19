@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-19T02:44:51+07:00",
+ "updated": "2026-11-19T15:52:39+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261115_1442_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-15T14:42:32+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 14:42 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-15T14:42:32+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 330 pemain, 10 laga, 6 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-15T14:42:34+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pochettino Pelatih Baru MU\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-15T14:44:32+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-15T14:45:41+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-15T14:45:41+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-15T14:46:22+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-15T14:46:29+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Pochettino Pelatih Baru MU",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo Reds! Kabar hangat datang buat kita semua nih. Setelah hari-hari penuh teka-teki, Mauricio Pochettino resmi diumumkan jadi manajer baru Manchester United! Pendukung setia MU, Jay Motty, langsung bersuara dan menilai mantan juru taktik Spurs ini sebagai sosok yang paling pas buat kebutuhan klub saat ini. Katanya sih, Poch ini tipe 'safe pair of hands' alias pelatih yang bisa diandalkan buat nanganin tim. Gimana menurut kalian, Reds? Apakah kedatangan Pochettino bakal bawa perubahan besar bua",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261115_1442.jpg",
-   "facebook": "102254338861969_1163512146068041",
-   "instagram": "18019689959978488",
-   "dry_run": false,
-   "finished": "2026-11-15T14:46:29+07:00"
-  },
   {
    "id": "20261115_1924_price_watch",
    "task": "post",
@@ -1139,6 +1076,69 @@
    "instagram": "18499497535107725",
    "dry_run": false,
    "finished": "2026-11-19T02:44:51+07:00"
+  },
+  {
+   "id": "20261119_1535_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-19T15:35:06+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 15:35 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-19T15:35:06+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 323 pemain, 10 laga, 7 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-19T15:35:08+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Big Six Makin Kaya Raya\" (gemini-flash-latest)",
+     "ok": true,
+     "t": "2026-11-19T15:39:11+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-19T15:51:20+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-19T15:51:20+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-19T15:52:33+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-19T15:52:39+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Big Six Makin Kaya Raya",
+   "llm": "gemini-flash-latest",
+   "caption": "Mau performa di lapangan lagi naik-turun, Manchester United dan geng Big Six terbukti tetap jadi mesin uang paling mengerikan di Inggris! \n\nKesenjangan finansial makin gak masuk akal, bro. Buktinya selisih pemasukan rata-rata Big Six dibanding klub mapan kayak Everton melesat dari £120 juta di musim 2009-10 jadi tembus £442 juta di 2024-25. Menurut pengamat Kieran Maguire, punya suporter di seluruh dunia bikin sponsor gak mikir panjang buat setor duit ratusan juta pound.\n\nKira-kira di masa depan",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261119_1535.jpg",
+   "facebook": "102254338861969_1167390295680226",
+   "instagram": "17919390954512769",
+   "dry_run": false,
+   "finished": "2026-11-19T15:52:39+07:00"
   }
  ]
 }
