@@ -1,64 +1,7 @@
 {
- "updated": "2026-11-20T20:54:35+07:00",
+ "updated": "2026-11-21T00:39:06+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261116_2016_fpl_differential",
-   "task": "post",
-   "kind": "fpl_differential",
-   "label": "Differential FPL",
-   "started": "2026-11-16T20:16:40+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 20:16 WIB: Differential FPL",
-     "ok": true,
-     "t": "2026-11-16T20:16:40+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 328 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-16T20:16:40+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Pemain Differensial Murah Meriah\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-16T20:21:22+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "6 slide dirender (tema hijau, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-16T20:21:24+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-16T20:21:24+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-16T20:22:02+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Pemain Differensial Murah Meriah",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Mau naik rank FPL tapi bosen pakai pemain yang itu-itu aja? Deretan pemain differential dengan kepemilikan di bawah 10 persen ini bisa jadi senjata rahasia buat GW11 bro! Dari bek Brighton sampe jagoan Bournemouth, semuanya punya potensi poin lumayan. Siapa nih yang bakal langsung lu angkut ke skuad utama buat akhir pekan ini?\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesi",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 6,
-   "cover": "covers/20261116_2016.jpg",
-   "facebook": "102254338861969_1164711025948153",
-   "instagram": "18145283881609894",
-   "dry_run": false,
-   "finished": "2026-11-16T20:22:07+07:00"
-  },
   {
    "id": "20261117_0216_mu_news",
    "task": "post",
@@ -1174,6 +1117,69 @@
    "instagram": "18360891973171925",
    "dry_run": false,
    "finished": "2026-11-20T20:54:35+07:00"
+  },
+  {
+   "id": "20261121_0033_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-21T00:33:25+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 00:33 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-21T00:33:25+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-21T00:33:26+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Kritik Petinggi MU Kelewat Batas\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-21T00:34:31+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-21T00:37:41+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-21T00:37:41+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-21T00:39:00+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-21T00:39:06+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Kritik Petinggi MU Kelewat Batas",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo Red Devils! Petinggi MU, Omar Berrada, akhirnya buka suara soal gelombang kritik keras dari suporter belakangan ini. Menurutnya, wajar kalau fans kecewa karena posisi klub lagi di bawah, tapi ada juga kritik yang dinilai sudah melewati batas. Tantangan berat lagi dihadapi manajemen di tengah ramainya sorotan soal strategi klub. Gimana nih tanggapan kalian, Red Devils?\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedG",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 5,
+   "cover": "covers/20261121_0033.jpg",
+   "facebook": "102254338861969_1168847705534485",
+   "instagram": "18122390656770381",
+   "dry_run": false,
+   "finished": "2026-11-21T00:39:06+07:00"
   }
  ]
 }
