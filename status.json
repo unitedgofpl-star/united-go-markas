@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-20T02:46:27+07:00",
+ "updated": "2026-11-20T15:30:57+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261116_1448_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-16T14:48:30+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 14:48 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-16T14:48:30+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 328 pemain, 10 laga, 3 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-16T14:48:31+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Bruno Tolak Tawaran Baru\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-16T14:51:45+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema biru, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-16T14:51:53+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-16T14:51:53+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-16T14:52:32+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-16T14:52:37+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Bruno Tolak Tawaran Baru",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Waduh, ada berita cukup bikin deg-degan nih soal masa depan kapten kesayangan kita, Bruno Fernandes, di Old Trafford! Katanya, tawaran kontrak baru kedua udah ditolak, meski klub masih punya opsi perpanjangan otomatis buat ngamanin posisinya. Semoga aja kedatangan Mauricio Pochettino nanti bisa bikin sang kapten makin mantap buat terus di Old Trafford ya, Reds. Menurut kalian, manajemen harus gimana nih biar Bruno betah terus? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbc",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261116_1448.jpg",
-   "facebook": "102254338861969_1164482762637646",
-   "instagram": "18130984888878480",
-   "dry_run": false,
-   "finished": "2026-11-16T14:52:37+07:00"
-  },
   {
    "id": "20261116_1551_analyze",
    "task": "analyze",
@@ -1133,6 +1070,69 @@
    "instagram": "17937431112142473",
    "dry_run": false,
    "finished": "2026-11-20T02:46:27+07:00"
+  },
+  {
+   "id": "20261120_1517_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-20T15:17:00+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 15:17 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-20T15:17:00+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 322 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-20T15:17:02+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Prediksi Derby United\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-20T15:20:21+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "4 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-20T15:29:43+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
+     "ok": true,
+     "t": "2026-11-20T15:29:43+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-20T15:30:51+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-20T15:30:57+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Prediksi Derby United",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Jelang duel akhir pekan nanti, suporter MU Jay Motty kedapatan bagi-bagi tebakan skor yang cukup pede abis bareng kubu sebelah! Namanya juga laga besar, pasti tensi dan prediksinya pada aneh-aneh tapi seru buat disimak. Kalau lo sendiri, berani nebak skor berapa nih buat Setan Merah? Coba tulis di komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #",
+   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
+   "slides": 4,
+   "cover": "covers/20261120_1517.jpg",
+   "facebook": "102254338861969_1168389345580321",
+   "instagram": "18125108974986303",
+   "dry_run": false,
+   "finished": "2026-11-20T15:30:57+07:00"
   }
  ]
 }
