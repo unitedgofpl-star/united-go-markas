@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-21T00:39:06+07:00",
+ "updated": "2026-11-21T02:32:13+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261117_0216_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-17T02:16:46+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 02:16 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-17T02:16:46+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 324 pemain, 10 laga, 2 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-17T02:16:49+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Syarat Sukses Pochettino\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-17T02:20:04+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "4 slide dirender (tema merah, foto dari artikel)",
-     "ok": true,
-     "t": "2026-11-17T02:20:07+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-     "ok": true,
-     "t": "2026-11-17T02:20:07+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthExcep",
-     "ok": false,
-     "t": "2026-11-17T02:20:07+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 400 {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthExcep",
-   "gw": 11,
-   "title": "Syarat Sukses Pochettino",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo, Faithful! Lagi rame nih pembahasan soal apa aja yang dibutuhin Mauricio Pochettino seandainya beneran merapat ke Manchester United. Pengamat kayak Raphael Honigstein dan Julien Laurens juga ikut kasih analisis mereka, sementara Toby Alderweireld sempat nyinggung soal standar latihan yang tinggi banget dari sang pelatih. Gimana nih, Reds? Setuju nggak kalau United arahnya ke sana? Coba tulis pendapat kalian di kolom komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n👕 Jersey & merch bola original ha",
-   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
-   "slides": 4,
-   "cover": "covers/20261117_0216.jpg",
-   "finished": "2026-11-17T02:20:08+07:00"
-  },
   {
    "id": "20261117_0423_mu_news",
    "task": "post",
@@ -1180,6 +1126,69 @@
    "instagram": "18122390656770381",
    "dry_run": false,
    "finished": "2026-11-21T00:39:06+07:00"
+  },
+  {
+   "id": "20261121_0228_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-21T02:28:21+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 02:28 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-21T02:28:21+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW11: 332 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-21T02:28:22+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Pochettino Kangen Sepakbola Klub\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-21T02:30:32+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-21T02:31:06+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+     "ok": true,
+     "t": "2026-11-21T02:31:06+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-21T02:32:06+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-21T02:32:13+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 11,
+   "title": "Pochettino Kangen Sepakbola Klub",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Petualangan baru dimulai, Red Devils! 🔴 Mauricio Pochettino akhirnya balik lagi ke sepakbola level klub setelah dua tahun kemarin sibuk megang timnas Amerika Serikat. Buat dia, waktu latihan langsung di lapangan itu segalanya karena kita adalah 'hewan rumput' yang kangen suasana kompetisi tiap hari. Kehadiran sang bos baru tentu bikin kita penasaran gimana taktik dan sentuhan magisnya bakal bawa perubahan positif buat Setan Merah kedepannya. Gimana nih pendapat kalian, Mates, optimis bakal gacor",
+   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
+   "slides": 5,
+   "cover": "covers/20261121_0228.jpg",
+   "facebook": "102254338861969_1168931002192822",
+   "instagram": "17982627141130352",
+   "dry_run": false,
+   "finished": "2026-11-21T02:32:13+07:00"
   }
  ]
 }
