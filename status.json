@@ -1,70 +1,7 @@
 {
- "updated": "2026-11-21T20:14:11+07:00",
+ "updated": "2026-11-21T23:43:38+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261117_1230_mu_news",
-   "task": "post",
-   "kind": "mu_news",
-   "label": "Kabar MU",
-   "started": "2026-11-17T12:30:13+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 12:30 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-17T12:30:13+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 324 pemain, 10 laga",
-     "ok": true,
-     "t": "2026-11-17T12:30:14+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Info Terbaru Setan Merah\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-17T12:30:46+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema merah, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-17T12:30:49+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium ",
-     "ok": true,
-     "t": "2026-11-17T12:30:49+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Terposting di Instagram & Facebook",
-     "ok": true,
-     "t": "2026-11-17T12:31:30+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
-     "ok": true,
-     "t": "2026-11-17T12:31:36+07:00"
-    }
-   ],
-   "error": null,
-   "gw": 11,
-   "title": "Info Terbaru Setan Merah",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Halo, Maniak MU dan pejuang FPL! Gimana nih persiapan tim kalian minggu ini? Biar gak ketinggalan update soal strategi FPL dan kabar terbaru Manchester United, pastikan kalian selalu pantengin @unitedgo.id tiap hari ya! Coba komen di bawah, siapa pemain United yang paling wajib dibawa di tim FPL kalian pekan ini?\n\n💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).\n\n🔗 https://lynk.id/unitedgo\n\n#UnitedGo #ManchesterUnited #MUFC #FPLIndonesia #GGMU #mufc ",
-   "cta": "💎 Mau tips FPL eksklusif + chip strategy tiap GW? Gabung Grup Premium United Go (link di bio).",
-   "slides": 5,
-   "cover": "covers/20261117_1230.jpg",
-   "facebook": "102254338861969_1165361552549767",
-   "instagram": "18148956457595807",
-   "dry_run": false,
-   "finished": "2026-11-17T12:31:36+07:00"
-  },
   {
    "id": "20261117_1557_mu_news",
    "task": "post",
@@ -1201,6 +1138,69 @@
    "instagram": "18127413559912884",
    "dry_run": false,
    "finished": "2026-11-21T20:14:11+07:00"
+  },
+  {
+   "id": "20261121_2337_mu_news",
+   "task": "post",
+   "kind": "mu_news",
+   "label": "Kabar MU",
+   "started": "2026-11-21T23:37:36+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 23:37 WIB: Kabar MU",
+     "ok": true,
+     "t": "2026-11-21T23:37:36+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW12: 336 pemain, 10 laga, 8 berita (feeds.bbci.co.uk)",
+     "ok": true,
+     "t": "2026-11-21T23:37:39+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Rio Bahas Anfield\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-21T23:41:03+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "4 slide dirender (tema merah, foto dari artikel)",
+     "ok": true,
+     "t": "2026-11-21T23:42:45+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+     "ok": true,
+     "t": "2026-11-21T23:42:45+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-21T23:43:32+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Dibagikan ke 1 grup Telegram + tombol WhatsApp ke admin",
+     "ok": true,
+     "t": "2026-11-21T23:43:38+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 12,
+   "title": "Rio Bahas Anfield",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Wah, suasananya emang selalu panas ya Reds kalau bertandang ke sana! Legend kita, Rio Ferdinand, bilang kalau kandang Liverpool itu ibarat kuali yang mendidih buat Manchester United. Tantangan mental yang luar biasa buat pemain di lapangan! Gimana nih menurut kalian, apa skuad kita bakal siap hadapi tekanan kandang lawan musim ini? Coba tulis pendapat kalian di komentar ya!\n\n📰 Sumber: feeds.bbci.co.uk\n\n📩 Kerja sama / endorse? DM atau email ke admin United Go.\n\n🔗 https://lynk.id/unitedgo\n\n#United",
+   "cta": "📩 Kerja sama / endorse? DM atau email ke admin United Go.",
+   "slides": 4,
+   "cover": "covers/20261121_2337.jpg",
+   "facebook": "102254338861969_1169848312101091",
+   "instagram": "18386920318232312",
+   "dry_run": false,
+   "finished": "2026-11-21T23:43:38+07:00"
   }
  ]
 }
