@@ -1,61 +1,7 @@
 {
- "updated": "2026-11-21T15:24:56+07:00",
+ "updated": "2026-11-21T20:14:11+07:00",
  "brand": "@unitedgo.id",
  "runs": [
-  {
-   "id": "20261117_1142_mu_news",
-   "task": "post",
-   "kind": "engagement_poll",
-   "label": "Polling Debat",
-   "started": "2026-11-17T11:42:28+07:00",
-   "steps": [
-    {
-     "agent": "manager",
-     "msg": "Shift 11:42 WIB: Kabar MU",
-     "ok": true,
-     "t": "2026-11-17T11:42:28+07:00"
-    },
-    {
-     "agent": "scout",
-     "msg": "Data GW11: 324 pemain, 10 laga, 1 berita (feeds.bbci.co.uk)",
-     "ok": true,
-     "t": "2026-11-17T11:42:29+07:00"
-    },
-    {
-     "agent": "writer",
-     "msg": "Naskah \"Jackson atau Gabriel?\" (gemini-flash-lite-latest)",
-     "ok": true,
-     "t": "2026-11-17T11:46:27+07:00"
-    },
-    {
-     "agent": "designer",
-     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
-     "ok": true,
-     "t": "2026-11-17T11:46:33+07:00"
-    },
-    {
-     "agent": "monetizer",
-     "msg": "CTA: 🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-     "ok": true,
-     "t": "2026-11-17T11:46:33+07:00"
-    },
-    {
-     "agent": "publisher",
-     "msg": "Gagal: Graph API 102254338861969/photos: 403 {\"error\":{\"message\":\"(#200) Unpublished posts must be posted to a page as the page itself.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AghmYTpRHc1Ugu-0EHVR-TA\"}}",
-     "ok": false,
-     "t": "2026-11-17T11:46:33+07:00"
-    }
-   ],
-   "error": "Graph API 102254338861969/photos: 403 {\"error\":{\"message\":\"(#200) Unpublished posts must be posted to a page as the page itself.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AghmYTpRHc1Ugu-0EHVR-TA\"}}",
-   "gw": 11,
-   "title": "Jackson atau Gabriel?",
-   "llm": "gemini-flash-lite-latest",
-   "caption": "Pusing ya mikirin transfer FPL minggu ini? Di satu sisi ada Nicolas Jackson yang harganya bersahabat dengan lawan empuk Sunderland di kandang. Tapi di sisi lain, Gabriel dari Arsenal selalu jadi opsi bek paling gurih meski harus tandang ke markas Newcastle. Kalau budget dan slot transfer kamu terbatas, kira-kira siapa yang bakal dipinang duluan buat nemenin skuad kalian? Coba tulis alasan logis kalian di kolom komentar ya, Lur!\n\n🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!\n",
-   "cta": "🔧 Optimasi skuad FPL-mu gratis pakai FPL Squad Hack — link di bio!",
-   "slides": 5,
-   "cover": "covers/20261117_1142.jpg",
-   "finished": "2026-11-17T11:46:34+07:00"
-  },
   {
    "id": "20261117_1230_mu_news",
    "task": "post",
@@ -1198,6 +1144,63 @@
    "instagram": "18135788365809323",
    "dry_run": false,
    "finished": "2026-11-21T15:24:56+07:00"
+  },
+  {
+   "id": "20261121_2010_fpl_captain",
+   "task": "post",
+   "kind": "fpl_captain",
+   "label": "Kapten FPL",
+   "started": "2026-11-21T20:10:47+07:00",
+   "steps": [
+    {
+     "agent": "manager",
+     "msg": "Shift 20:10 WIB: Kapten FPL",
+     "ok": true,
+     "t": "2026-11-21T20:10:47+07:00"
+    },
+    {
+     "agent": "scout",
+     "msg": "Data GW12: 334 pemain, 10 laga",
+     "ok": true,
+     "t": "2026-11-21T20:10:47+07:00"
+    },
+    {
+     "agent": "writer",
+     "msg": "Naskah \"Rekomendasi Kapten GW12\" (gemini-flash-lite-latest)",
+     "ok": true,
+     "t": "2026-11-21T20:12:57+07:00"
+    },
+    {
+     "agent": "designer",
+     "msg": "5 slide dirender (tema hitam_emas, poster tipografi)",
+     "ok": true,
+     "t": "2026-11-21T20:12:59+07:00"
+    },
+    {
+     "agent": "monetizer",
+     "msg": "CTA: 👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+     "ok": true,
+     "t": "2026-11-21T20:12:59+07:00"
+    },
+    {
+     "agent": "publisher",
+     "msg": "Terposting di Instagram & Facebook",
+     "ok": true,
+     "t": "2026-11-21T20:14:08+07:00"
+    }
+   ],
+   "error": null,
+   "gw": 12,
+   "title": "Rekomendasi Kapten GW12",
+   "llm": "gemini-flash-lite-latest",
+   "caption": "Halo Managers FPL! Udah nentuin ban kapten buat GW12 belum? Nicolas Jackson jelas jadi opsi paling gacor karena cuma ngelawan Ipswich Town tandang. Kepemilikan udah 35.7%, bakal ngeri kalau diem aja tanpa dia! Buat yang suka beda, Evanilson bisa jadi alternatif asoy. Kalau Barry mending di-bench dulu ya, lawan Liverpool berat bro. Siapa nih yang bakal jadi jagoan kalian pekan ini? Coba drop nama kapten kalian di komentar!\n\n👕 Jersey & merch bola original harga miring — cek link Shopee di bio.\n\n🔗 ",
+   "cta": "👕 Jersey & merch bola original harga miring — cek link Shopee di bio.",
+   "slides": 5,
+   "cover": "covers/20261121_2010.jpg",
+   "facebook": "102254338861969_1169669748785614",
+   "instagram": "18127413559912884",
+   "dry_run": false,
+   "finished": "2026-11-21T20:14:11+07:00"
   }
  ]
 }
